@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<!-- This head section contains all the invisible information about the page -->
+<head>
+<title> Game MAG | .Blog |</title>
+<meta charset="utf-8">
+<meta name="description" content="This is a Website for Gaming and Tech">
+<meta name="author" content="Roberto">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="refresh" content="600">
+<meta name="keywords" content="Gaming 'Gaming MAG'">
+<link rel="shortcut icon" href="Images/1076afe1fce56bb9c21c363076289d61.png" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="/Stylesheets/NavigationBarStyle.css">
+<link rel="stylesheet" type="text/css" href="/Stylesheets/style03.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+    
+<!--BODY-->   
+<body>
+    <!--HEADER-->   
+    <header>
+        <div class="black_header">
+            <!--NAVIGATION BAR-->   
+            <div class="topnav" id="myTopnav">
+                <a href="#home">
+                <!--GAME MAG LOGO-->   
+                    <img class="GameMaglogo" onclick="openNav()" src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMJcsY4nmElCMFQ2Rdk+T6OP49KWXd42HtaCLdORi9sMBnW.png" 
+                    alt="GameMagazineLogoImage">
+                </a>
+                <a href="index.html" class="active">Home</a>
+                <a href="contextindex.html#games">Games</a>
+
+                <!--DROPDOWN 1-->   
+                <div class="dropdown">
+                    <button class="dropbtn">Platforms 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+
+                    <!--DROPDOWN CONTENT-->   
+                    <div class="dropdown-content">
+                        <!--TABLE-->   
+                        <table>
+                            <tr>
+                                <th>
+                                    <!--PC LINK-->   
+                                    <a href="magazineindex.html#pcmasterrace">
+                                        <img class="pclogonav"
+                                             src="Images/823-8232402_pc-platform-logo.png" 
+                                             alt="GameMagazineLogoImage">
+                                    </a>
+                                </th>
+                                <th> 
+                                    <!--XBOX LINK-->   
+                                    <a href="magazineindex.html#ekbok">
+                                        <img class="xboxlogonav"
+                                             src="Images/RW4ESm2.png" 
+                                             alt="GameMagazineLogoImage">
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th> 
+
+                                    <!--PS LINK-->   
+                                    <a href="magazineindex.html#sonycorp">
+                                        <img class="pslogonav"
+                                             src="Images/navy-playstation-png-logo-5.png" 
+                                             alt="GameMagazineLogoImage">
+                                    </a>
+                                </th>
+                                <th> 
+                                    <!--NS LINK (DONT SUE ME NINTENDO)-->   
+                                    <a href="magazineindex.html#switch">
+                                        <img class="nslogonav"
+                                             src="Images/6583450_preview1.png" 
+                                             alt="GameMagazineLogoImage">
+                                    </a>
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                </div> 
+                
+                <!--BLOG-->  
+                <a href="blogindex.html" class="active">.Blog</a>
+                
+                <!--DROPDOWN 2-->   
+                <div class="dropdown01">
+                    <div class="dropbtn01">
+                        <img src="Images/search-find-magnifier-function-player-keyword-name-512.png" alt="search">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+
+                    <!--DROPDOWN CONTENT-->   
+                    <div class="dropdown-content01">
+
+                        <!--SEARCH BAR-->   
+                        <div class="search_box">
+                        <div class="search_bar">
+                        <input type="text" placeholder="Search">
+                        </div>
+                            <div class="search_btn">
+                                <button>
+                                    SEARCH
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                <!--LOGON BUTTON-->   
+                <div class="login_btn">
+                    <button onclick="document.getElementById('idLogin').style.display='block'">
+                        LOGIN / SIGN UP
+                    </button>
+                    <!--LOGIN MODAL-->   
+                    <div id="idLogin" class="modal">
+                        <form class="modal-content animate" action="/action_page.php" method="post">
+                        <div class="imgcontainer">
+                            <span           onclick="document.getElementById('idLogin').style.display='none'" class="close" title="Close Modal">&times;
+                            </span>
+                            <img src="Images/384921a9a512810bae3c7970fafb83eb.gif" alt="Avatar" class="avatar">
+                        </div>
+
+                            <!--USERNAME SECTION-->   
+                            <div class="container">
+                                <label id="uname"><b>Username</b></label>
+                                <input type="text" placeholder="Enter Username eg. Rick" name="uname" required>
+
+                                <!--PASSWORD SECTION-->   
+                                <label id="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password eg. Sanchez" name="psw" required>
+
+                                <!--LOGIN BUTTON-->   
+                                <button class="loginBtn" type="submit">Login</button>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                                </label>
+                            </div>
+
+                            <!--CANCEL, FORGOT, PASSWORD BUTTONS-->   
+                            <div class="container">
+                                <button type="button" onclick="document.getElementById('idLogin').style.display='none'" class="cancelBtn">Cancel</button>
+                                <span class="psw">Forgot <a href="#">password?</a></span>
+                            </div>
+                        </form>
+                    </div>
+
+                <!--MODAL JAVA SCRIPT CALLBACK-->   
+                </div>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+
+        <!--SIDE NAVIGATION-->
+        <div id="mySidenav" class="sidenav">
+            <a href="#">
+                <img id="GMlside" class="GameMaglogoside" src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMJcsY4nmElCMFQ2Rdk+T6OP49KWXd42HtaCLdORi9sMBnW.png" 
+                alt="GameMagazineLogoImage">
+            </a>
+            <a href="javascript:void(0)" id="closeButton" 
+            class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="sideContent">
+                <div class="sidegallery">
+
+                <!--GAMES OF THE MONTH-->   
+                <h1>GAMES OF THE MONTH</h1>
+                <!--RATCHET AND CLANCK-->   
+                <a href="https://store.playstation.com/en-za/product/EP9000-PPSA01474_00-RATCHETCLANKRIFT">Ratchet and Clank: Rift Apart
+                </a>
+                <a>
+                    <div class="game_banner">
+                        <img src="Images/ps5-ratchet_clank-video-thumb-block-06-en-110620banner.jpg" alt="ratchet">
+                    </div>
+                </a>
+                <!--DOOM ETERNAL-->   
+                <a href="https://bethesda.net/en/game/doom">DOOM: ETERNAL - The Ancient Gods Part II
+                </a>
+                <a>
+                    <div class="game_banner">
+                        <img src="Images/doom-eternal-ancient-gods-2@2000x1270.jpg" alt="doom">
+                    </div>
+                </a>
+                <!--GENSHIN IMPACT-->   
+                <a href="https://genshin.mihoyo.com/en/news/detail/9368">Genshin Impact v1.4: Windblume
+                </a>
+                <a>
+                    <div class="game_banner">
+                        <img src="Images/genshin_impact_invitation_of_windblume_event.jpg" alt="genshin">
+                    </div>
+                </a>
+                <!--WARFRAME-->   
+                <a href="https://www.warframe.com/">Warframe</a>
+                    <a>
+                        <div class="game_banner">
+                            <img src="Images/warframe-digital-extremes@2000x1270.jpg" alt="warframe">
+                        </div>
+                    </a>
+                </div>
+
+                <!--IMAGE SIDE GALLERY-->   
+                <div class="sidegallery">
+                    <h1>NEWS</h1>
+                    <a href="https://www.emberlab.com/">Kena: Bridge of Spirits</a>
+                    <a href="https://www.ea.com/news">EA</a>
+                    <a href="https://blog.playstation.com/">Playstation</a>
+                    <a href="https://www.xbox.com/en-ZA/xbox-game-pass">XBOX Game Pass</a>
+                </div>
+
+                <!--COMMUNITY LINKS-->   
+                <div class="sidegallery">
+                    <h1>COMMUNITY</h1>
+                    <a href="https://forums.warframe.com/forum/113-livestreams-contests/">Warframe Community</a>
+                    <a href="https://www.hoyolab.com/genshin/home/1">Genshin Impact Community</a>
+                    <a href="https://www.youtube.com/">Youtube</a>
+                    <a href="https://www.facebook.com/">Facebook</a>
+                    <a href="https://twitter.com/?lang=en">Twitter</a>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://discord.com/">Discord</a>
+                </div>
+
+                <!--ABOUT LINKS-->   
+                <div class="sidegallery">
+                    <h1>ABOUT</h1>
+                    <a href="supportindex.html">Contact us</a>
+                    <p>Connect with us</p>
+                    <!--YOUTUBE LINK-->  
+                    <div class="connectImagegallery">    
+                        <a href="https://www.youtube.com/">
+                            <img src="Images/youtube-social-icon-01-18may18.png" alt="youtube">
+                        </a>
+                    </div>
+                    
+                    <!--YOUTUBE LINK-->  
+                    <div class="connectImagegallery">
+                        <a href="https://www.facebook.com/">
+                            <img src="Images/facebook-2661207_1280.jpg" alt="facebook">
+                        </a>
+                    </div>
+                    
+                    <!--TWITTER LINK-->  
+                    <div class="connectImagegallery">
+                        <a href="https://twitter.com/?lang=en">
+                            <img src="Images/twitter-social-icon-image-block-01-en-28may20.jpg" alt="twitter">
+                        </a>
+                    </div>
+
+                    <!--INSTAGRAM LINK-->  
+                    <div class="connectImagegallery">
+                        <a href="https://www.instagram.com/">
+                            <img src="Images/instagram-social-icon-image-block-03-en-28may20.jpg" alt="insta">
+                        </a>
+                    </div>
+
+                    <!--GOOGLE LINK-->  
+                    <div class="connectImagegallery">
+                        <a href="https://www.google.com/">
+                            <img src="Images/image-20150902-6700-t2axrz.webp" alt="google">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="sidegallery">
+                    <h1>SUPPORT</h1>
+                    <a href="supportindex.html">Service</a>
+                    <a href="supportindex.html">Help</a>
+                    <a href="supportindex.html">Manuals</a>
+                </div>
+            </div>
+        </div>
+
+        <span style="font-size:100px;cursor:pointer" onclick="openNav()">
+            <img class="GameMAGImage"
+                 src="Images/ico-roundsmall.gif" 
+                 alt="GameMagazineLogoImage">
+        </span>
+    </header>
+
+    <div class="blog_spot"></div>
+
+    <!--MAIN BLOG SECTION-->   
+    <section>
+        <div class="gamemag_title">
+            <h1>
+                Game MAG
+            </h1>
+        </div>
+        <div class="blog_title">
+            <h1>
+                .Blog
+            </h1>
+        </div>
+
+        <div class="platform">
+            PC
+        </div>
+        <div class="platform">
+            PS5
+        </div>
+        <div class="platform">
+            XBOX SX 
+        </div>
+        <div class="platform">
+            PS4 
+        </div>
+        <div class="platform">
+            XBOX ONE
+        </div>
+        <div class="platform">
+            NS Switch
+        </div>
+
+        <div class="slideshow-container01">
+            <div class="mySlides1 fade01">
+                <!--RATCHET GAME-->  
+                <h1 class="imageSpot_title">
+                This month: Ratchet and Clank | Rift Apart 
+                </h1>
+                <div class="gallery">
+                    <a target="_blank" href="https://store.playstation.com/en-za/product/EP9000-PPSA01474_00-RATCHETCLANKRIFT">
+                        <img src="Images/RCRA_KEYART_PRIMARY_16X9_20210208.webp" alt="Cinque Terre">
+                    </a>
+                    <div class="desc">Ratchet and Clank: Rift Apart Arrives * 11th June 2021 for the Playstation 5.
+                    </div>
+                </div>
+            </div>
+
+            <!--OCTAVIA GAME-->  
+            <div class="mySlides1 fade01">
+                <h1 class="imageSpot_title">
+                This month: OCTAVIA PRIME Access
+                </h1>
+                <div class="gallery">
+                    <a target="_blank" href="https://www.warframe.com/prime-access">
+                        <img src="Images/warframe-octavia-prime-scaled.jpg" alt="Cinque Terre">
+                    </a>
+                    <div class="desc">WARFRAME is back, this time with OCTAVIA PRIME.</div>
+                </div>
+            </div>
+
+            <!--GENSHIN GAME-->  
+            <div class="mySlides1 fade01">
+                <h1 class="imageSpot_title">
+                    This month: Genshin Impact
+                </h1>
+                <div class="gallery">
+                    <a target="_blank" href="https://genshin.mihoyo.com/en/news/detail/8598">
+                    <img src="Images/genshin-impact-ver-1.webp" alt="Cinque Terre">
+                    </a>
+                    <div class="desc">Genshin Impacts' Lantern rite was wrong.</div>
+                </div>
+            </div>
+
+            <!--FARCRY 6 GAME-->  
+            <div class="mySlides1 fade01">
+                <h1 class="imageSpot_title">
+                    This month: FARCRY 6
+                </h1>
+                <div class="gallery">
+                    <a target="_blank" href="https://www.ubisoft.com/en-gb/game/far-cry/far-cry-6">
+                    <img src="Images/tetra-preorder-standard-edition-epic-image-hero-carrousel-3840x2160-3840x2160-430977812.webp" alt="Cinque Terre">
+                    </a>
+                    <div class="desc">FARCRY 6 is a game, weve never seen...literally</div>
+                </div>
+            </div>
+
+            <!--RAGNAROK GAME-->  
+            <div class="mySlides1 fade01">
+                <h1 class="imageSpot_title">
+                    This month: GOD OF WAR | RAGNAROK
+                </h1>
+                <div class="gallery">
+                    <a target="_blank" href="https://www.gamesradar.com/god-of-war-2-sequel-ps5-release-date/">
+                    <img src="Images/God-of-War_-Ragnarok.jpg" alt="Cinque Terre">
+                    </a>
+                    <div class="desc">16x the boy</div>
+                </div>
+            </div>
+
+            <!--KNACK GAME-->  
+            <div class="mySlides1 fade01">
+                <h1 class="imageSpot_title">
+                    This month: KNACK
+                </h1>
+                <div class="gallery">
+                    <a target="_blank" href="https://screenrant.com/ps5-launch-titles-playstation-5-knack-3-sequel/#:~:text=No%20official%20word%20has%20been,air%2C%20it's%20not%20very%20promising.">
+                        <img src="Images/knack.png" alt="Cinque Terre">
+                    </a>
+                    <div class="desc">The meme, the Legend, the game the players deserve,       KNACK 3
+                    </div>
+                </div>
+            </div>
+
+            <!--FALLOUT 4 GAME-->  
+            <div class="mySlides1 fade01">
+                <h1 class="imageSpot_title">
+                    This month: Fallout 4
+                </h1>
+                <div class="gallery">
+                    <a target="_blank" href="https://fallout.bethesda.net/en/games/fallout-4">
+                        <img src="Images/fallout-76-ps4-review-5.jpg" alt="Cinque Terre">
+                    </a>
+                    <div class="desc">Fallout 4 is still supported by Bethesda</div>
+                </div>
+            </div>
+
+            <!--DRAGON AGE 4 GAME-->  
+            <div class="mySlides1 fade01">
+                <h1 class="imageSpot_title">
+                    This month: DRAGON AGE 4
+                </h1>
+                <div class="gallery">
+                    <a target="_blank" href="https://www.pcgamer.com/dragon-age-4-release-date-news-trailer/">
+                        <img src="Images/3gBYQUpnkBTXrsSRaREo6n-1200-80.jpg" alt="Cinque Terre">
+                    </a>
+                    <div class="desc">EA finally realises that DRAGON AGE is Important</div>
+                </div>
+            </div>
+
+            <a class="prev01" onclick="plusSlides1(-1)">&#10094;</a>
+            <a class="next01" onclick="plusSlides1(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div class="dot_collection01" style="text-align:center">
+            <span class="dot01" onclick="currentSlide1(1)">
+                <img src="Images/RCRA_KEYART_PRIMARY_16X9_20210208.webp" alt="Cinque Terre">
+            </span> 
+            <span class="dot01" onclick="currentSlide1(2)">
+                <img src="Images/warframe-octavia-prime-scaled.jpg" alt="Cinque Terre">
+            </span>  
+            <span class="dot01" onclick="currentSlide1(3)">
+                <img src="Images/genshin-impact-ver-1.webp" alt="Cinque Terre">
+            </span> 
+            <span class="dot01" onclick="currentSlide1(4)">
+                <img src="Images/tetra-preorder-standard-edition-epic-image-hero-carrousel-3840x2160-3840x2160-430977812.webp" alt="Cinque Terre">
+            </span> 
+            <span class="dot01" onclick="currentSlide1(5)">
+                <img src="Images/God-of-War_-Ragnarok.jpg" alt="Cinque Terre">
+            </span> 
+            <span class="dot01" onclick="currentSlide1(6)">
+                <img src="Images/knack.png" alt="Cinque Terre">
+            </span> 
+            <span class="dot01" onclick="currentSlide1(7)">
+                <img src="Images/fallout-76-ps4-review-5.jpg" alt="Cinque Terre">
+            </span> 
+            <span class="dot01" onclick="currentSlide1(8)">
+                <img src="Images/3gBYQUpnkBTXrsSRaREo6n-1200-80.jpg" alt="Cinque Terre">
+            </span> 
+        </div>
+
+        <!--ANTHEM-->  
+        <div class="image_block">
+            <div>
+                <h1>
+                    ANTHEM
+                </h1>
+            </div>
+
+            <div class="image_block_image">
+                <a href="https://www.polygon.com/2021/2/24/22276485/anthem-next-redesign-bioware-ea-canceled">
+                    <img src="Images/anthem-art-battle.jpg" alt="anthem">
+                </a>
+            </div>
+
+            <div>
+                <p>
+                    ANTHEM, is NOW DEAD, EA in shambles.
+                </p>
+            </div>
+        </div>
+
+        <!--AVENGERS GAME-->  
+        <div class="image_block">
+            <div>
+                <h1>
+                    Marvel's AVENGERS
+                </h1>
+            </div>
+
+            <div class="image_block_image">
+                <a href="https://www.videogameschronicle.com/news/marvels-avengers-playstation-exclusive-spider-man-has-been-delayed/">
+                    <img src="Images/Marvels-Avengers-The-Art-of-the-Game-featured-1280x720.jpg" alt="marvel">
+                </a>
+            </div>
+
+            <div>
+                <p>
+                    Released as a failure, will always be a failure.
+                </p>
+            </div>
+        </div>
+
+        <!--HALO GAME-->  
+        <div class="image_block">
+            <div>
+                <h1>
+                    Halo INFINITE
+                </h1>
+            </div>
+            <div class="image_block_image">
+                <a href="https://comicbook.com/gaming/news/halo-infinite-release-date-xbox-one-series-x-pc-2022-delayed/">
+                    <img src="Images/Upcoming-PC-games-Halo-Infinite.jpg" alt="halo">
+                </a>
+            </div>
+            <div>
+                <p>
+                    Halo INFINITE 12TF Downgrade, What's Taking so long?
+                </p>
+            </div>
+        </div>
+    </section>
+
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+
+    <!--TRENDING-->  
+    <section>
+        <div id="trendingstories" class="trending_stories">
+            <div class="trending_stories_Title">
+                <h1>
+                    Trending Stories |
+                </h1>
+            </div>
+
+            <div class="trending_stories_block">
+                <div>
+                    <h1>
+                        Sony's State Of PLAY
+                    </h1>
+                </div>
+                <div class="trending_stories_Image">
+                    <a href="https://blog.playstation.com/2021/02/25/state-of-play-february-2021-the-complete-recap/">
+                        <img src="Images/State-of-Play-featured-image-1.webp" alt="sop">
+                    </a>
+                </div>
+                <div>
+                    <p>
+                        Surprisingly hyped up but dissapointment of a show for fans.
+                    </p>
+                </div>
+            </div>
+
+            <div class="trending_stories_block">
+                <div>
+                    <h1>
+                        Deathloop
+                    </h1>
+                </div>
+                <div class="trending_stories_Image">
+                    <a href="https://bethesda.net/en/game/deathloop">
+                        <img src="Images/CaptainColt_CharacterRender_DEATHLOOP.jpg" alt="cap">
+                    </a>
+                </div>
+                <div>
+                    <p>
+                        Looks good, gameplays' good, now enough trailers already.
+                    </p>
+                </div>
+            </div>
+
+            <div class="trending_stories_block">
+                <div>
+                    <h1>
+                        Super MARIO 3D WORLD + BOWSERS FURY
+                    </h1>
+                </div>
+                <div class="trending_stories_Image">
+                    <a href="https://supermario3dworld.nintendo.com/">
+                        <img src="Images/bowsers-fury.webp" alt="merio">
+                    </a>
+                </div>
+                <div>
+                    <p>
+                        Itsa meee, aMario, again.
+                    </p>
+                </div>
+            </div>
+
+            <div class="trending_stories_block">
+                <div>
+                    <h1>
+                        PC > XBOX Series X
+                    </h1>
+                </div>
+                <div class="trending_stories_Image">
+                    <a href="https://www.tomsguide.com/news/xbox-series-x-vs-pc">
+                        <img src="Images/Xbox-Game-Pass-Ultimate.jpg" alt="eckbokpass">
+                    </a>
+                </div>
+                <div>
+                    <p>
+                        Microsoft shows that its brand new console is obsolete. *face palm
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+    
+    <!--POSTS-->  
+    <section>
+        <div id="Posts" class="posts">
+            <div class="posts_title">
+                <h1>
+                    Posts |
+                </h1>
+            </div>
+
+            <div class="slideshow-container02">
+                <div class="mySlides2 fade02">
+                    <!--IMAGES FOR POSTS-->  
+                    <div class="gallery">
+                        <!--KENA IMAGE-->  
+                        <div class="post_Image">
+                            <a target="_blank" href="https://www.playstation.com/en-za/games/kena-bridge-of-spirits/">
+                                <img src="Images/88YJ2NqKnqZa5CimpRkSUK.jpg"  alt="CinqueTerre">
+                            </a>
+                        </div>
+                        
+                        <!--SILENT HILLS IMAGE-->  
+                        <div class="post_Image">
+                            <a target="_blank" href="https://screenrant.com/silent-hills-ps5-leak-pt-hideo-kojima-return/">
+                                <img src="Images/konami-removing-silent-hills-pt-from-playstation-s_mqxp.1280.webp" alt="CinqueTerre">
+                            </a>
+                        </div>
+
+                        <!--RE8 IMAGE-->  
+                        <div class="post_Image">
+                            <a target="_blank" href="https://www.residentevil.com/village/us/">
+                                <img src="Images/capcom-reaffirms-that-resident-evil-village-is-not-called-resident-evil-8.jpg" alt="CinqueTerre">
+                            </a>
+                        </div>
+
+                        <!--FORZA IMAGE-->  
+                        <div class="post_Image">
+                            <a target="_blank" href="https://forzamotorsport.net/en-US/games/fh4">
+                                <img src="Images/Forza-Horizon-4-Screenshot-3.jpg" alt="CinqueTerre">
+                            </a>
+                        </div>
+
+                        <!--KENA-->  
+                        <div class="post_info">
+                            <h1>
+                                Kena | Bridge of Spirits
+                            </h1>
+                            <p>
+                                Kena, is a beautiful PIXAR game Developed by Ember labs. Releases August 24th
+                            </p>
+                        </div> 
+
+                        <!--SILENT HILLS-->  
+                        <div class="post_info">
+                            <h1>
+                                Silent Hills
+                            </h1>
+                            <p>
+                                Silent Hills and Kojima rumours are floating around. Is Silent Hills back in Development?
+                            </p>
+                        </div> 
+                        
+                        <!--RE8-->  
+                        <div class="post_info">
+                            <h1>
+                                Resident Evil | VI.I.I.AGE
+                            </h1>
+                            <p>
+                                Resident Evil Village is an upcoming survival horror game developed and published by Capcom. It will be the tenth major installment in the Resident Evil series, and the sequel to Resident Evil 7: Biohazard. Releases 7th May 2021
+                            </p>
+                        </div> 
+                        
+                        <!--FORZA-->  
+                        <div class="post_info">
+                            <h1>
+                                Forza | Horizon 4
+                            </h1>
+                            <p>
+                                Still the best Racing game, and still going till this day.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="mySlides2 fade02">
+                <div class="gallery">
+                    <!--BETHESDA IMAGE--> 
+                    <div class="post_Image">
+                        <a target="_blank" href="https://www.polygon.com/2020/5/11/21254572/elder-scrolls-6-starfield-info-bethesda-softworks-pete-hines">
+                            <img src="Images/3398984-starfield_elder_announcement_gs.jpg"  
+                             alt="CinqueTerre">
+                        </a>
+                    </div>
+                    
+                    <!--WDL IMAGE--> 
+                    <div class="post_Image">
+                        <a target="_blank" href="https://www.ubisoft.com/en-gb/game/watch-dogs/legion">
+                            <img src="Images/G3iTBMtqgCJay4diSCAgYm.jpg"  alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--DEMON SOULS IMAGE--> 
+                    <div class="post_Image">
+                        <a target="_blank" href="https://screenrant.com/demons-souls-how-hard-ps5-remake-difficult-beat/">
+                            <img src="Images/k5BrowgBk7pAyNZzM2iQ5a.jpg"
+                            alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--STARWARS IMAGE--> 
+                    <div class="post_Image">
+                        <a target="_blank" href="https://www.ea.com/games/starwars/jedi-fallen-order">
+                            <img src="Images/art-of-star-wars-jedi-fallen-order-tall.jpg" alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--BETHESDA--> 
+                    <div class="post_info">
+                        <h1>
+                            The Elder Scrolls VI | HAMMERFELL & STARFIELD
+                        </h1>
+                        <p>
+                            Is Bethesda ready for the burden
+                        </p>
+                    </div> 
+
+                    <!--WDL-->
+                    <div class="post_info">
+                        <h1>
+                            Watch_Dogs Legion
+                        </h1>
+                        <p>
+                            Watch_Dogs Legion, should be renamed Lap_Dogs Legion. Here's why
+                        </p>
+                    </div> 
+
+                    <!--DEMON SOULS-->
+                    <div class="post_info">
+                        <h1>
+                            Demon Souls
+                        </h1>
+                        <p>
+                            Demon Souls comes to next gen and dominates difficulty
+                        </p>
+                    </div> 
+
+                    <!--STAR WARS-->
+                    <div class="post_info">
+                        <h1>
+                            Star Wars Jedi | Fallen Order
+                        </h1>
+                        <p>
+                            The best Star Wars Game doomed to fail by EA standards
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides2 fade02">
+                <div class="gallery">
+                    <!--NFS IMAGE-->
+                    <div class="post_Image">
+                        <a target="_blank" href="https://www.polygon.com/2021/3/1/22307226/battlefield-6-release-date-need-for-speed-2021-delayed-ea-dice-criterion-codemasters">
+                            <img src="Images/Need-for-Speed-2021-first-look-COVER.jpg"  alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--GAIA IMAGE-->
+                    <div class="post_Image">
+                        <a target="_blank" href="https://www.pcgamer.com/ea-has-cancelled-motives-gaia-after-six-years-in-development/">
+                            <img src="Images/Six-years-of-development-did-not-save-Motive-Studios-Gaia-from-EA-axe-1.jpg" alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--EKBOK IMAGE-->
+                    <div class="post_Image">
+                        <a target="_blank" href="https://www.cbr.com/bethesda-xbox-playstation/">
+                            <img src="Images/guide-every-bethesda-game-expected-to-join-xbox-game-pass-in-2021.webp"
+                            alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--BATMAN IMAGE-->
+                    <div class="post_Image">
+                        <a target="_blank" href="https://xander51.medium.com/batman-arkham-knight-set-the-visual-bar-too-high-38e3fa3c1b7d">
+                            <img src="Images/635719630198356458-Batman-Arkham-Knight.webp"
+                            alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--NFS-->
+                    <div class="post_info">
+                        <h1>
+                            EA | Criterion Need For Speed
+                        </h1>
+                        <p>
+                            There is No NEED FOR SPEED coming anytime soon
+                        </p>
+                    </div> 
+
+                    <!--GAIA-->
+                    <div class="post_info">
+                        <h1>
+                            EA - GAIA
+                        </h1>
+                        <p>
+                            GAIA is now DEAD, oh no, Anyway
+                        </p>
+                    </div> 
+                    
+                    <!--EKBOK-->
+                    <div class="post_info">
+                        <h1>
+                            XBOX Feat. Bethedsa
+                        </h1>
+                        <p>
+                            XBOX made a Deal, now all they need are exclusives
+                        </p>
+                    </div> 
+
+                    <!--BATMAN-->
+                    <div class="post_info">
+                        <h1>
+                            Batman | Arkham Knight
+                        </h1>
+                        <p>
+                            MADE to LAST, even through Next Gen Graphics
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides2 fade02">
+                <div class="gallery">
+                    <!--NBA IMAGE-->
+                    <div class="post_Image">
+                        <a target="_blank" href="https://screenrant.com/gta-owner-players-ready-70-dollar-games/">
+                            <img src="Images/WCCFnba2k2113.jpg"  alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--NBA IMAGE-->
+                    <div class="post_Image">
+                        <a target="_blank" href="https://www.operationsports.com/whats-improved-and-what-still-needs-improvement-in-madden-20/">
+                            <img src="Images/2305504.jpg" alt="CinqueTerre">
+                        </a>
+                    </div>
+                    
+                    <!--FIFA IMAGE-->
+                    <div class="post_Image">
+                        <a target="_blank" href="https://www.sportbible.com/news/gaming-fifa-ultimate-team-could-soon-be-classified-as-gambling-in-the-uk-20200702">
+                            <img src="Images/ea-says-fifa-21-on-pc-wont-get-the-ps5-and-xbox-series-x-features-to-keep-the-minimum-specs-down-1606214456341.jpg"
+                            alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--UE4 IMAGE-->
+                    <div class="post_Image">
+                        <a target="_blank" href="https://www.unrealengine.com/en-US/digital-humans">
+                            <img src="Images/1_EX8vODRUtn_rqSNYfX4rzA.png" alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--NBA-->
+                    <div class="post_info">
+                        <h1>
+                            2K | NBA 2K21
+                        </h1>
+                        <p>
+                            NEXT GEN GRAPHICS, but is it worth &#36;70 ?
+                        </p>
+                    </div> 
+
+                    <!--MADDEN-->
+                    <div class="post_info">
+                        <h1>
+                            EA - MADDEN
+                        </h1>
+                        <p>
+                            15 Years goes by, no improvements, Devs say "Its becuase of Graphics memory"
+                        </p>
+                    </div> 
+
+                    <!--FIFA-->
+                    <div class="post_info">
+                        <h1>
+                            EA | FIFA
+                        </h1>
+                        <p>
+                            Is FIFA a Football Game or a Gambling Game?
+                        </p>
+                    </div> 
+
+                    <!--UE4-->
+                    <div class="post_info">
+                        <h1>
+                            EPIC | Unreal Engine 4 - Meta Humans
+                        </h1>
+                        <p>
+                            UNREAL REAL looking Meta Humans MAde with Unreal Engine 4
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides2 fade02">
+                <div class="gallery">
+                    <!--SUB IMAGE-->
+                    <div class="post_Image">
+                        <a target="_blank" href="https://www.gamespot.com/forums/system-wars-314159282/why-do-console-gamers-pay-to-play-online-when-it-i-33186682/">
+                            <img src="Images/mlPyvJNXGhSGtMl-800x450-noPad.jpg"  alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--DUELSENSE IMAGE-->
+                    <div class="post_Image">
+                        <a target="_blank" href="https://www.androidcentral.com/ps5-dualsense-drift-what-it-how-fix-it-and-everything-you-need-know">
+                            <img src="Images/dualsense-controller-drift-ps5-playstation-5.webp" alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--WUKONG-->
+                    <div class="post_Image">
+                        <a target="_blank" href="https://www.forbes.com/sites/erikkain/2021/02/09/black-myth-wukong-will-blow-your-mind-in-this-new-year-of-the-ox-trailer/?sh=714c57bc453c">
+                            <img src="Images/black-myth-wukong-trailer-journey-to-the-west-news.jpg"
+                        alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--XBOX-->
+                    <div class="post_Image">
+                        <a target="_blank" href="https://www.xbox.com/en-ZA/xbox-game-pass">
+                            <img src="Images/wuQrSDPjDDaXaq9yCLhkQS.jpg" alt="CinqueTerre">
+                        </a>
+                    </div>
+
+                    <!--SUB-->
+                    <div class="post_info">
+                        <h1>
+                            Console Multiplayer - Only For the Payers
+                        </h1>
+                        <p>
+                            Subscription for Console Multiplayer? Why its free on PC and Not consoles.
+                        </p>
+                    </div> 
+
+                    <!--DUALSENSE-->
+                    <div class="post_info">
+                    <h1>
+                        Sony - Dual Sense Controller Drift
+                    </h1>
+                        <p>
+                            SONY is in for it now, let the Sueing begin after Dualsense Controller Drift hits gamers
+                        </p>
+                    </div> 
+
+                    <!--WUKONG-->
+                    <div class="post_info">
+                        <h1>
+                            Black Myth - Wukong
+                        </h1>
+                        <p>
+                            Wukong is gaining gamers approval
+                        </p>
+                    </div> 
+
+                    <!--XBOX-->
+                    <div class="post_info">
+                        <h1>
+                            GAME PASS - It really just works
+                        </h1>
+                        <p>
+                            Game pass is the Netflix of gaming
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--<a class="prev02" onclick="plusSlides2(-1)">&#10094;</a>
+            <a class="next02" onclick="plusSlides2(1)">&#10095;</a>-->
+
+            </div>
+        <br>
+
+            <div class="dot_collection02" style="text-align:center">
+                <span class="dot02" onclick="currentSlide2(1)">1</span> 
+                <span class="dot02" onclick="currentSlide2(2)">2</span>  
+                <span class="dot02" onclick="currentSlide2(3)">3</span> 
+                <span class="dot02" onclick="currentSlide2(4)">4</span> 
+                <span class="dot02" onclick="currentSlide2(5)">5</span> 
+            </div>
+        </div>
+    </section>
+
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+    
+    <!--VIDEOS AND TRAILERS-->
+    <section>
+    <div id="videosandtrailers" class="Videos">
+        <div class="Trailers_Videos_title">
+            <h1>
+                Videos and Trailers |
+            </h1>
+        </div>
+        <div class="Trailers_Videos">
+            <h1>
+                IGN Fan Fest 2021
+            </h1>
+            <iframe src="https://www.youtube.com/embed/playlist?list=PLraFbwCoisJCpwWllPigcscDrNFGQbkJy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <p>
+                Get the latest and greatest from the Devs of gaming
+            </p>
+        </div>
+
+        <div class="Trailers_Videos">
+            <h1>
+                Sony State of Play
+            </h1>
+            <iframe src="https://www.youtube.com/embed/playlist?list=PLraFbwCoisJBsW78c2tyXIyOfLfUQXcbE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <p>
+                #BOY!?
+            </p>
+        </div>
+
+        <div class="Trailers_Videos">
+            <h1>
+                gamescom 2020
+            </h1>
+            <iframe src="https://www.youtube.com/embed/playlist?list=PLraFbwCoisJAAdLT0qxpBPO5vBPEtcclm" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <p>
+                Check out one of the biggest gaming conventions, gamescom 2020 
+            </p>
+        </div>
+
+        <div class="Trailers_Videos">
+            <h1>
+                Tokyo Game Show 2020
+            </h1>
+            <iframe src="https://www.youtube.com/embed/playlist?list=PLraFbwCoisJAVHv1g5ure247AG-h5AHJ8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <p>
+                NaNi?!
+            </p>
+        </div>
+
+        <div class="Trailers_Videos">
+            <h1>
+                PS5
+            </h1>
+            <iframe src="https://www.youtube.com/embed/playlist?list=PLraFbwCoisJCCrAKUHUWm8nEZE6HWMep8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <p>
+                Find out all about the PS5, the Fastest console to exist since EVER
+            </p>
+        </div>
+
+        <div class="Trailers_Videos">
+            <h1>
+                XBOX SERIES X / S Reviews
+            </h1>
+            <iframe src="https://www.youtube.com/embed/playlist?list=PLraFbwCoisJA5cgf55JW00oxQsDt3S4fO" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <p>
+                EKBOK!, Hey Joe you got the EKBOK...?
+            </p>
+        </div>
+
+        <div class="Trailers_Videos">
+            <h1>
+                Nintendo Direct
+            </h1>
+            <iframe src="https://www.youtube.com/embed/playlist?list=PLraFbwCoisJC5ObLX2eeRkmHj7BWwXMqf" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <p>
+                Smash, Smash, Smash, Smash
+            </p>
+        </div>
+    </div>
+</section>
+    
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+    
+    <!--TOP AND SIDE BANNER-->
+    <div class="dot_block">
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner">
+            <div class="connectwu">
+                <h1>
+                    Connect with us
+                </h1>
+
+                <div class="connectImage">
+                    <img src="Images/twitter-social-icon-image-block-01-en-28may20.jpg" alt="twitter">
+                </div>
+
+                <div class="connectImage">
+                    <img src="Images/instagram-social-icon-image-block-03-en-28may20.jpg" alt="insta">
+                </div>
+                <div class="connectImage">
+                    <img src="Images/youtube-social-icon-01-18may18.png" alt="utube">
+                </div>
+
+                <div class="connectImage">
+                    <img src="Images/facebook-2661207_1280.jpg" alt="face">
+                </div>
+            </div>
+        </div>
+            
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+            
+        <div class="side_banner">
+            <!--BANNER PLATFORMS-->
+            <div class="connectwu">
+                <h1>
+                Our Platforms
+                </h1>
+
+                <div class="connectImage">
+                    <img class="PC_image" src="Images/823-8232402_pc-platform-logo1.png" alt="plat">
+                </div>
+
+                <div class="connectImage">
+                    <img src="Images/navy-playstation-png-logo-5.png" alt="plat">
+                </div>
+                <div class="connectImage">
+                    <img src="Images/RW4ESm1.png" alt="plat">
+                </div>
+
+                <div class="connectImage">
+                    <img src="Images/6583450_preview1.png" alt="plat">
+                </div>
+            </div>
+        </div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+        <div class="side_banner"></div>
+            
+        <!--BANNER LINKS-->
+        <div class="side_banner">
+            <div class="connectwu">
+                <div class="gamemagimage">
+                    <img src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMJcsY4nmElCMFQ2Rdk+T6OP49KWXd42HtaCLdORi9sMBnW.png" alt="logo">
+                </div>
+
+                <div class="connectImage">
+                    <a href="supportindex.html">Support |</a>
+                </div>
+
+                <div class="connectImage">
+                    <a href="https://en.wikipedia.org/wiki/Privacy_policy">Privacy Policy |</a>
+                </div>
+
+                <div class="connectImage">
+                    <a href="supportindex.html">Contact Us |</a>
+                </div>
+
+                <div class="connectImage">
+                    <a href="https://www.youtube.com/">Youtube |</a>
+                </div>
+
+                <div class="connectImage">
+                    <a href="https://za.ign.com/">IGN |</a>
+                </div>
+            </div>    
+        </div>
+            <div class="side_banner">
+                <div class="connectwu">
+                <div class="connectImage">
+                    <a href="">Microsoft |</a>
+                </div>
+                    <div class="connectImage">
+                        <a href="https://www.playstation.com/en-us/corporate/playstation-studios/">Playstation Studios |</a>
+                    </div>
+                    
+                    <div class="connectImage">
+                        <a href="https://www.nintendo.com/">Nintendo |</a>
+                    </div>
+
+                    <div class="connectImage">
+                        <a href="https://www.ubisoft.com/en-US/office/studios-hq.aspx">Ubisoft |</a>
+                    </div>
+
+                    <div class="connectImage">
+                        <a href="https://www.ea.com/ea-studios#:~:text=Committed%20to%20building%20exceptional%20games,Titanfall%E2%84%A2%2C%20and%20Plants%20vs.">Electronic Arts |</a>
+                    </div>
+
+                    <div class="connectImage">
+                        <a href="https://www.warnerbrosgames.com/">WB Games|</a>
+                    </div>
+
+                    <div class="connectImage">
+                        <a href="https://www.konami.com/games/corporate/en/">Konami |</a>
+                    </div>
+
+                    <div class="connectImage">
+                        <a href="https://www.bandainamcostudios.com/en/">Bandai Namco |</a>
+                    </div>
+                </div>  
+            </div>
+            <div class="side_banner">
+                <div class="connectwu">
+                    Website ©2021 Game MAG Earth 616 Limited. All content, games titles, trade names and/or trade dress, trademarks, artwork and associated imagery are trademarks and/or copyright material of their respective owners. All rights reserved.
+                </div>
+            </div>
+        </div>
+    
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+    
+        <!--FOOTER-->
+        <footer>
+            <div class="footer_block">
+                <div class="footer_headerimg" >
+                    <img src="Images/1076afe1fce56bb9c21c363076289d61.png" alt="">
+                </div>
+
+                <!--FOOTER LINKS-->
+                <div class="footer_content01">
+                    <div class="footer_content">
+                        <a href="supportindex.html">Support</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.privacypolicies.com/blog/cookies/">Privacy and cookies
+                        </a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.legalnature.com/guides/why-your-website-needs-a-strong-terms-of-use-agreement-and-what-to-include">Website terms of use
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_content02">
+                    <div class="footer_content">
+                        <a href="https://www.facebook.com/">Facebook</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://twitter.com/?lang=en">Twitter</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.youtube.com/">Youtube</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.instagram.com/">Instagram</a>
+                    </div>
+                </div>
+
+                <!--FOOTER END CREDITS-->
+                <div class="footer_content03">
+                    <div class="footer_content">
+                        Website ©2021 Game MAG Earth Limited. All content, games titles, trade names and/or trade dress, trademarks, artwork and associated imagery are trademarks and/or copyright material of their respective owners. All rights reserved.
+                        <a href="https://en.wikipedia.org/wiki/Copyright">More info</a>
+                    </div>
+                </div>
+
+                <!--FOOTER LOGOS-->
+                <div class="footer_footerimg">
+                    <img src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMKcsQ9nmElCMFQ2Rdk+T6OP49LXHl22HtaCLdORi9sMBnW.png" alt="logo">
+                </div>
+
+                <div class="footer_lower_block">
+                    <div class="footer_headerimg01" >
+                        <img src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMJcsY4nmElCMFQ2Rdk+T6OP49KWXd42HtaCLdORi9sMBnW.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--JAVA SCRIPT-->
+        <script src="JavaScript/javablogindex.js"></script>
+    
+    </body>
+</html>

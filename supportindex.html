@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<!-- This head section contains all the invisible information about the page -->
+<head>
+    <title> Game MAG | Support | Help |</title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a Website for Gaming and Tech">
+    <meta name="author" content="Roberto">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Gaming 'Gaming MAG'">
+    <link rel="shortcut icon" href="Images/197925-200.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/Stylesheets/NavigationBarStyle.css">
+    <link rel="stylesheet" type="text/css" href="/Stylesheets/style04.css">
+</head>
+
+    <body>
+        <!--HEADER-->   
+    <header>
+        <div class="black_header">
+            <!--NAVIGATION BAR-->   
+            <div class="topnav" id="myTopnav">
+                <a href="#home">
+                <!--GAME MAG LOGO-->   
+                    <img class="GameMaglogo" onclick="openNav()" src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMJcsY4nmElCMFQ2Rdk+T6OP49KWXd42HtaCLdORi9sMBnW.png" 
+                    alt="GameMagazineLogoImage">
+                </a>
+                <a href="index.html" class="active">Home</a>
+                <a href="contextindex.html#games">Games</a>
+
+                <!--DROPDOWN 1-->   
+                <div class="dropdown">
+                    <button class="dropbtn">Platforms 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+
+                    <!--DROPDOWN CONTENT-->   
+                    <div class="dropdown-content">
+                        <!--TABLE-->   
+                        <table>
+                            <tr>
+                                <th>
+                                    <!--PC LINK-->   
+                                    <a href="magazineindex.html#pcmasterrace">
+                                        <img class="pclogonav"
+                                             src="Images/823-8232402_pc-platform-logo.png" 
+                                             alt="GameMagazineLogoImage">
+                                    </a>
+                                </th>
+                                <th> 
+                                    <!--XBOX LINK-->   
+                                    <a href="magazineindex.html#ekbok">
+                                        <img class="xboxlogonav"
+                                             src="Images/RW4ESm2.png" 
+                                             alt="GameMagazineLogoImage">
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th> 
+
+                                    <!--PS LINK-->   
+                                    <a href="magazineindex.html#sonycorp">
+                                        <img class="pslogonav"
+                                             src="Images/navy-playstation-png-logo-5.png" 
+                                             alt="GameMagazineLogoImage">
+                                    </a>
+                                </th>
+                                <th> 
+                                    <!--NS LINK (DONT SUE ME NINTENDO)-->   
+                                    <a href="magazineindex.html#switch">
+                                        <img class="nslogonav"
+                                             src="Images/6583450_preview1.png" 
+                                             alt="GameMagazineLogoImage">
+                                    </a>
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                </div> 
+                
+                <a href="blogindex.html" class="active">.Blog</a>
+                
+                <!--DROPDOWN 2-->   
+                <div class="dropdown01">
+                    <div class="dropbtn01">
+                        <img src="Images/search-find-magnifier-function-player-keyword-name-512.png" alt="search">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+
+                    <!--DROPDOWN CONTENT-->   
+                    <div class="dropdown-content01">
+
+                        <!--SEARCH BAR-->   
+                        <div class="search_box">
+                        <div class="search_bar">
+                        <input type="text" placeholder="Search">
+                        </div>
+                            <div class="search_btn">
+                                <button>
+                                    SEARCH
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                <!--LOGON BUTTON-->   
+                <div class="login_btn">
+                    <button onclick="document.getElementById('idLogin').style.display='block'">
+                        LOGIN / SIGN UP
+                    </button>
+                    <!--LOGIN MODAL-->   
+                    <div id="idLogin" class="modal">
+                        <form class="modal-content animate" action="/action_page.php" method="post">
+                        <div class="imgcontainer">
+                            <span           onclick="document.getElementById('idLogin').style.display='none'" class="close" title="Close Modal">&times;
+                            </span>
+                            <img src="Images/384921a9a512810bae3c7970fafb83eb.gif" alt="Avatar" class="avatar">
+                        </div>
+
+                            <!--USERNAME SECTION-->   
+                            <div class="container">
+                                <label id="uname"><b>Username</b></label>
+                                <input type="text" placeholder="Enter Username eg. Rick" name="uname" required>
+
+                                <!--PASSWORD SECTION-->   
+                                <label id="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password eg. Sanchez" name="psw" required>
+
+                                <!--LOGIN BUTTON-->   
+                                <button class="loginBtn" type="submit">Login</button>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                                </label>
+                            </div>
+
+                            <!--CANCEL, FORGOT, PASSWORD BUTTONS-->   
+                            <div class="container">
+                                <button type="button" onclick="document.getElementById('idLogin').style.display='none'" class="cancelBtn">Cancel</button>
+                                <span class="psw">Forgot <a href="#">password?</a></span>
+                            </div>
+                        </form>
+                    </div>
+
+                <!--MODAL JAVA SCRIPT CALLBACK-->   
+                </div>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+
+
+        <!--SIDE NAVIGATION-->
+        <div id="mySidenav" class="sidenav">
+            <a href="#">
+                <img id="GMlside" class="GameMaglogoside" src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMJcsY4nmElCMFQ2Rdk+T6OP49KWXd42HtaCLdORi9sMBnW.png" 
+                alt="GameMagazineLogoImage">
+            </a>
+            <a href="javascript:void(0)" id="closeButton" 
+            class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="sideContent">
+                <div class="sidegallery">
+
+                <!--GAMES OF THE MONTH-->   
+                <h1>GAMES OF THE MONTH</h1>
+                <!--RATCHET AND CLANCK-->   
+                <a href="https://store.playstation.com/en-za/product/EP9000-PPSA01474_00-RATCHETCLANKRIFT">Ratchet and Clank: Rift Apart
+                </a>
+                <a>
+                    <div class="game_banner">
+                        <img src="Images/ps5-ratchet_clank-video-thumb-block-06-en-110620banner.jpg" alt="ratchet">
+                    </div>
+                </a>
+                <!--DOOM ETERNAL-->   
+                <a href="https://bethesda.net/en/game/doom">DOOM: ETERNAL - The Ancient Gods Part II
+                </a>
+                <a>
+                    <div class="game_banner">
+                        <img src="Images/doom-eternal-ancient-gods-2@2000x1270.jpg" alt="doom">
+                    </div>
+                </a>
+                <!--GENSHIN IMPACT-->   
+                <a href="https://genshin.mihoyo.com/en/news/detail/9368">Genshin Impact v1.4: Windblume
+                </a>
+                <a>
+                    <div class="game_banner">
+                        <img src="Images/genshin_impact_invitation_of_windblume_event.jpg" alt="genshin">
+                    </div>
+                </a>
+                <!--WARFRAME-->   
+                <a href="https://www.warframe.com/">Warframe</a>
+                    <a>
+                        <div class="game_banner">
+                            <img src="Images/warframe-digital-extremes@2000x1270.jpg" alt="warframe">
+                        </div>
+                    </a>
+                </div>
+
+                <!--IMAGE SIDE GALLERY-->   
+                <div class="sidegallery">
+                    <h1>NEWS</h1>
+                    <a href="https://www.emberlab.com/">Kena: Bridge of Spirits</a>
+                    <a href="https://www.ea.com/news">EA</a>
+                    <a href="https://blog.playstation.com/">Playstation</a>
+                    <a href="https://www.xbox.com/en-ZA/xbox-game-pass">XBOX Game Pass</a>
+                </div>
+
+                <!--COMMUNITY LINKS-->   
+                <div class="sidegallery">
+                    <h1>COMMUNITY</h1>
+                    <a href="https://forums.warframe.com/forum/113-livestreams-contests/">Warframe Community</a>
+                    <a href="https://www.hoyolab.com/genshin/home/1">Genshin Impact Community</a>
+                    <a href="https://www.youtube.com/">Youtube</a>
+                    <a href="https://www.facebook.com/">Facebook</a>
+                    <a href="https://twitter.com/?lang=en">Twitter</a>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://discord.com/">Discord</a>
+                </div>
+
+                <!--ABOUT LINKS-->   
+                <div class="sidegallery">
+                    <h1>ABOUT</h1>
+                    <a href="supportindex.html">Contact us</a>
+                    <p>Connect with us</p>
+                    <div class="connectImagegallery">    
+                        <a href="https://www.youtube.com/">
+                            <img src="Images/youtube-social-icon-01-18may18.png" alt="youtube">
+                        </a>
+                    </div>
+
+                    <div class="connectImagegallery">
+                        <a href="https://www.facebook.com/">
+                            <img src="Images/facebook-2661207_1280.jpg" alt="facebook">
+                        </a>
+                    </div>
+
+                    <div class="connectImagegallery">
+                        <a href="https://twitter.com/?lang=en">
+                            <img src="Images/twitter-social-icon-image-block-01-en-28may20.jpg" alt="twitter">
+                        </a>
+                    </div>
+
+                    <div class="connectImagegallery">
+                        <a href="https://www.instagram.com/">
+                            <img src="Images/instagram-social-icon-image-block-03-en-28may20.jpg" alt="insta">
+                        </a>
+                    </div>
+
+                    <div class="connectImagegallery">
+                        <a href="https://www.google.com/">
+                            <img src="Images/image-20150902-6700-t2axrz.webp" alt="google">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="sidegallery">
+                    <h1>SUPPORT</h1>
+                    <a href="supportindex.html">Service</a>
+                    <a href="supportindex.html">Help</a>
+                    <a href="supportindex.html">Manuals</a>
+                </div>
+            </div>
+        </div>
+
+        <span style="font-size:100px;cursor:pointer" onclick="openNav()">
+            <img class="GameMAGImage"
+                 src="Images/ico-roundsmall.gif" 
+                 alt="GameMagazineLogoImage">
+        </span>
+    </header>
+        
+        <section>
+            <div class="parallax"></div>
+            <div class="Support_Title">
+                <div class="support">
+                    <h1>
+                        Game MAG Support
+                    </h1>
+                </div>
+                <div class="support_sub">    
+                    <h1>
+                        Find information
+                    </h1>
+                </div>
+            </div>
+            <div class="search_box">
+                <div class="search_bar">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="parallax01"></div>
+            <div class="block">
+                <img src="Images/games.gif" alt="games">
+                <a href="contextindex.html#games"><h1>Games</h1></a>
+            </div>
+            <div class="block">
+                <img src="Images/dd35581a5b9bca37878d4cb872652096.gif" alt="cosoles">
+                <a href="magazineindex.html"><h1>Consoles</h1></a>
+            </div>
+            <div class="block">
+                <img src="Images/tenor%20(1).gif" alt="ten">
+                <a href="contextindex.html"><h1>Content Index</h1></a>
+            </div>
+            <div class="block">
+                <img src="Images/tenor.gif" alt="blg">
+                <a href="blogindex.html"><h1>Blog</h1></a>
+            </div>
+            <div class="block">
+                <img src="Images/VQpq.gif" alt="rep">
+                <a href="report.html"><h1>Report</h1></a>
+            </div>
+            <div class="block">
+                <img src="Images/reading-icegif-6.gif" alt="ab">
+                <a href="#aboutinfo"><h1>About</h1></a>
+            </div>
+        </section>
+        
+        <section>
+            <div id="aboutinfo" class="About">
+                <h1>About</h1>
+                <div class="aboutcontent">
+                    <p>
+                        This is a website where communities of gamers  can come together and appreciate the many games, consoles and genres of the agming industry.
+                        
+                        This is for all the Gamers
+                        Made with inspiration.
+                    <p>
+                    <h1>Game MAG's Purpose & Values</h1>
+                    <h1>Purpose</h1>
+                    <p>
+                        Make Gaming for everyone, through the power of th internet.
+                    <p>
+                        
+                    <h1>Values</h1>
+                    
+                    <div class="aboutsubheader">
+                        <p>Inform</p>
+                    </div>
+                    <p>
+                        Make those interested aware of the joys of gaming.
+                    <p>
+                        
+                    <div class="aboutsubheader">    
+                        <p>Diversity</p>
+                    </div>
+                    <p>
+                        Gaming is made for EVERYONE.
+                    <p>
+                        
+                    <div class="aboutsubheader">
+                        <p>Integrity & Sincerity</p>
+                    </div>
+                    <p>
+                        Make the Game MAG Brand a trusted source, by the mass appeal of gamers.
+                    </p>
+                        
+                    <div class="aboutsubheader">
+                        <p>Sustainability</p>
+                    </div>    
+                    <p>
+                        Make Gaming a positive to society and the world around us through good practices.
+                    <p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="social_tags">
+                <a href="https://twitter.com/?lang=en">
+                    <img src="Images/twitter-social-icon-image-block-01-en-28may20.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="social_tags">
+                <a href="https://www.instagram.com/">
+                    <img src="Images/instagram-social-icon-image-block-03-en-28may20.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="social_tags">
+                <a href="https://www.facebook.com/">
+                    <img src="Images/facebook-2661207_1280.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="social_tags">
+                <a href="https://www.youtube.com/">
+                    <img src="Images/youtube-social-icon-01-18may18.png" alt="">
+                </a>
+            </div>
+        </section>
+        
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+    
+        <!--FOOTER-->
+        <footer>
+            <div class="footer_block">
+                <div class="footer_headerimg" >
+                    <img src="Images/1076afe1fce56bb9c21c363076289d61.png" alt="">
+                </div>
+
+                <!--FOOTER LINKS-->
+                <div class="footer_content01">
+                    <div class="footer_content">
+                        <a href="supportindex.html">Support</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.privacypolicies.com/blog/cookies/">Privacy and cookies
+                        </a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.legalnature.com/guides/why-your-website-needs-a-strong-terms-of-use-agreement-and-what-to-include">Website terms of use
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_content02">
+                    <div class="footer_content">
+                        <a href="https://www.facebook.com/">Facebook</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://twitter.com/?lang=en">Twitter</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.youtube.com/">Youtube</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.instagram.com/">Instagram</a>
+                    </div>
+                </div>
+
+                <!--FOOTER END CREDITS-->
+                <div class="footer_content03">
+                    <div class="footer_content">
+                        Website ©2021 Game MAG Earth Limited. All content, games titles, trade names and/or trade dress, trademarks, artwork and associated imagery are trademarks and/or copyright material of their respective owners. All rights reserved.
+                        <a href="https://en.wikipedia.org/wiki/Copyright">More info</a>
+                    </div>
+                </div>
+
+                <!--FOOTER LOGOS-->
+                <div class="footer_footerimg">
+                    <img src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMKcsQ9nmElCMFQ2Rdk+T6OP49LXHl22HtaCLdORi9sMBnW.png" alt="logo">
+                </div>
+
+                <div class="footer_lower_block">
+                    <div class="footer_headerimg01" >
+                        <img src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMJcsY4nmElCMFQ2Rdk+T6OP49KWXd42HtaCLdORi9sMBnW.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="JavaScript/javasupportindex.js"></script>
+        
+    </body>
+</html>

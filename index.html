@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- This head section contains all the invisible information about the page -->
+<head>
+    <title> Game MAG - Consoles | Games | More | </title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a Website for Gaming and Tech">
+    <meta name="author" content="Roberto">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Gaming 'Gaming MAG'">
+    <link rel="shortcut icon" href="Images/1076afe1fce56bb9c21c363076289d61.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/Stylesheets/NavigationBarStyle.css">
+    <link rel="stylesheet" type="text/css" href="/Stylesheets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--HEADER-->   
+    <header>
+        <div class="black_header">
+            <!--NAVIGATION BAR-->   
+            <div class="topnav" id="myTopnav">
+                <a href="#home">
+                <!--GAME MAG LOGO-->   
+                    <img class="GameMaglogo" onclick="openNav()" src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMJcsY4nmElCMFQ2Rdk+T6OP49KWXd42HtaCLdORi9sMBnW.png" 
+                    alt="GameMagazineLogoImage">
+                </a>
+                <a href="index.html" class="active">Home</a>
+                <a href="contextindex.html#games">Games</a>
+
+                <!--DROPDOWN 1-->   
+                <div class="dropdown">
+                    <button class="dropbtn">Platforms 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+
+                    <!--DROPDOWN CONTENT-->   
+                    <div class="dropdown-content">
+                        <!--TABLE-->   
+                        <table>
+                            <tr>
+                                <th>
+                                    <!--PC LINK-->   
+                                    <a href="magazineindex.html#pcmasterrace">
+                                        <img class="pclogonav"
+                                             src="Images/823-8232402_pc-platform-logo.png" 
+                                             alt="GameMagazineLogoImage">
+                                    </a>
+                                </th>
+                                <th> 
+                                    <!--XBOX LINK-->   
+                                    <a href="magazineindex.html#ekbok">
+                                        <img class="xboxlogonav"
+                                             src="Images/RW4ESm2.png" 
+                                             alt="GameMagazineLogoImage">
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th> 
+
+                                    <!--PS LINK-->   
+                                    <a href="magazineindex.html#sonycorp">
+                                        <img class="pslogonav"
+                                             src="Images/navy-playstation-png-logo-5.png" 
+                                             alt="GameMagazineLogoImage">
+                                    </a>
+                                </th>
+                                <th> 
+                                    <!--NS LINK (DONT SUE ME NINTENDO)-->   
+                                    <a href="magazineindex.html#switch">
+                                        <img class="nslogonav"
+                                             src="Images/6583450_preview1.png" 
+                                             alt="GameMagazineLogoImage">
+                                    </a>
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                </div> 
+                
+                <a href="blogindex.html" class="active">.Blog</a>
+                
+                <!--DROPDOWN 2-->   
+                <div class="dropdown01">
+                    <div class="dropbtn01">
+                        <img src="Images/search-find-magnifier-function-player-keyword-name-512.png" alt="search">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+
+                    <!--DROPDOWN CONTENT-->   
+                    <div class="dropdown-content01">
+
+                        <!--SEARCH BAR-->   
+                        <div class="search_box">
+                        <div class="search_bar">
+                        <input type="text" placeholder="Search">
+                        </div>
+                            <div class="search_btn">
+                                <button>
+                                    SEARCH
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                <!--LOGON BUTTON-->   
+                <div class="login_btn">
+                    <button onclick="document.getElementById('idLogin').style.display='block'">
+                        LOGIN / SIGN UP
+                    </button>
+                    <!--LOGIN MODAL-->   
+                    <div id="idLogin" class="modal">
+                        <form class="modal-content animate" action="/action_page.php" method="post">
+                        <div class="imgcontainer">
+                            <span           onclick="document.getElementById('idLogin').style.display='none'" class="close" title="Close Modal">&times;
+                            </span>
+                            <img src="Images/384921a9a512810bae3c7970fafb83eb.gif" alt="Avatar" class="avatar">
+                        </div>
+
+                            <!--USERNAME SECTION-->   
+                            <div class="container">
+                                <label id="uname"><b>Username</b></label>
+                                <input type="text" placeholder="Enter Username eg. Rick" name="uname" required>
+
+                                <!--PASSWORD SECTION-->   
+                                <label id="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password eg. Sanchez" name="psw" required>
+
+                                <!--LOGIN BUTTON-->   
+                                <button class="loginBtn" type="submit">Login</button>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                                </label>
+                            </div>
+
+                            <!--CANCEL, FORGOT, PASSWORD BUTTONS-->   
+                            <div class="container">
+                                <button type="button" onclick="document.getElementById('idLogin').style.display='none'" class="cancelBtn">Cancel</button>
+                                <span class="psw">Forgot <a href="#">password?</a></span>
+                            </div>
+                        </form>
+                    </div>
+
+                <!--MODAL JAVA SCRIPT CALLBACK-->   
+                </div>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+
+        <!--SIDE NAVIGATION-->
+        <div id="mySidenav" class="sidenav">
+            <a href="#">
+                <img id="GMlside" class="GameMaglogoside" src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMJcsY4nmElCMFQ2Rdk+T6OP49KWXd42HtaCLdORi9sMBnW.png" 
+                alt="GameMagazineLogoImage">
+            </a>
+            <a href="javascript:void(0)" id="closeButton" 
+            class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="sideContent">
+                <div class="sidegallery">
+
+                <!--GAMES OF THE MONTH-->   
+                <h1>GAMES OF THE MONTH</h1>
+                <!--RATCHET AND CLANCK-->   
+                <a href="https://store.playstation.com/en-za/product/EP9000-PPSA01474_00-RATCHETCLANKRIFT">Ratchet and Clank: Rift Apart
+                </a>
+                <a>
+                    <div class="game_banner">
+                        <img src="Images/ps5-ratchet_clank-video-thumb-block-06-en-110620banner.jpg" alt="ratchet">
+                    </div>
+                </a>
+                <!--DOOM ETERNAL-->   
+                <a href="https://bethesda.net/en/game/doom">DOOM: ETERNAL - The Ancient Gods Part II
+                </a>
+                <a>
+                    <div class="game_banner">
+                        <img src="Images/doom-eternal-ancient-gods-2@2000x1270.jpg" alt="doom">
+                    </div>
+                </a>
+                <!--GENSHIN IMPACT-->   
+                <a href="https://genshin.mihoyo.com/en/news/detail/9368">Genshin Impact v1.4: Windblume
+                </a>
+                <a>
+                    <div class="game_banner">
+                        <img src="Images/genshin_impact_invitation_of_windblume_event.jpg" alt="genshin">
+                    </div>
+                </a>
+                <!--WARFRAME-->   
+                <a href="https://www.warframe.com/">Warframe</a>
+                    <a>
+                        <div class="game_banner">
+                            <img src="Images/warframe-digital-extremes@2000x1270.jpg" alt="warframe">
+                        </div>
+                    </a>
+                </div>
+
+                <!--IMAGE SIDE GALLERY-->   
+                <div class="sidegallery">
+                    <h1>NEWS</h1>
+                    <a href="https://www.emberlab.com/">Kena: Bridge of Spirits</a>
+                    <a href="https://www.ea.com/news">EA</a>
+                    <a href="https://blog.playstation.com/">Playstation</a>
+                    <a href="https://www.xbox.com/en-ZA/xbox-game-pass">XBOX Game Pass</a>
+                </div>
+
+                <!--COMMUNITY LINKS-->   
+                <div class="sidegallery">
+                    <h1>COMMUNITY</h1>
+                    <a href="https://forums.warframe.com/forum/113-livestreams-contests/">Warframe Community</a>
+                    <a href="https://www.hoyolab.com/genshin/home/1">Genshin Impact Community</a>
+                    <a href="https://www.youtube.com/">Youtube</a>
+                    <a href="https://www.facebook.com/">Facebook</a>
+                    <a href="https://twitter.com/?lang=en">Twitter</a>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://discord.com/">Discord</a>
+                </div>
+
+                <!--ABOUT LINKS-->   
+                <div class="sidegallery">
+                    <h1>ABOUT</h1>
+                    <a href="supportindex.html">Contact us</a>
+                    <p>Connect with us</p>
+                    <div class="connectImagegallery">    
+                        <a href="https://www.youtube.com/">
+                            <img src="Images/youtube-social-icon-01-18may18.png" alt="youtube">
+                        </a>
+                    </div>
+
+                    <div class="connectImagegallery">
+                        <a href="https://www.facebook.com/">
+                            <img src="Images/facebook-2661207_1280.jpg" alt="facebook">
+                        </a>
+                    </div>
+
+                    <div class="connectImagegallery">
+                        <a href="https://twitter.com/?lang=en">
+                            <img src="Images/twitter-social-icon-image-block-01-en-28may20.jpg" alt="twitter">
+                        </a>
+                    </div>
+
+                    <div class="connectImagegallery">
+                        <a href="https://www.instagram.com/">
+                            <img src="Images/instagram-social-icon-image-block-03-en-28may20.jpg" alt="insta">
+                        </a>
+                    </div>
+
+                    <div class="connectImagegallery">
+                        <a href="https://www.google.com/">
+                            <img src="Images/image-20150902-6700-t2axrz.webp" alt="google">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="sidegallery">
+                    <h1>SUPPORT</h1>
+                    <a href="supportindex.html">Service</a>
+                    <a href="supportindex.html">Help</a>
+                    <a href="supportindex.html">Manuals</a>
+                </div>
+            </div>
+        </div>
+
+        <span style="font-size:100px;cursor:pointer" onclick="openNav()">
+            <img class="GameMAGImage"
+                 src="Images/ico-roundsmall.gif" 
+                 alt="GameMagazineLogoImage">
+        </span>
+    </header>
+
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+
+<!--PADDING FOR CONTENT-->
+    <div class="padding_bars">
+        
+    <!--MAIN IMAGE SECTION-->
+    <section>
+        <div class="slideshow-container">
+
+        <!--SLIDE CYBERBUNK-->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 10</div>
+            <img src="Images/cyberpunk-2077-johnny-silverhand-4k-wallpaper-6759431594008906-scaled.jpg" alt="punk">
+            <div class="Block_Gradient"></div>
+            <div class="text" >
+            <img src="Images/Cyberpunk-2077-Logo-Transparent.png" alt="Cyberjunkimage">  
+            </div>
+            <div class="text01">Wake the F@CK UP, Samurai, we got a city to burn</div>
+            <div>
+                <button class="textButton" onclick="document.location='https://www.cyberpunk.net'">
+                    CHECK IT OUT
+                </button>
+            </div>
+        </div>
+            
+        <!--SLIDE TLOF-->
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 10</div>
+            <img src="Images/thumb-1920-1065466.png" alt="thumb">
+            <div class="Block_Gradient"></div>
+            <div class="text" >
+            <img src="Images/navigation-logo.5ac0bfba.png" alt="TLOF2image">  
+            </div>
+            <div class="text01">"The most compelling, and immersive story"</div>
+            <div>
+                <button class="textButton" onclick="document.location='https://www.playstation.com/en-us/games/the-last-of-us-part-ii/'">
+                    CHECK IT OUT
+                </button>
+            </div>
+        </div>
+
+        <!--SLIDE READ DEAD-->
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 10</div>
+            <img src="Images/RDR2_Review_19-2060x1159.jpg" alt="red">
+            <div class="Block_Gradient"></div>
+            <div class="text" >
+            <img src="Images/read%20dead%202%20logo.png" alt="RedDead2image">  
+            </div>
+            <div class="text01">I have a Plan, all I need is Money</div>
+            <div>
+                <button class="textButton" onclick="document.location='https://www.rockstargames.com/reddeadredemption2/'">
+                    CHECK IT OUT
+                </button>
+            </div>
+        </div>
+            
+        <!--SLIDE SPIDERMAN-->
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 10</div>
+            <img src="Images/gran-turismo-7-ps5-wallpapers-03.jpg" alt="gran">
+            <div class="Block_Gradient"></div>
+            <div class="text" >
+            <img src="Images/12452_gran-turismo-7-prev.png" alt="GranT7image">  
+            </div>
+            <div class="text01">The next Generation of Driving is here</div>
+            <div>       
+                <button class="textButton" onclick="document.location='https://www.playstation.com/en-gb/games/gran-turismo-7/'">
+                    CHECK IT OUT
+                </button>
+            </div>
+        </div>
+            
+        <!--SLIDE PS4 TITLES-->
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 10</div>
+            <img src="Images/all-ps5-first-party-exclusives-playstation-5.webp" alt="ps5">
+            <div class="Block_Gradient"></div>
+            <div class="text" >
+            <img src="Images/1200px-Sony_Interactive_Entertainment_logo_(2016).svg.png" alt="PSEimage">  
+            </div>
+            <div class="text01">Experience the Best of Playstation form PS Plus Collection</div>
+            <div>
+                <button class="textButton" onclick="document.location='https://blog.playstation.com/2020/10/28/playstation-plus-collection-details-revealed-your-november-playstation-plus-games/'">
+                    CHECK IT OUT
+                </button>
+            </div>
+        </div>
+            
+        <!--SLIDE ELDER SCROLLS-->
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 10</div>
+            <img src="Images/thumb-1920-927031.jpg" alt="elder">
+            <div class="Block_Gradient"></div>
+            <div class="text" >
+            <img src="Images/TESVI_logo_transparentbg-06.png" alt="TESO6image">  
+            </div>
+            <div class="text01">Fus Roh Dah</div>
+            <div>
+                <button class="textButton" onclick="document.location='https://elderscrolls.fandom.com/wiki/The_Elder_Scrolls_VI'">
+                    CHECK IT OUT
+                </button>
+            </div>
+        </div>
+            
+        <!--SLIDE STARWARS-->
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 10</div>
+            <img src="Images/Star-Wars-Jedi-Fallen-Order.jpg" alt="jedi">
+            <div class="Block_Gradient"></div>
+            <div class="text" >
+            <img src="Images/597-5976048_star-wars-jedi-fallen-order-png-transparent-png.png" alt="SWJFOimage">  
+            </div>
+            <div class="text01">Feel the power of the Light Side</div>
+            <div>
+                <button class="textButton" onclick="document.location='https://www.ea.com/games/starwars/jedi-fallen-order'">
+                    CHECK IT OUT
+                </button>
+            </div>
+        </div>
+            
+        <!--SLIDE HOGWARTS-->
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 10</div>
+            <img src="Images/hogwarts-legacy-desktop.jpg" alt="hog">
+            <div class="Block_Gradient"></div>
+            <div class="text" >
+            <img src="Images/hogwarts%20legacy%20logo.png" alt="HLimage">  
+            </div>
+            <div class="text01">You're a Wizard, Harry</div>
+            <div>
+                <button class="textButton" onclick="document.location='https://www.hogwartslegacy.com/en-us'">
+                    CHECK IT OUT
+                </button>
+            </div>
+        </div>
+           
+        <!--SLIDE MOTORSPORT-->
+        <div class="mySlides fade">
+            <div class="numbertext">9 / 10</div>
+            <img src="Images/forza-motorsport-trailer-screenshot_100753492_h.jpg" alt="forza">
+            <div class="Block_Gradient"></div>
+            <div class="text" >
+            <img src="Images/15488_forza-motorsport-7-prev.png" alt="HLimage">  
+            </div>
+            <div class="text01">Feel the grit, tyres and the wheel in your hands</div>
+            <div>
+                <button class="textButton" onclick="document.location='https://www.hogwartslegacy.com/en-us'">
+                    CHECK IT OUT
+                </button>
+            </div>
+        </div>
+        
+        <!--SLIDE SPIDERMAN-->
+        <div class="mySlides fade">
+            <div class="numbertext">10 / 10</div>
+            <img src="Images/839570.jpg" alt="spider">
+            <div class="Block_Gradient"></div>
+            <div class="text" >
+            <img src="Images/1559828585Marvel-Spider-Man-Logo-Png.png" alt="HLimage">  
+            </div>
+            <div class="text01">Spider-Man, Spider-Man, does what ever a Spider-Man does...</div>
+            <div>
+                <button class="textButton" onclick="document.location='https://www.playstation.com/en-za/games/marvels-spider-man/'">
+                    CHECK IT OUT
+                </button>
+            </div>
+        </div>
+            
+<!--
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+-->
+
+        </div>
+        <br>
+
+        <div class="dot_collection" style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)">
+            <img src="Images/cyberpunk-2077-johnny-silverhand-4k-wallpaper-6759431594008906-scaled.jpg" alt="jonny">
+            </span> 
+            
+          <span class="dot" onclick="currentSlide(2)">
+            <img src="Images/thumb-1920-1065466.png" alt="lst">
+            </span> 
+            
+          <span class="dot" onclick="currentSlide(3)">
+            <img src="Images/RDR2_Review_19-2060x1159.jpg" alt="rdr2">
+            </span> 
+            
+          <span class="dot" onclick="currentSlide(4)">
+            <img src="Images/gran-turismo-7-ps5-wallpapers-03.jpg" alt="gran">
+            </span> 
+            
+          <span class="dot" onclick="currentSlide(5)">
+            <img src="Images/all-ps5-first-party-exclusives-playstation-5.webp" alt="ps5">
+            </span> 
+            
+          <span class="dot" onclick="currentSlide(6)">
+            <img src="Images/thumb-1920-927031.jpg" alt="thumb">
+            </span> 
+            
+          <span class="dot" onclick="currentSlide(7)">
+            <img src="Images/Star-Wars-Jedi-Fallen-Order.jpg" alt="jedi">
+            </span> 
+            
+          <span class="dot" onclick="currentSlide(8)">
+            <img src="Images/hogwarts-legacy-desktop.jpg" alt="hogw">
+            </span> 
+            
+          <span class="dot" onclick="currentSlide(9)">
+            <img src="Images/forza-motorsport-trailer-screenshot_100753492_h.jpg" alt="motor">
+            </span> 
+            
+          <span class="dot" onclick="currentSlide(10)">
+              <img src="Images/839570.jpg" alt="spiderman">
+            </span> 
+        </div>
+    </section>
+
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+    <!--EXPLORE GAMES SECTION-->
+    <section>
+        <div class="slideshow-container01">
+            <h1 class="Explore_Games">
+                EXPLORE GAMES
+            </h1>
+            
+        <!--SLIDE-->
+        <div class="mySlides1 fade01">
+            <div class="gallery">
+                <a target="_blank" href="https://store.playstation.com/en-za/product/EP9000-CUSA04943_00-GRAVITYRUSH20000">
+                <img src="Images/UQRzoZKzI3PjOYfPa2XOqS19.png" alt="Cinque Terre">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="https://www.bandainamcoent.com/games/dragon-ball-z-kakarot">
+                <img src="Images/113078aKv6CYd6bPCouHgT55EjbfcVnXfWvXxoAj27CCnK6Y2_bZ_zIdHq6orsg7Dv9HGJDHQmkC3YiCAxxEAO4G-6MQHHfw.webp" alt="Forest">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="https://www.callofduty.com/blackopscoldwar/buy">
+                <img src="Images/zeus-social-share01.jpg" alt="Northern Lights">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://www.playstation.com/en-za/games/marvels-spider-man-miles-morales/">
+                <img src="Images/T45iRN1bhiWcJUzST6UFGBvO.webp" alt="Cinque Terre">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://www.playstation.com/en-us/games/days-gone/">
+                <img src="Images/days-gone-review1.jpg" alt="Cinque Terre">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://store.playstation.com/en-za/product/EP1018-CUSA05935_00-HARRYPOTTER17000">
+                <img src="Images/lego-harry-potter-collection-switch-hero1.jpg" alt="Cinque Terre">
+                </a>
+            </div>
+        </div>
+            
+        <!--SLIDE-->
+        <div class="mySlides1 fade01">
+            <div class="gallery">
+                <a target="_blank" href="https://www.ubisoft.com/en-gb/game/immortals-fenyx-rising">
+                <img src="Images/immortals-fenyx-rising-button-fin-1603917826191.jpg" alt="Forest">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="https://www.rockstargames.com/reddeadredemption2/">
+                <img src="Images/Red-Dead-Redemption-2-PC-review.jpg" alt="Northern Lights">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://www.mortalkombat.com/">
+                <img src="Images/554030-mortal-kombat-11-nintendo-switch-front-cover.jpg" alt="Northern Lights">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://elderscrolls.bethesda.net/en/skyrim">
+                <img src="Images/3445726_2.jpg" alt="Northern Lights">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://bethesda.net/en/game/dishonored2">
+                <img src="Images/1UfdyQmXpeSdoFE104sNkLd4.webp" alt="Northern Lights">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://resistance.fandom.com/wiki/Resistance_2">
+                <img src="Images/Resistance_2_wallpaper_by_Delta_Seb.jpg" alt="Northern Lights">
+                </a>
+            </div>
+        </div>
+            
+        <!--SLIDE-->
+        <div class="mySlides1 fade01">
+            <div class="gallery">
+                <a target="_blank" href="https://www.playstation.com/en-za/games/death-stranding/">
+                <img src="Images/220px-Death_Stranding.jpg" alt="Cinque Terre">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="https://www.playstation.com/en-za/games/horizon-zero-dawn/">
+                <img src="Images/Horizon_Zero_Dawn.jpg" alt="Forest">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="https://fallout.bethesda.net/en/games/fallout-4">
+                <img src="Images/BWMVfyxONkIAlAJVQd96qPuN.webp" alt="Northern Lights">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://www.ea.com/games/need-for-speed/need-for-speed-carbon">
+                <img src="Images/Need_for_Speed_Carbon_Game_Cover.jpg" alt="Northern Lights">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://store.playstation.com/en-za/product/EP9000-PPSA01474_00-RATCHETCLANKRIFT">
+                <img src="Images/riftapart_square.jpg" alt="Cinque Terre">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://forzamotorsport.net/en-US/games/fh4">
+                <img src="Images/forza-horizon-4.jpg" alt="Cinque Terre">
+                </a>
+            </div>
+        </div>
+            
+        <!--SLIDE-->
+        <div class="mySlides1 fade01">
+            <div class="gallery">
+                <a target="_blank" href="https://www.starwars.com/games-apps/star-wars-the-force-unleashed">
+                <img src="Images/star-wars-the-force-unleashed-4.jpg" alt="Forest">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="https://www.warnerbros.com/games-and-apps/batman-arkham-knight">
+                <img src="Images/Qsyx0vsXd6yI1JcqE8wtN3vUiDFjq6xR.webp" alt="Northern Lights">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://www.injustice.com/">
+                <img src="Images/HgBAMfrVmOvzWGzcI2fxqOOcfI17pYHN.webp" alt="Northern Lights">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://bethesda.net/game/prey">
+                <img src="Images/8uErXDVsUr2lGms6M2miMq0V.webp" alt="Cinque Terre">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="https://www.ea.com/games/starwars/battlefront/star-wars-battlefront-2">
+                <img src="Images/star-wars-battlefront-2---button-1501544517635.jpg" alt="Forest">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://bethesda.net/en/game/doom">
+                <img src="Images/Doom-Eternal-Key-Art-1024x576.jpg" alt="Forest">
+                </a>
+            </div>
+        </div>
+        
+        <!--SLIDE-->
+        <div class="mySlides1 fade01">
+            <div class="gallery">
+                <a target="_blank" href="https://www.sekirothegame.com/home">
+                <img src="Images/50995084_296653647704980_8249580363895013376_o.jpg" alt="Northern Lights">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://genshin.mihoyo.com/en">
+                <img src="Images/maxresdefault.jpg" alt="Northern Lights">
+                </a>
+            </div>
+                
+            <div class="gallery">
+                <a target="_blank" href="https://bethesda.net/en/game/dishonored-doto">
+                <img src="Images/dishonored-death-of-the-outsider-cover.jpg" alt="Northern Lights">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://www.ubisoft.com/en-gb/game/watch-dogs/watch-dogs-2">
+                <img src="Images/image_cover.jpg" alt="Northern Lights">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://www.warframe.com/game">
+                <img src="Images/warframe---button-1550875935085.jpg" alt="Northern Lights">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="https://tombraider.square-enix-games.com/en-us">
+                <img src="Images/11307obn0reFe1U4gMc6b1pGe29vUWBAwdA8-rwjTkBN9iSwdc4rU6hpu5QI4ZXkrja75v0RAOXR1bNsTAg1jbb-3AgvCc1Y.jpg" alt="Northern Lights">
+                </a>
+            </div>
+        </div>
+            
+        <a class="prev01" onclick="plusSlides1(-1)">&#10094;</a>
+        <a class="next01" onclick="plusSlides1(1)">&#10095;</a>
+            
+        </div>
+        <br>
+
+        <div class="dot_collection01" style="text-align:center">
+            <span class="dot01" onclick="currentSlide1(1)"></span> 
+            <span class="dot01" onclick="currentSlide1(2)"></span>  
+            <span class="dot01" onclick="currentSlide1(3)"></span> 
+            <span class="dot01" onclick="currentSlide1(4)"></span> 
+            <span class="dot01" onclick="currentSlide1(5)"></span> 
+        </div>
+        
+    </section>
+
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+    <!--PARALLAX-->
+    <div class="parallax1"></div>
+
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+    <!--PS SECTION-->
+    <section>
+        <div class="PS5_Preview_Content">
+            <div class="Block_Gradient03"></div>
+            <div class="ps5_logo">
+                <img src="Images/ps5-black-badge-01-en-11sep20.png" alt="Northern Lights">
+            </div>
+            <div class="ps5_console">
+                <h1 class="ps5_headers">Playstation 5 | Disc Edition |</h1>
+                <img src="Images/playstation-5-with-dualsense-front-product-shot-01-ps5-en-30jul20.png" alt="Northern Lights">
+            </div>
+            <div class="PS5ConsoleButton01">
+                <h1> CHECK OUT </h1>
+                <button class="ps5button" onclick="document.location='https://www.playstation.com/en-za/ps5/buy-now/'">
+                    PS5 | Disc Edition |
+                </button>
+            </div>
+
+            <div class="ps5_consoledigi">
+                <h1 class="ps5_headers">Playstation 5 | Digital Edition |</h1>
+                <img src="Images/playstation-5-digital-edition-with-dualsense-front-product-shot-01-ps5-en-30jul20.png" alt="Northern Lights">
+            </div>
+            <div class="PS5ConsoleButton02">
+                <h1> CHECK OUT </h1>
+                <button class="ps5digibutton" onclick="document.location='https://www.playstation.com/en-za/ps5/buy-now/'">
+                    PS5 | Digital Edition |
+                </button>
+            </div>
+
+            <div class="PS5Games">
+                <h1> EXPLORE </h1>
+                <button class="PS5GamesButton" onclick="document.location='magazineindex.html'">
+                    PS5 | Exclusive Games |
+                </button>
+            </div>
+
+            <div class="PS5_Image_Gallery">
+
+                <img src="Images/ps5-hzd-video-thumb-block-05-en-110620.jfif" alt="Northern Lights">
+
+                <img src="Images/demons-souls-screenshot-01-ps5-en-12jun20.jfif" alt="Northern Lights">
+
+                <img src="Images/ps5-gt7-video-thumb-block-07-en-110620.jfif" alt="Northern Lights">
+
+                <img src="Images/ps5-ratchet_clank-video-thumb-block-06-en-110620.jfif" alt="Northern Lights">
+            </div>
+        
+            <!--GOD OF WAR-->
+            <div class="GOW_Logo_Prev">
+                <img src="Images/God%20of%20War.png" alt="god">
+            </div>
+            <div class="GOW_Prev">
+                <iframe src="https://www.youtube.com/embed/gOE2BVRCUkM"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="GOW_Content_Prev01">
+                <div>
+                    <h1>
+                        GOD OF WAR | Preview
+                    </h1>
+                </div>
+                <div>
+                    <h1>
+                        By Jonathon Dornbush
+                    </h1>
+                </div>
+                <p>
+                    Some of the best films of all time are those whose different strengths all work in concert to create a unified, engrossing whole. The Shining, The Social Network, and Jaws are all excellent examples of films made up of strong individual parts complementing each other to form a fantastic work of art. That is absolutely true of God of War – its musical score elevates story moments, which flow seamlessly into fantastic action gameplay, which facilitates exploration and puzzles that reward you with a deeper understanding of its characters and its expansive and beautiful world. God of War is a masterful composition of exceptional interlocking parts, deliberate in its design and its foreshadowing, which pays off in unexpected ways in both the gameplay and story.
+                </p>
+                <p>
+                    Set in a new, Norse mythology-inspired world and starring a familiar but thoughtfully reimagined character, God of War’s fish-out-of-Greek-water tale is a nonstop whirlwind of emotions. It’s all framed by one continuous camera shot that never cuts away or takes the focus off of the heart of it all: Kratos’ relationship with his young son, Atreus. But the story also encompasses an indelible supporting cast, a gorgeous world consistently rewarding to explore, and immensely satisfying combat.
+                </p>
+                
+                <div>
+                    <h1>
+                        God of War works from minute one thanks to the simplicity of its plot.
+                    </h1>
+                </div>
+                <p>
+                    God of War works from minute one thanks to the simplicity of its plot. Kratos and Atreus – who start as, at best, acquaintances – begin their journey having just gone through the loss of Kratos’ wife, whom Atreus bonded with much more than his father. The two set out to the tallest point in all the realms to carry out her final wishes.
+                </p>
+                
+                <p>
+                    The setup is Journey-like in its visual nature – I saw the peak in the distance and knew I’d get there eventually – but as similar stories have taught me, the path is never a straight or easy one. A number of obstacles, both natural and god-made, extend the adventure to around 25 hours’ worth of terrifying threats, beginning with the first major encounter in the opening hours.
+                </p>
+            </div>
+            
+            <div class="GOW_Content_Prev02">
+                <p>
+                    If you’ve played the previous games in the series – seven of them, counting two PSP games and one mobile game – you know that Kratos lived a long life of loss, triumph, and plenty of god-killing in ancient Greece. While that history certainly informs who he is now, the character we encounter here has started a new chapter, having found love, a family, and a full bushy beard in this world of Norse mythology. But he is still a stranger to this place, and is forced to rely on the son he barely connects with to decipher its languages and guide him when the swing of an axe or the imprint of his boot on an undead foe won’t do the trick.
+                </p>
+            </div>
+            
+            <div class="GOW_Content_Prev03">
+                <div>
+                    <h1>
+                        It features easily one of my favorite supporting characters in years.
+                    </h1>
+                </div>
+                <p>
+                    The two lead actors are elevated by a wonderful supporting cast. A pair of friendly dwarves initially seem like mere comic relief but grow to be integral parts of Kratos and Atreus’ story, with fascinating tales of their own. And the mid-game addition of one key character adds an engaging, hilarious, and heartwarming dynamic to the core duo, transforming this character into easily one of my favorite supporting characters in a game in years.
+                </p>
+            </div>
+            
+            <div class="GOW_Content_Prev04">
+                <div>
+                    <h1>
+                        The Verdict
+                    </h1>
+                </div>
+                <p>
+                    I expected great action from God of War, and it delivers that handily. But I didn’t expect it to be a thrilling journey in which every aspect of it complements the others to form what is nothing short of a masterpiece. It’s a game in which Kratos, a previously one-note character, becomes a complex father, warrior, and monster, embattled both on the field and within his own heart about how to treat his son; one in which the world opens up and shifts, offering rewards in both gameplay and knowledge of its lore that I treasured with each accomplishment. The obvious care that went into crafting its world, characters, and gameplay delivers by far the most stirring and memorable game in the series.
+                </p>
+            </div>
+        </div>
+        <div class="OOPLogo">
+            <img src="Images/2e9c6dfe-fb39-44ce-be31-461a09f11591.png" alt="onlyonplaytation">
+        </div>
+
+        <div class="OOPLogo">
+            <img src="Images/1200px-Santa_Monica_Studio.svg.png" alt="onlyonplaytation">
+        </div>
+        
+        <div class="OOPLogo">
+            <img src="Images/PlayStation-Studios-vector-logo.png" alt="onlyonplaytation">
+        </div>
+        
+        <div class="OOPLogo">
+            <img src="Images/1200px-Sony_Interactive_Entertainment_logo_(2016).svg.png" alt="onlyonplaytation">
+        </div>
+    </section>
+    
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+    <!--PARALLAX-->
+    <div class="parallax1"></div>
+
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+    <!--XBOX SECTION-->
+    <section>
+        <div class="XBOX_Preview_Content">
+            <div class="Block_Gradient04"></div>
+            <div class="XBOX_logo">
+                <img src="Images/RW4ESm.png" alt="Northern Lights">
+            </div>
+            <div class="XBOX_console">
+                <h1 class="XBOX_headers">XBOX | Series X |</h1>
+                <img src="Images/83534a33-0998-43dc-915a-4ec0a686d679.jpg" alt="Northern Lights">
+            </div>
+            <div class="XBOXConsoleButton01">
+                <h1> CHECK OUT </h1>
+                <button class="XBOXbutton" onclick="document.location='https://www.xbox.com/en-ZA/consoles/xbox-series-x?xr=shellnav'">
+                    XBOX | Series X |
+                </button>
+            </div>
+
+            <div class="XBOX_consoledigi">
+                <h1 class="XBOX_headers">XBOX | Series S |</h1>
+                <img src="Images/51278d66-85f5-4eca-9428-0d23669c7617.jpg" alt="Northern Lights">
+            </div>
+            <div class="XBOXConsoleButton02">
+                <h1> CHECK OUT </h1>
+                <button class="XBOXdigibutton" onclick="document.location='https://www.xbox.com/en-ZA/consoles/xbox-series-s?xr=shellnav'">
+                    XBOX | Series S |
+                </button>
+            </div>
+
+            <div class="XBOXGames">
+                <h1> EXPLORE </h1>
+                <button class="XBOXGamesButton" onclick="document.location='magazineindex.html#ekbok'">
+                    XBOX | Exclusive Games | 
+                </button>
+            </div>
+
+            <div class="XBOX_Image_Gallery">
+
+                <img src="Images/1e7e7f01-3424-413d-8df3-b3e3109abf02.jpg" alt="Northern Lights">
+
+                <img src="Images/VividLandscape.jpg" alt="Northern Lights">
+
+                <img src="Images/forzahorizon-blogroll-01-1536707755454.jpg" alt="Northern Lights">
+
+                <img src="Images/ori-and-the-will-of-the-wisps-review.webp" alt="Northern Lights">
+            </div>
+            
+            <!--FORZA HORIZON 4-->
+            <div class="Forza_Logo_Prev">
+                <img src="Images/1200px-Forza_Horizon_logo.svg.png" alt="forza">
+            </div>
+            <div class="Forza_Prev">
+                <iframe src="https://www.youtube.com/embed/BxlMtTh48zw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="Forza_Content_Prev01">
+                <div>
+                    <h1>
+                        Forza Horizon 4 | Preview
+                    </h1>
+                </div>
+                <div>
+                    <h1>
+                        By Luke Reilly
+                    </h1>
+                </div>
+                <p>
+                    Forza Horizon 4 retains almost everything that made Forza Horizon 3 the best racer in its class and bakes it into a game that doesn’t ever want you to stop playing. The stunning visual quality and sound design, the massive array of automobiles, and the extensive and completely customisable career mode that have become hallmarks of the Horizon series are all here. What’s new is just how much more effectively Forza Horizon 4 encourages us to return thanks to its shifting seasons, regularly refreshed challenges, and steady stream of rewards.
+                </p>
+                
+                <p>
+                    Every real-time week the in-game season will change and bring a whole new look to the world, alongside a bunch of season-specific challenges. Every day there are still more new Forzathon challenges to complete, and every hour there is a live, online event to participate in alongside up to 11 other drivers who we work with cooperatively in order to chip away at a shared goal.
+                </p>
+                
+                <p>
+                    Whether the piles of emotes, avatar clothing options, and novelty horns grab your fancy will be a matter of personal preference. As someone who’ll happily wear the same jeans and hoodie for a decade I’m a little numb to fashion, personally, but the GTA Online-style victory dances are pretty cute.
+                </p>
+            </div>
+            
+            <div class="Forza_Content_Prev02">
+                <p>
+                    There’s a glimpse of all four seasons during the four- to five-hour introduction phase, but once the prologue’s first “year” is over seasons will rotate weekly (online or offline). It’s been Autumn throughout the bulk of this review and it might just be my favourite season. There just seems to be so much detail, from the spectrum of colours in the trees as their leaves die off at different rates, to the soggy roadside puddles that persist in an environment that’s becoming too cool for them to evaporate. Winter is excellent, too. If you’ve played Forza Horizon 3: Blizzard Mountain, you’ll have a basic idea of what to expect. It’s not just the world turned white; the landscape takes on an entirely new identity.
+                </p>
+            </div>
+            
+            <div class="Forza_Content_Prev03">
+                <div>
+                    <h1>
+                        Petrolhead Paradise
+                    </h1>
+                </div>
+                <p>
+                    The supporting cast of cars is the biggest it’s ever been in the series, and also the most eclectic, with rides ranging from the 59-kilogram Peel P50 microcar to the ludicrously large Unimog, which is fun but so big it can actually cause the chase camera a spot of grief sometimes when passing under structures. As a car nerd I particularly enjoyed how exceedingly British the barn finds have been, representing a really respectful and well-rounded cross section of British car culture.
+                </p>
+            </div>
+            
+            <div class="Forza_Content_Prev04">
+                <div>
+                    <h1>
+                        The Verdict
+                    </h1>
+                </div>
+                <p>
+                    I’ll always have a massive soft spot for the down under delights of Forza Horizon 3, but open-world racing has never looked as good as it does in Forza Horizon 4. It combines a beautiful world that’s really four hugely distinct maps in one with a constantly rewarding and self-renewing racing experience and I really can’t tear myself away from it. Playground Games hasn’t just upped the ante once again; it’s blown the bloody doors off.
+                </p>
+            </div>
+        </div>
+    </section>
+        
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+    <!--PARALLAX-->
+    <div class="parallax2"></div>
+    
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+    
+    <!--NS SECTION-->
+    <section>
+        <div class="NS_Preview_Content">
+            <div class="Block_Gradient05"></div>
+            <div class="NS_logo">
+                <img src="Images/6583450_preview.png" alt="Northern Lights">
+            </div>
+            <div class="NS_console">
+                <img src="Images/nintendo%20s.png" alt="Northern Lights">
+            </div>
+            <div class="NSConsoleButton01">
+                <h1> CHECK OUT </h1>
+                <button class="NSbutton" onclick="document.location='https://store.nintendo.com/nintendo-switch/systems.html'">
+                    Nintendo Switch
+                </button>
+            </div>
+
+            <div class="NS_consoledigi">
+                <img src="Images/5eb4158f7834b2000433266e.png" alt="Northern Lights">
+            </div>
+            <div class="NSConsoleButton02">
+                <h1> CHECK OUT </h1>
+                <button class="NSdigibutton" onclick="document.location='https://store.nintendo.com/nintendo-switch/systems.html'">
+                    Nintendo Switch | Lite |
+                </button>
+            </div>
+
+            <div class="NSGames">
+                <h1> EXPLORE </h1>
+                <button class="NSGamesButton" onclick="document.location='magazineindex.html#switch'">
+                    Nintendo | Exclusive Games | 
+                </button>
+            </div>
+
+            <div class="NS_Image_Gallery">
+
+                <img src="Images/zelda-botw-e1606040887460.jpg" alt="Northern Lights">
+
+                <img src="Images/mario-doesnt-possess-characters-in-super-mario-odyssey-he-merely-captures-their-screaming-souls.jpg" alt="Northern Lights">
+
+                <img src="Images/super-smash-bros-ultimate-review-12072018.jpg" alt="Northern Lights">
+
+                <img src="Images/Switch_ACNH_ND0220_screen_14.0.jpg" alt="Northern Lights">
+            </div>
+            
+            <!--SUPER MARIO 3D WORLD-->
+            <div class="Mario_Logo_Prev">
+                <img src="Images/Super%20Mario%20Odyssey.png" alt="mario">
+            </div>
+            <div class="Mario_Prev">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/e7Z2I9x4Pd0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="Mario_Content_Prev01">
+                <div>
+                    <h1>
+                        Super Mario Odyssey | Preview
+                    </h1>
+                </div>
+                <div>
+                    <h1>
+                        By Ryan Mccaffrey
+                    </h1>
+                </div>
+                <p>
+                    literally applauded as the end credits rolled on Super Mario Odyssey. I’d spent the last 15 hours with a giant grin on my face, and somehow the climax put the perfect surprising and delightful exclamation point on the plumber’s latest adventure. This is another brilliant redefinition of the very platforming genre he helped popularize 30 years ago.
+                </p>
+                
+                <p>
+                    And best of all, even with the story complete, Odyssey has so much more fun to offer.
+                </p>
+                
+                <p>
+                    Odyssey looks like a straight successor to the Mario 64 and Sunshine line of sandbox 3D Marios, but it is much more than that. Naturally, it evokes, honors, and is sometimes directly inspired by the games that came before it in its characters, music, and mechanics. But it also has new things to say as well, like fusing classic-style 2D gameplay with the 3D world and using a completely new possession mechanic to add constant variety to Mario’s abilities and exploits.
+                </p>
+            </div>
+            
+            <div class="Mario_Content_Prev02">
+                <p>
+                    Many of the cleverest and most smile-inducing possessions are best left to be discovered for yourself, but whether it was thrashing about as a huge, realistic-looking T-rex in the prehistoric-themed Cascade Kingdom or becoming a lowly Goomba but then making a stack of Goombas 10-tall to win over a hard-to-impress Lady Goomba, Odyssey mixes up the gameplay in surprising ways in each of its 16-plus worlds. Throughout the entire campaign, you’re using new creatures in new, game-changing ways on a regular basis.
+                </p>
+            </div>
+            
+            <div class="Mario_Content_Prev03">
+                <div>
+                    <h1>
+                        It's super fun seeing Mario's new costumes get translated into the old 8-bit art style.
+                    </h1>
+                </div>
+                <p>
+                    It’s also super fun seeing Mario’s new costumes get translated into the old 8-bit art style. My favorites include the aviator suit and the retro-colored builder outfit, for no other reason than them being fun looks for the veteran plumber, but you can also mix and match hats and outfits to your heart’s content.
+                </p>
+            </div>
+            
+            <div class="Mario_Content_Prev04">
+                <div>
+                    <h1>
+                        The Verdict
+                    </h1>
+                </div>
+                <p>
+                    Mario’s games have been around for almost as long as game consoles have been a thing, but thankfully, he’s always evolving. We rarely get the same Mario twice. Super Mario Odyssey delivers on that ongoing promise of originality and innovation: It distills the venerable series’ joyful, irreverent world and characters and best-in-class platforming action, and introduces a steady stream of new and unexpected mechanics. It’s all spun together into a generational masterpiece.
+                </p>
+            </div>
+        </div>
+    </section>
+        
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+    <!--PARALLAX-->      
+    <div class="parallax3"></div>
+    
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+    <!--PC SECTION-->
+    <section>
+        <div class="PC_Preview_Content">
+            <div class="Block_Gradient05"></div>
+            <div class="PC_logo">
+                <img src="Images/823-8232402_pc-platform-logo1.png" alt="Northern Lights">
+            </div>
+            <div class="PC_console">
+                <img src="Images/amd-vector.jpg" alt="Northern Lights">
+            </div>
+            <div class="PCConsoleButton01">
+                <h1> CHECK OUT </h1>
+                <button class="PCbutton" onclick="document.location='https://www.msi.com/index.php'">
+                     MSI | AMD |
+                </button>
+            </div>
+
+            <div class="PC_consoledigi">
+                <img src="Images/https___specials-images.forbesimg.com_imageserve_5c13d2d431358e5b4339c5d0_0x0.jpg" alt="Northern Lights">
+            </div>
+            <div class="PCConsoleButton02">
+                <h1> CHECK OUT </h1>
+                <button class="PCdigibutton" onclick="document.location='https://www.intel.com/content/www/us/en/homepage.html'">
+                    Intel | Core |
+                </button>
+            </div>
+
+            <div class="PCGames">
+                <h1> EXPLORE </h1>
+                <button class="PCGamesButton" onclick="document.location='magazineindex.html#pcmasterrace'">
+                    PC | Exclusive Games |
+                </button>
+            </div>
+
+            <div class="PC_Image_Gallery">
+
+                <img src="Images/eGp4PzfC4BAX7JTnW3nXXQ-970-80.jpg.webp" alt="Northern Lights">
+
+                <img src="Images/Ax6A7766saA8UkKqLL9yUR-970-80.jpg.webp" alt="Northern Lights">
+
+                <img src="Images/GZnsxjQgtMGtGyR4nMtJEP-970-80.jpg.webp" alt="Northern Lights">
+
+                <img src="Images/nz3sYqAoiP9B4m6YBS46JQ-970-80.jpg.webp" alt="Northern Lights">
+            </div>
+            
+            <!--/HALF LIFE ALYX-->
+            <div class="AA_Logo_Prev">
+                <img src="Images/8214584416317507080_1.png" alt="aa">
+            </div>
+            <div class="AA_Prev">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/O2W0N3uKXmo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div class="AA_Content_Prev01">
+                <div>
+                    <h1>
+                        HALF LIFE ALYX | Preview
+                    </h1>
+                </div>
+                <div>
+                    <h1>
+                        By Dan Stapleton
+                    </h1>
+                </div>
+                <p>
+                    One of the first things that struck me when I started playing Half-Life: Alyx was the dirt under Alyx Vance’s fingernails. It’s a simple thing, but it’s not often that you see that level of fine detail in a VR game. Usually, virtual hands are either low-detail ghostly apparitions or gloved. This grit also tells us something about this character, a scrappy survivor raised in the aftermath of the Seven-Hour War in which the alien Combine conquered Earth, and it quickly establishes that she isn’t as buttoned-down as that MIT-educated nerd Dr. Gordon Freeman. Subtle as it is, it sets the stage for the best VR shooter I’ve ever played by a mile – and one of the best in any perspective.
+                </p>
+                
+                <p>
+                    The next thing that stood out, jarring me out of gazing at my hands like a first-time stoner, was probably the gigantic, 30-foot Strider leg that smashed down directly in front of me as it moved past, going about its business. That established, with great force, the immense scale of the mosquito-like alien tanks we first fought in Half-Life 2 – if you didn’t take them seriously as a threat before, it’s now impossible not to. The same otherworldly sound design that made the landscape of the gulag-like City 17 so memorable back in 2004 is in full effect here as well, and full-3D surround sound intensifies all of these recognizable pieces.
+                </p>
+                
+                <p>
+                    Aside from the new perspective, Alyx feels very much like a traditional Half-Life game. It’s set up as a linear series of areas, starting with a normal City 17 neighborhood and then moving underground, through industrial areas like a distillery, high-tech Combine facilities, slimy alien nests, and more. Each chapter of the 15-hour campaign feels substantially different from the last, including one that relies heavily on an unkillable antagonist you have to work your way around, and some that are all but pitch black except for your wrist-mounted flashlight.
+                </p>
+            </div>
+            
+            <div class="AA_Content_Prev02">
+                <p>
+                    This may be a prequel story, taking place five years before Half-Life 2, but you should absolutely be up to date on the events of the series through Half-Life 2: Episode 2 before you play Alyx. (You’ve had 13 years – it's time.) Alyx’s quest starts out as a simple mission to rescue her father, Dr. Eli Vance, and turns into a heist to capture a Combine superweapon stashed inside a massive floating vault above City 17 – but of course, it’s not that simple. The ending is fantastic and a must-see for anyone who’s been invested in this story, and rest assured there are plenty of surprises you should avoid spoilers for.
+                </p>
+            </div>
+            
+            <div class="AA_Content_Prev03">
+                <div>
+                    <h1>
+                        Your hands are real objects in the world that collide with everything.
+                    </h1>
+                </div>
+                <p>
+                    It’s remarkable, and so is the actual way you interact with all of these objects. Outside of Boneworks, I’ve never seen this level of physical interactivity in a VR world. Physics play a huge role because the vast majority of stuff that isn’t nailed down can be picked up and tossed around. Even better, your hands are real objects in the world that collide with everything realistically. 
+                </p>
+            </div>
+            
+            <div class="AA_Content_Prev04">
+                <div>
+                    <h1>
+                        The Verdict
+                    </h1>
+                </div>
+                <p>
+                    Back when VR first became a real thing and we all started spitballing which game worlds we’d most like to be fully immersed in, Half-Life topped my list (tied with BioShock). It took a few years, but Half-Life: Alyx has more than realized that potential. With it, Valve has set a new bar for VR in interactivity, detail, and level design, showing what can happen when a world-class developer goes all-in on the new frontier of technology. In a lot of ways, it feels like a game from the future, and one that the rest of VR gaming will likely take a good long while to match, much less surpass.
+                </p>
+            </div>
+        </div>
+    </section>
+
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+    <div class="parallax4"></div>
+
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+<!--RATINGS AND REVIEWS-->
+    <section>
+        <div class="review_header">
+            <h1>
+                Ratings and Reviews
+            </h1>
+        </div>
+        <!--STARS-->
+        <!--BOX 1-->
+        <div class="rating_box">
+            <span class="heading">Best Console</span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <p>Best Console : Playstation 2</p>
+            <hr style="border:3px solid #f1f1f1">
+
+            <div class="row">
+              <div class="side">
+                <div>Playstation 2</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-6"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>59</div>
+              </div>
+              <div class="side">
+                <div>XBOX 360</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-5"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>35</div>
+              </div>
+              <div class="side">
+                <div>Playstation 4</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-3"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>27</div>
+              </div>
+              <div class="side">
+                <div>XBOX ONE</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-1"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>6</div>
+              </div>
+              <div class="side">
+                <div>Playstation 5</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-1"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>2</div>
+              </div>
+                
+                <div class="side">
+                <div>XBOX Series X</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-1"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>1</div>
+              </div>
+            </div>
+        </div>
+        
+        <!--BOX 2-->
+        <div class="rating_box01">
+            <span class="heading">GAME OF THE YEAR: 2020</span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p>Game of the year: Ghost of Tsushima</p>
+            <hr style="border:3px solid #f1f1f1">
+
+            <div class="row">
+              <div class="side">
+                <div>Ghost of Tsushima</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-7"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>63</div>
+              </div>
+              <div class="side">
+                <div>DOOM ETERNAL</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-5"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>31</div>
+              </div>
+              <div class="side">
+                <div>FF VII: REMAKE</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-4"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>22</div>
+              </div>
+              <div class="side">
+                <div>HADES</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-2"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>10</div>
+              </div>
+              <div class="side">
+                <div>Animal Crossing</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-2"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>7</div>
+              </div>
+                
+                <div class="side">
+                <div>THE LAST OF US: PART II</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-1"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>2</div>
+              </div>
+            </div>
+        </div>
+        
+        <!--BOX 3-->
+        <div class="rating_box02">
+            <span class="heading">Game of the Decade</span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p>Game of the decade: God of War</p>
+            <hr style="border:3px solid #f1f1f1">
+
+            <div class="row">
+              <div class="side">
+                <div>GOD OF WAR</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-9"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>82</div>
+              </div>
+              <div class="side">
+                <div>T E S: Skyrim</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-8"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>76</div>
+              </div>
+              <div class="side">
+                <div>GTA V</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-6"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>53</div>
+              </div>
+              <div class="side">
+                <div>R D R 2</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-4"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>34</div>
+              </div>
+              <div class="side">
+                <div>Fallout 4</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-2"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>12</div>
+              </div>
+                
+                <div class="side">
+                <div>FORTNITE</div>
+              </div>
+              <div class="middle">
+                <div class="bar-container">
+                  <div class="bar-1"></div>
+                </div>
+              </div>
+              <div class="side right">
+                <div>1</div>
+              </div>
+            </div>
+        </div>
+    </section>
+        
+    </div>
+    
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+    
+        <!--FOOTER-->
+        <footer>
+            <div class="footer_block">
+                <div class="footer_headerimg" >
+                    <img src="Images/1076afe1fce56bb9c21c363076289d61.png" alt="">
+                </div>
+
+                <!--FOOTER LINKS-->
+                <div class="footer_content01">
+                    <div class="footer_content">
+                        <a href="supportindex.html">Support</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.privacypolicies.com/blog/cookies/">Privacy and cookies
+                        </a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.legalnature.com/guides/why-your-website-needs-a-strong-terms-of-use-agreement-and-what-to-include">Website terms of use
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_content02">
+                    <div class="footer_content">
+                        <a href="https://www.facebook.com/">Facebook</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://twitter.com/?lang=en">Twitter</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.youtube.com/">Youtube</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.instagram.com/">Instagram</a>
+                    </div>
+                </div>
+
+                <!--FOOTER END CREDITS-->
+                <div class="footer_content03">
+                    <div class="footer_content">
+                        Website ©2021 Game MAG Earth Limited. All content, games titles, trade names and/or trade dress, trademarks, artwork and associated imagery are trademarks and/or copyright material of their respective owners. All rights reserved.
+                        <a href="https://en.wikipedia.org/wiki/Copyright">More info</a>
+                    </div>
+                </div>
+
+                <!--FOOTER LOGOS-->
+                <div class="footer_footerimg">
+                    <img src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMKcsQ9nmElCMFQ2Rdk+T6OP49LXHl22HtaCLdORi9sMBnW.png" alt="logo">
+                </div>
+
+                <div class="footer_lower_block">
+                    <div class="footer_headerimg01" >
+                        <img src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMJcsY4nmElCMFQ2Rdk+T6OP49KWXd42HtaCLdORi9sMBnW.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+<!--    JAVASCRIPT-->
+    <script src="JavaScript/javaindex.js"></script>
+</body>
+</html>

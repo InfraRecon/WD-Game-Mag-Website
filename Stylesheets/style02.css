@@ -1,0 +1,841 @@
+
+.parallax
+{
+    /* The image used */
+    background-image: url("Style Images/wp2757874.gif");
+
+    /* Set a specific height */
+    height: 210vw;
+    filter: invert(100%);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    margin-left: -2vw;
+    margin-right: -2vw;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .parallax
+    {
+        height: 250vw;
+    }
+}
+
+.parallax01
+{
+    /* The image used */
+    background-image: url("Style Images/c0949f6eeb04869ce3fbe0b85015308e.gif");
+
+    /* Set a specific height */
+    height: 195vw;
+    filter: blur(0.6vw);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    margin-left: -2vw;
+    margin-right: -2vw;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .parallax01
+    {
+        height: 650vw;
+    }
+}
+
+
+
+
+.left_Ribbon
+{
+    position: absolute;
+    top: 4vw;
+    left: 5vw;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .Ribbon_content
+    {
+        padding-top: 5vw;
+    }
+
+    .square_Ribbon 
+    {
+        display: none;
+    }
+
+    .triangle_Ribbon 
+    {
+        display: none;
+    }
+
+    .square_Ribbon01 
+    {
+       display: none;
+    }
+
+    .triangle_Ribbon01 
+    {
+        display: none;
+    }
+
+    .square_Ribbon02
+    {
+        display: none;
+    }
+
+    .triangle_Ribbon02
+    {
+        display: none;
+    }
+}
+
+.Contents_header
+{
+    color: deeppink;
+    font-family: Harlow Solid;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.Ribbon_content
+{
+    padding-top: 5vw;
+}
+
+.square_Ribbon 
+{
+    position: relative;
+    height: 62vw;
+    width: 20vw;
+    background-color: rgb(30,30,30);
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: lightblue;
+    z-index: 4;
+}
+
+.triangle_Ribbon 
+{
+    position: relative;
+    width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 3vw solid rgb(30,30,30);;
+    z-index: 4; 
+}
+
+.square_Ribbon01 
+{
+    position: relative;
+    top: -5vw;
+    height: 62vw;
+    width: 20vw;
+    background-color: teal;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: white;
+    z-index: 3; 
+}
+
+.triangle_Ribbon01 
+{
+    position: relative;
+    top: -5vw;
+    width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 3vw solid teal;
+    z-index: 3;
+}
+
+.square_Ribbon02
+{
+    position: relative;
+    top: -10vw;
+    height: 62vw;
+    width: 20vw;
+    background-color: orange;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: white;
+    z-index: 2; 
+}
+
+.triangle_Ribbon02
+{
+    position: relative;
+    top: -10vw;
+    width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 3vw solid orange;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Ribbon_content
+{
+    position: relative;
+    font-family: Arial;
+    font-size: 1vw;
+    text-align: center;
+    padding: 1vw;
+    top: 5vw;
+}
+
+.copyright
+{
+    padding: 1vw;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 0.8vw;
+}
+
+.copyright_header
+{
+    font-size: 1vw;
+    text-decoration: underline;
+    color:aquamarine;
+}
+
+
+
+
+
+
+
+
+
+.context_Ribbon
+{
+    position: absolute;
+    top: 12.75vw;
+    left: 26vw;
+    height: 185vw;
+    width: 35vw;
+    background: transparent;
+}
+
+
+.Main_Content_header
+{
+    float: left;
+    font-family: Harlow Solid;
+    font-size: 2.5vw;
+    padding: 1vw;
+    color: deeppink;
+    text-decoration: overline;
+}
+
+.Main_Content
+{
+    width: 100%;
+    float: left;
+    padding-bottom: 1vw;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: aquamarine;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .context_Ribbon
+    {
+        position: absolute;
+        top: 12.75vw;
+        left: 0vw;
+        height: 185vw;
+        width: 61vw;
+        padding: 1vw;
+        background: transparent;
+    }
+    
+    .Main_Content_header
+    {
+        font-size: 2vw;   
+    }
+    
+    .Main_Content a h1
+    {
+        color: black;
+        font-size: 2vw;
+    }
+    
+    .Main_Content a
+    {
+        color: black;
+        font-size: 2vw;
+    }
+    
+    .Main_Content
+    {
+        width: 100%;
+        float: left;
+    }
+}
+
+
+
+
+
+
+
+.right_ribbon
+{
+    position: absolute;
+    top: 0.05vw;
+}
+
+.right_ribbon01
+{
+    position: absolute;
+    top: 93vw;
+}
+
+.right_ribbon_headers
+{
+    position: absolute;
+    left:2vw;
+    top: -5vw;
+    font-family: Agency FB;
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+}
+
+.right_top_context_Ribbon
+{
+    position: absolute;
+    top: 12.75vw;
+    left: 62vw;
+    height: 32vw;
+    width: 32vw;
+    background-color: rgb(30,30,30);
+    border-top-right-radius: 5%; 
+}
+
+.right_top_context_Ribbon_content
+{
+    position: absolute;
+    top: 10vw;
+    width: 33vw;
+    font-size: 1.2vw;
+    font-family: Agency FB;
+    color: white;
+    z-index: 1;
+}
+
+.right_bottom_context_Ribbon_content
+{
+    position: absolute;
+    width: 31vw;
+    top: 21vw;
+    left: 62vw;
+    padding: 0.5vw;
+    font-size: 1.2vw;
+    font-family: Agency FB;
+    color: white;
+    z-index: 1;
+}
+
+.right_context_Ribbon
+{
+    position: absolute;
+    top: 44.75vw;
+    left: 62vw;
+    height: 26vw;
+    width: 32vw;
+    background-color: rgb(30,30,30);
+}
+
+div.gallery 
+{
+    padding: 0.1vw;
+    margin: 1vw;
+    float: left;
+    width: 5.2vw;
+    border: 0.1vw solid transparent;
+}
+
+div.gallery:hover 
+{
+    border: 0.1vw solid white;
+}
+
+div.gallery img 
+{
+  width: 100%;
+  height: auto;
+}
+
+.game_engines
+{
+    width: 100%;
+    float: left;
+}
+
+
+div.computex_gallery 
+{
+    padding: 0.1vw;
+    margin: 1vw;
+    float: left;
+    width: 29vw;
+}
+
+div.computex_gallery img
+{
+    width: 100%;
+  height: auto;
+}
+
+.computex
+{
+     width: 100%;
+     float: left;
+}
+
+.feature_section
+{
+    position: relative;
+    top: 0vw;
+    padding-bottom: 1vw;
+    padding: 1vw;
+    z-index: 1;
+}
+
+.feature_section01
+{
+    position: relative;
+    top: 2vw;
+    padding-bottom: 1vw;
+    padding: 1vw;
+    z-index: 1;
+}
+
+.feature_section02
+{
+    position: relative;
+    top: 2vw;
+    padding-bottom: 1vw;
+    padding: 1vw;
+    z-index: 1;
+}
+
+.feature_section03
+{
+    position: relative;
+    top: 20vw;
+    padding-bottom: 1vw;
+    padding: 1vw;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+.right_bottom_context_Ribbon
+{
+    position: absolute;
+    top: 70.75vw;
+    left: 62vw;
+    height: 32vw;
+    width: 32vw;
+    background-color: rgb(30,30,30);
+    border-bottom-left-radius: 5%; 
+}
+
+.charofthemonth
+{
+    position: relative;
+    top: -15vw;
+    left: 0vw;
+    font-family: Agency FB;
+    color: white;
+    font-size: 1.8vw;
+    text-align: center;
+    text-decoration: overline;
+    padding: 1vw;
+}
+
+.charofthemonthname img
+{
+    position: absolute;
+    top: 2vw;
+    left: 6vw;
+    width: 20vw;
+    z-index: 1;
+}
+
+.ratchetandclank img
+{
+    position: absolute;
+    top: -3vw;
+    left: -2vw;
+    width:35vw;
+}
+
+.masterchief img
+{
+    position: absolute;
+    top: 50.9vw;
+    left: -2vw;
+    width:35vw;
+}
+
+
+
+
+.gameheading
+{
+    position: relative;
+    text-align: center;
+    text-decoration: overline;
+    font-family: calibri;
+    color: white;
+    font-size: 5vw;
+}
+
+.game_List
+{
+    position: absolute;
+    top: 205vw;
+}
+
+div.block 
+{
+    position: relative;
+    padding: 0.1vw;
+    margin: 1vw;
+    float: left;
+    width:20vw;
+    height: 20vw;
+    background: rgb(25,25,25,0.8);
+    border: 0.5vw solid white;
+    border-top-right-radius: 25%;
+    top: 5vw;
+    left: 2vw;
+}
+
+div.block:hover 
+{
+    border: 0.5vw solid purple;
+}
+
+div.block img 
+{
+    width: 100%;
+    height: auto;
+}
+
+.block h1
+{
+    position: relative;
+    padding: 0.5vw;
+    top: -4vw;
+    color: white;
+    font-family: Calibri;
+    font-size: 4vw;
+    text-align: left;
+}
+
+.block p
+{
+    position: relative;
+    padding-left: 1vw;
+    top: -8vw;
+    color: white;
+    font-family: Calibri;
+    font-size: 1vw;
+    text-align: left;
+}
+
+.block p:hover
+{
+    color:yellow;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    div.block 
+    {
+        width: 40vw;
+        height: 40vw;
+    }
+    
+    .block p
+    {
+        font-size: 2vw;
+    }
+    
+    .game_List
+    {
+        top: 260vw;
+    }
+}
+
+
+
+
+
+
+
+
+/*Footer*/
+.footer_block
+{
+    position: relative;
+    top: 4vw;
+    width: auto;
+    height: 50vw;
+    background-color: white;
+}
+
+.footer_lower_block
+{
+    position: relative;
+    top: 50vw;
+    width: auto;
+    height: 5vw;
+    background-color: black;
+}
+
+.footer_headerimg img
+{
+    position: absolute;
+    float: left;
+    top: 5vw;
+    left: 10vw;
+    width: 10vw;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.footer_content01
+{
+    position: absolute;
+    top: 5vw;
+    left: 25vw;
+    width: 35vw;
+    float: left;
+}
+
+.footer_content02
+{
+    position: absolute;
+    top: 5vw;
+    left: 55vw;
+    width: 35vw;
+    float: left;
+}
+
+.footer_content03
+{
+    position: absolute;
+    top: 43vw;
+    left: 5vw;
+    width: 90%;
+    float: left;
+}
+
+.footer_content03 a
+{
+    text-decoration: underline;
+}
+
+.footer_content
+{
+    padding: 1vw;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.footer_headerimg01 img
+{
+    position: absolute;
+    top: 0.5vw;
+    left: 40vw;
+    width: 15vw;
+
+    filter: invert();
+}
+
+.footer_footerimg
+{
+    position: absolute;
+    float: right;
+    top: 35vw;
+    left: 5vw;
+    width: 35vw;
+
+    filter: invert();
+}
+
+.footer_header
+{
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+@media screen and (max-width: 1000px) 
+{
+    .footer_block
+    {
+        width: auto;
+        top: 3vw;
+        height: 130vw;
+        background-color: rgb(30,30,30);
+    }
+    
+    .footer_lower_block
+    {
+        width: auto;
+        top: 130vw;
+        height: 7vw;
+        background-color: black;
+    }
+
+
+    .footer_headerimg img
+    {
+        position: absolute;
+        float: left;
+        top: 1vw;
+        left: 3vw;
+        width: 20vw;
+
+        filter: invert();
+    }
+
+    a
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer_content01
+    {
+        position: absolute;
+        top: 20vw;
+        left: 5vw;
+        width: 35vw;
+        float: left;
+    }
+
+    .footer_content02
+    {
+        position: absolute;
+        top: 40vw;
+        left: 5vw;
+        width: 35vw;
+        float: left;
+    }
+
+    .footer_content03
+    {
+        position: absolute;
+        top: 116vw;
+        left: 5vw;
+        width: 90%;
+        float: left;
+    }
+
+    .footer_content03 a
+    {
+        text-decoration: underline;
+    }
+
+    .footer_content
+    {
+        padding: 1vw;
+        font-family: Calibri;
+        font-size: 2.5vw;
+        color: white;
+    }
+    
+    .footer_headerimg01 img
+    {
+        position: absolute;
+        float: right;
+        top:0.5vw;
+        left: 36vw;
+        width: 20vw;
+
+        filter: invert();
+    }
+
+    .footer_footerimg
+    {
+        position: absolute;
+        float: right;
+        top: 100vw;
+        left: 5vw;
+        width: 35vw;
+
+        filter: invert();
+    }
+
+    .footer_header
+    {
+        position: absolute;
+        top: 3vw;
+        left: 3vw;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 4vw;
+    }
+}

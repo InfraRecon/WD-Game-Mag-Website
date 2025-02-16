@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<!-- This head section contains all the invisible information about the page -->
+<head>
+    <title> Game MAG - Content </title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a Website for Gaming and Tech">
+    <meta name="author" content="Roberto">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Gaming 'Gaming MAG'">
+    <link rel="shortcut icon" href="Images/1076afe1fce56bb9c21c363076289d61.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/Stylesheets/NavigationBarStyle.css">
+    <link rel="stylesheet" type="text/css" href="/Stylesheets/style02.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+    
+    <body>
+        <!--HEADER-->   
+        <header>
+            <div class="black_header">
+                <!--NAVIGATION BAR-->   
+                <div class="topnav" id="myTopnav">
+                    <a href="#home">
+                    <!--GAME MAG LOGO-->   
+                        <img class="GameMaglogo" onclick="openNav()" src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMJcsY4nmElCMFQ2Rdk+T6OP49KWXd42HtaCLdORi9sMBnW.png" 
+                        alt="GameMagazineLogoImage">
+                    </a>
+                    <a href="index.html" class="active">Home</a>
+                    <a href="contextindex.html#games">Games</a>
+
+                    <!--DROPDOWN 1-->   
+                    <div class="dropdown">
+                        <button class="dropbtn">Platforms 
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+
+                        <!--DROPDOWN CONTENT-->   
+                        <div class="dropdown-content">
+                            <!--TABLE-->   
+                            <table>
+                                <tr>
+                                    <th>
+                                        <!--PC LINK-->   
+                                        <a href="magazineindex.html#pcmasterrace">
+                                            <img class="pclogonav"
+                                                 src="Images/823-8232402_pc-platform-logo.png" 
+                                                 alt="GameMagazineLogoImage">
+                                        </a>
+                                    </th>
+                                    <th> 
+                                        <!--XBOX LINK-->   
+                                        <a href="magazineindex.html#ekbok">
+                                            <img class="xboxlogonav"
+                                                 src="Images/RW4ESm2.png" 
+                                                 alt="GameMagazineLogoImage">
+                                        </a>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th> 
+
+                                        <!--PS LINK-->   
+                                        <a href="magazineindex.html#sonycorp">
+                                            <img class="pslogonav"
+                                                 src="Images/navy-playstation-png-logo-5.png" 
+                                                 alt="GameMagazineLogoImage">
+                                        </a>
+                                    </th>
+                                    <th> 
+                                        <!--NS LINK (DONT SUE ME NINTENDO)-->   
+                                        <a href="magazineindex.html#switch">
+                                            <img class="nslogonav"
+                                                 src="Images/6583450_preview1.png" 
+                                                 alt="GameMagazineLogoImage">
+                                        </a>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div> 
+
+                    <a href="blogindex.html" class="active">.Blog</a>
+
+                    <!--DROPDOWN 2-->   
+                    <div class="dropdown01">
+                        <div class="dropbtn01">
+                            <img src="Images/search-find-magnifier-function-player-keyword-name-512.png" alt="search">
+                            <i class="fa fa-caret-down"></i>
+                        </div>
+
+                        <!--DROPDOWN CONTENT-->   
+                        <div class="dropdown-content01">
+
+                            <!--SEARCH BAR-->   
+                            <div class="search_box">
+                            <div class="search_bar">
+                            <input type="text" placeholder="Search">
+                            </div>
+                                <div class="search_btn">
+                                    <button>
+                                        SEARCH
+                                    </button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <!--LOGON BUTTON-->   
+                    <div class="login_btn">
+                        <button onclick="document.getElementById('idLogin').style.display='block'">
+                            LOGIN / SIGN UP
+                        </button>
+                        <!--LOGIN MODAL-->   
+                        <div id="idLogin" class="modal">
+                            <form class="modal-content animate" action="/action_page.php" method="post">
+                            <div class="imgcontainer">
+                                <span           onclick="document.getElementById('idLogin').style.display='none'" class="close" title="Close Modal">&times;
+                                </span>
+                                <img src="Images/384921a9a512810bae3c7970fafb83eb.gif" alt="Avatar" class="avatar">
+                            </div>
+
+                                <!--USERNAME SECTION-->   
+                                <div class="container">
+                                    <label id="uname"><b>Username</b></label>
+                                    <input type="text" placeholder="Enter Username eg. Rick" name="uname" required>
+
+                                    <!--PASSWORD SECTION-->   
+                                    <label id="psw"><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password eg. Sanchez" name="psw" required>
+
+                                    <!--LOGIN BUTTON-->   
+                                    <button class="loginBtn" type="submit">Login</button>
+                                    <label>
+                                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                                    </label>
+                                </div>
+
+                                <!--CANCEL, FORGOT, PASSWORD BUTTONS-->   
+                                <div class="container">
+                                    <button type="button" onclick="document.getElementById('idLogin').style.display='none'" class="cancelBtn">Cancel</button>
+                                    <span class="psw">Forgot <a href="#">password?</a></span>
+                                </div>
+                            </form>
+                        </div>
+
+                    <!--MODAL JAVA SCRIPT CALLBACK-->   
+                    </div>
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
+            </div>
+
+
+            <!--SIDE NAVIGATION-->
+            <div id="mySidenav" class="sidenav">
+                <a href="#">
+                    <img id="GMlside" class="GameMaglogoside" src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMJcsY4nmElCMFQ2Rdk+T6OP49KWXd42HtaCLdORi9sMBnW.png" 
+                    alt="GameMagazineLogoImage">
+                </a>
+                <a href="javascript:void(0)" id="closeButton" 
+                class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="sideContent">
+                    <div class="sidegallery">
+
+                    <!--GAMES OF THE MONTH-->   
+                    <h1>GAMES OF THE MONTH</h1>
+                    <!--RATCHET AND CLANCK-->   
+                    <a href="https://store.playstation.com/en-za/product/EP9000-PPSA01474_00-RATCHETCLANKRIFT">Ratchet and Clank: Rift Apart
+                    </a>
+                    <a>
+                        <div class="game_banner">
+                            <img src="Images/ps5-ratchet_clank-video-thumb-block-06-en-110620banner.jpg" alt="ratchet">
+                        </div>
+                    </a>
+                    <!--DOOM ETERNAL-->   
+                    <a href="https://bethesda.net/en/game/doom">DOOM: ETERNAL - The Ancient Gods Part II
+                    </a>
+                    <a>
+                        <div class="game_banner">
+                            <img src="Images/doom-eternal-ancient-gods-2@2000x1270.jpg" alt="doom">
+                        </div>
+                    </a>
+                    <!--GENSHIN IMPACT-->   
+                    <a href="https://genshin.mihoyo.com/en/news/detail/9368">Genshin Impact v1.4: Windblume
+                    </a>
+                    <a>
+                        <div class="game_banner">
+                            <img src="Images/genshin_impact_invitation_of_windblume_event.jpg" alt="genshin">
+                        </div>
+                    </a>
+                    <!--WARFRAME-->   
+                    <a href="https://www.warframe.com/">Warframe</a>
+                        <a>
+                            <div class="game_banner">
+                                <img src="Images/warframe-digital-extremes@2000x1270.jpg" alt="warframe">
+                            </div>
+                        </a>
+                    </div>
+
+                    <!--IMAGE SIDE GALLERY-->   
+                    <div class="sidegallery">
+                        <h1>NEWS</h1>
+                        <a href="https://www.emberlab.com/">Kena: Bridge of Spirits</a>
+                        <a href="https://www.ea.com/news">EA</a>
+                        <a href="https://blog.playstation.com/">Playstation</a>
+                        <a href="https://www.xbox.com/en-ZA/xbox-game-pass">XBOX Game Pass</a>
+                    </div>
+
+                    <!--COMMUNITY LINKS-->   
+                    <div class="sidegallery">
+                        <h1>COMMUNITY</h1>
+                        <a href="https://forums.warframe.com/forum/113-livestreams-contests/">Warframe Community</a>
+                        <a href="https://www.hoyolab.com/genshin/home/1">Genshin Impact Community</a>
+                        <a href="https://www.youtube.com/">Youtube</a>
+                        <a href="https://www.facebook.com/">Facebook</a>
+                        <a href="https://twitter.com/?lang=en">Twitter</a>
+                        <a href="https://www.instagram.com/">Instagram</a>
+                        <a href="https://discord.com/">Discord</a>
+                    </div>
+
+                    <!--ABOUT LINKS-->   
+                    <div class="sidegallery">
+                        <h1>ABOUT</h1>
+                        <a href="supportindex.html">Contact us</a>
+                        <p>Connect with us</p>
+                        <div class="connectImagegallery">    
+                            <a href="https://www.youtube.com/">
+                                <img src="Images/youtube-social-icon-01-18may18.png" alt="youtube">
+                            </a>
+                        </div>
+
+                        <div class="connectImagegallery">
+                            <a href="https://www.facebook.com/">
+                                <img src="Images/facebook-2661207_1280.jpg" alt="facebook">
+                            </a>
+                        </div>
+
+                        <div class="connectImagegallery">
+                            <a href="https://twitter.com/?lang=en">
+                                <img src="Images/twitter-social-icon-image-block-01-en-28may20.jpg" alt="twitter">
+                            </a>
+                        </div>
+
+                        <div class="connectImagegallery">
+                            <a href="https://www.instagram.com/">
+                                <img src="Images/instagram-social-icon-image-block-03-en-28may20.jpg" alt="insta">
+                            </a>
+                        </div>
+
+                        <div class="connectImagegallery">
+                            <a href="https://www.google.com/">
+                                <img src="Images/image-20150902-6700-t2axrz.webp" alt="google">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!--SUPPORT-->
+                    <div class="sidegallery">
+                        <h1>SUPPORT</h1>
+                        <a href="supportindex.html">Service</a>
+                        <a href="supportindex.html">Help</a>
+                        <a href="supportindex.html">Manuals</a>
+                    </div>
+                </div>
+            </div>
+
+            <span style="font-size:100px;cursor:pointer" onclick="openNav()">
+                <img class="GameMAGImage"
+                     src="Images/ico-roundsmall.gif" 
+                     alt="GameMagazineLogoImage">
+            </span>
+        </header>
+        
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+        <!--PARALLAX-->
+        <div class="parallax"></div>
+        
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+        <!--LEFT RIBBON-->
+        <section>
+            <div>
+                <div class="left_Ribbon">
+                    <div class="Contents_header">
+                        <h1>
+                            Contents
+                        </h1>
+                    </div>
+                    <div class="square_Ribbon">
+                        <div class="Ribbon_content">
+                            <div class="copyright">
+                                <div class="copyright_header">
+                                    PUBLISHER
+                                </div>
+                                    Michael “RedTide” James
+                                    michael@MAG.NET
+                                    EDITOR
+                                    Geoff “GeometriX” Burrows
+                                    geoff@MAG.NET
+                                <div class="copyright_header">
+                                    ART DIRECTOR
+                                </div>
+                                    Chris “SAVAGE” Savides
+                                    Michele M, will you go out with me?
+                                    STAFF WRITERS
+                                    Dane “Barkskin” Remendes
+                                    Tarryn “Azimuth” van der Byl
+                                <div class="copyright_header">
+                                    CONTRIBUTING EDITOR
+                                </div>
+                                    Lauren “Guardi3n” Das Neves
+                                    TECHNICAL WRITER
+                                    Neo “ShockG” Sibeko
+                                <div class="copyright_header">
+                                    INTERNATIONAL
+                                    CORRESPONDENT
+                                </div>
+                                    Miktar “Miktar” Dracon
+                                    CONTRIBUTORS
+                                    Delano “Delano” Cuzzucoli
+                                    Matt “Sand_Storm” Fick
+                                    Miklós “Mikit0707” Szecsei
+                                    Pippa “UnexpectedGirl” Tshabalala
+                                    Rodain “Nandrew” Joubert
+                                    Sarah “Bellum” Browne
+                                    Wesley “CataclysmZA” Fick
+                                <div class="copyright_header">
+                                    SALES EXECUTIVE
+                                </div>
+                                    The "Dude"
+                                    DUDE@MAG.NET
+                                    +27 72 322 9875
+                                <div class="copyright_header">
+                                    SALES EXECUTIVE
+                                </div>
+                                    Damien Wayne
+                                    WayneTech@MAG.NET
+                                    +27 82 873 2687
+                                <div class="copyright_header">
+                                    OFFICE ASSISTANT
+                                </div>
+                                    GARY
+                                <div class="copyright_header">
+                                    CONTACT DETAILS
+                                </div>
+                                    P .O. Box 999, Tattoine, 9000,
+                                    EARTH
+                                    Tel +27 12 345 9876
+                                    Fax +27 12 345 9876
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="triangle_Ribbon"></div>
+                    
+                    <div class="square_Ribbon01">
+                        <div class="Ribbon_content">
+                            <div class="copyright">
+                                <div class="copyright_header">
+                                    SUBSCRIPTION DEPARTMENT
+                                </div>
+                                subs@mag.ea
+                                ONLINE
+                                www.gamemag.ea
+                                www.zinio.com/gamemag
+                                www.facebook.com/gameMagazine
+                                www.twitter.com/gamemagea
+                            </div>
+
+                            <div class="copyright">
+                                <div class="copyright_header">
+                                    COPYRIGHT 2021 Game MAG
+                                </div>
+                                All rights reserved. No article or picture
+                                in this website may be reproduced,
+                                copied or transmitted in any form
+                                whatsoever without the express written
+                                consent of the publisher. Opinions
+                                expressed in the magazine are not
+                                necessarily those of the publisher or the
+                                editors. All trademarks and registered
+                                trademarks are the sole property of their
+                                respective owner. Furthermore, these aren't the Droids your'e looking for... 
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="triangle_Ribbon01"></div>
+                    
+                    <div class="square_Ribbon02">
+                        <div class="Ribbon_content">
+                            <div class="copyright">
+                                <div class="copyright_header">
+                                    SUBSCRIPTION DEPARTMENT
+                                </div>
+                                subs@MAG.NET
+                                ONLINE
+                                www.GAMEMAGazine.NET
+                                www.zinio.com/MAG
+                                www.facebook.com/GAMEMAGazine
+                                www.twitter.com/GAMEMAGazine
+                            </div>
+
+                            <div class="copyright">
+                                <div class="copyright_header">
+                                    COPYRIGHT 2021 Game MAG
+                                </div>
+                                All rights reserved. No article or picture
+                                in this website may be reproduced,
+                                copied or transmitted in any form
+                                whatsoever without the express written
+                                consent of the publisher. Opinions
+                                expressed in the magazine are not
+                                necessarily those of the publisher or the
+                                editors. All trademarks and registered
+                                trademarks are the sole property of their
+                                respective owner. Furthermore, these aren't the Droids your'e looking for... 
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="triangle_Ribbon02"></div>
+                    
+                </div>
+
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+                
+                <!--CONTENT RIBBON-->
+                <!--Consists of only links and Headings-->
+                <div class="context_Ribbon">
+                    <div class="Ribbon_content">    
+                        <div class="Main_Content">
+                            <div class="Main_Content_header">
+                                Platforms
+                            </div>
+                            <div class="Main_Content">
+                                <a href="magazineindex.html"><h1> PS | SONY'S Playstation | </h1></a>
+                                <a href="https://www.playstation.com/en-gb/ps5/">   Playstation 5 </a>
+                                <a href="https://www.playstation.com/en-za/ps4/ps4-pro/">  | Playstation 4 Pro </a>
+                                <a href="https://www.playstation.com/en-za/ps4/">  | Playstation 4 </a>
+                                <a href="https://en.wikipedia.org/wiki/PlayStation_3">  | Playstation 3 </a>
+                                <a href="https://en.wikipedia.org/wiki/PlayStation_2">  | Playstation 2 </a>
+                                <a href="https://en.wikipedia.org/wiki/PlayStation_(console)">  | Playstation 1 </a>
+
+                                <a href=""><h1> XB | Micrososoft's XBOX |</h1></a>
+                                <a href="https://www.xbox.com/en-US/consoles/xbox-series-x?xr=shellnav">  XBOX Series X </a>
+                                <a href="https://www.xbox.com/en-US/consoles/xbox-series-s?xr=shellnav">  | XBOX Series S </a>
+                                <a href="https://www.xbox.com/en-US/consoles/xbox-one-x">  | XBOX One X </a>
+                                <a href="https://www.xbox.com/en-US/consoles/xbox-one-s">  | XBOX One S </a>
+                                <a href="https://en.wikipedia.org/wiki/Xbox_One">  | XBOX One </a>
+                                <a href="https://en.wikipedia.org/wiki/Xbox_360">  | XBOX 360 </a>
+                                <a href="https://en.wikipedia.org/wiki/Xbox_(console)">  | Original XBOX </a>
+                                
+                                <a href=""><h1> NT | Nintendo | </h1></a>
+                                <a href="https://www.nintendo.com/switch/lite/">  Nintendo Switch Lite </a>
+                                <a href="https://www.nintendo.com/switch/">  | Nintendo Switch </a>
+                                <a href="https://www.nintendo.co.za/Wii-U/Wii-U-344102.html">  | Wii U </a>
+                                <a href="https://en.wikipedia.org/wiki/Wii">  | Wii </a>
+                                <a href="https://en.wikipedia.org/wiki/GameCube">  | Nintendo GameCube </a>
+                                <a href="https://en.wikipedia.org/wiki/Nintendo_64">  | Nintendo 64 </a>
+                                <a href="https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System">  | Super Nintendo Entertainment System </a>
+                                <a href="https://en.wikipedia.org/wiki/Nintendo_Entertainment_System">  | Nintendo Entertainment System </a>
+                                <a href="https://en.wikipedia.org/wiki/Color_TV-Game">  | Color TV-Game </a>
+                                
+                                <h1><a href="https://en.wikipedia.org/wiki/Personal_computer">PC</a> | 
+                                    <a href="https://store.steampowered.com/">Steam</a> | 
+                                    <a href="https://www.epicgames.com/store/en-US/">Epic</a> | 
+                                    <a href="https://www.gog.com/">GOG</a> | 
+                                </h1>
+                                <a href="https://www.amd.com/en/products/graphics/amd-radeon-rx-6800-xt">  AMD Radeon RX 6800 XT </a>
+                                <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3080/">  | Nvidia GeForce RTX 3080 </a>
+                                <a href="https://www.amd.com/en/products/graphics/radeon-rx-580">  | AMD Radeon RX 580 </a>
+                                <a href="https://www.nvidia.com/en-in/geforce/products/10series/geforce-gtx-1080-ti/">  | Nvidia GeForce GTX 1080 Ti </a>
+                                <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-titan-x/">  | Nvidia GTX Titan </a>
+                                <a href="https://www.techpowerup.com/gpu-specs/radeon-hd-5970.c254">  | ATI Radeon HD 5970 </a>
+                                <a href="https://www.techpowerup.com/gpu-specs/geforce-8800-gtx.c187">  | Nvidia GeForce 8800 GTX </a>
+                                <a href="https://en.wikipedia.org/wiki/GeForce_256">  | Nvidia GeForce 256 </a>
+                                <a href="https://en.wikipedia.org/wiki/Voodoo2">  | 3dfx Voodoo2 </a>
+                                <a href="https://en.wikipedia.org/wiki/RIVA_128">  | Nvidia Riva 128</a>
+                                <a href="https://en.wikipedia.org/wiki/Voodoo_5">  | 3dfx Voodoo </a>
+                            </div>
+                        </div>
+                        
+                        <div class="Main_Content">
+                            <div class="Main_Content_header">
+                                Games
+                            </div>
+                            <div class="Main_Content">
+                                <a href="magazineindex.html"> <h1> | Playstation Exclusives | </h1> </a>
+                                <a href="https://godofwar.playstation.com/"> God of War </a>
+                                <a href="https://insomniac.games/game/spider-man-ps4/"> | Marvel's Spider - Man </a>
+                                <a href="https://www.playstation.com/en-us/games/horizon-zero-dawn/"> | Horizon Zero Dawn </a>
+                                <a href="https://www.playstation.com/en-us/games/ghost-of-tsushima/"> | Ghost of Tsushima </a>
+                                <a href="https://insomniac.games/game/ratchet-and-clank-ps4/"> | Ratchet and Clank </a>
+                                <a href="https://www.gran-turismo.com/us/"> | Gran Turismo 7 </a>
+                                
+                                <a href="magazineindex.html#ekbok"> <h1> | XBOX Exclusives | </h1> </a>
+                                <a href="https://www.xbox.com/en-US/games/halo-infinite"> Halo Infinite</a>
+                                <a href="https://forzamotorsport.net/en-US/games/fh4"> | Forza: Horizon 4 </a>
+                                <a href="https://gearsofwar.com/"> | Gears of War </a>
+                                <a href="https://www.orithegame.com/"> | Ori and The Will of The Wisps </a>
+                                <a href="https://www.seaofthieves.com/"> | Sea of Theives </a>
+                                
+                                <a href="magazineindex.html#switch"> <h1> | Nintendo Exclusives | </h1> </a>
+                                <a href="https://www.nintendo.com/games/detail/super-mario-odyssey-switch/"> Super Mario Odyssey</a>
+                                <a href="https://www.nintendo.com/games/detail/the-legend-of-zelda-breath-of-the-wild-switch/"> | The Legend of Zelda: Breath of the Wild </a>
+                                <a href="https://www.nintendo.com/games/detail/mario-kart-8-deluxe-switch/"> | Mario Kart 8</a>
+                                <a href="https://supermario3dworld.nintendo.com/"> | Super Mario 3D World + Bowsers Fury </a>
+                                <a href="https://www.nintendo.com/games/detail/splatoon-2-switch/"> | Splatoon 2 </a>
+                                
+                                <a href="magazineindex.html#pcmasterrace"> <h1> | PC Exclusives | </h1> </a>
+                                <a href="https://www.dota2.com/home"> Dota 2</a>
+                                <a href="https://na.leagueoflegends.com/en-us/"> | League of Legends</a>
+                                <a href="https://www.half-life.com/en/alyx/"> | Half Life: Alyx</a>
+                                <a href="https://blog.counter-strike.net/"> | Counter Strike</a>
+                                <a href="https://magic.wizards.com/en"> | Magic the Gathering </a>
+                            </div>
+                        </div>
+                        
+                        <div class="Main_Content">
+                            <div class="Main_Content_header">
+                                Blog
+                            </div>
+                            <div class="Main_Content">
+                                <a href="blogindex.html"> <h1> | THIS MONTH | </h1> </a>
+                                <a href="blogindex.html"> Ratchet and Clank: Rift Apart </a>
+                                <a href="blogindex.html"> | Warframe: Octavia Prime</a>
+                                <a href="blogindex.html"> | Genshin Impact: Lantern Rite </a>
+                                <a href="blogindex.html"> | farcry 6 </a>
+                                <a href="blogindex.html"> | God Of War: Ragnarok </a>
+                                <a href="blogindex.html"> | Knack </a>
+                                <a href="blogindex.html"> | Fallout 76 </a>
+                                <a href="blogindex.html"> | Dragon Age 4 </a>
+                                
+                                <a href="blogindex.html#trendingstories"> <h1> | Trending Stories | </h1> </a>
+                                <a href="blogindex.html#trendingstories"> Sony's State of Play </a>
+                                <a href="blogindex.html#trendingstories"> | DeathLoop - PS5 </a>
+                                <a href="blogindex.html#trendingstories"> | Super Mario 3D World + Bowsers Fury </a>
+                                <a href="blogindex.html#trendingstories"> | PC vs XBOX: Game pass </a>
+                                
+                                <a href="blogindex.html#Posts"> <h1> | Posts | </h1> </a>
+                                <a href="blogindex.html#Posts"> Kena: Bridge of Spirits</a>
+                                <a href="blogindex.html#Posts"> | Konami: Silent Hills </a>
+                                <a href="blogindex.html#Posts"> | Resident Evil 8</a>
+                                <a href="blogindex.html#Posts"> | Forza Horizon 4 (Update) </a>
+                                
+                                <a href="blogindex.html#videosandtrailers"> <h1> | Videos and Trailers | </h1> </a>
+                                <a href="blogindex.html#videosandtrailers"> IGN State Of Play </a>
+                                <a href="blogindex.html#videosandtrailers"> | State Of Play</a>
+                                <a href="blogindex.html#videosandtrailers"> | Gamescom</a>
+                                <a href="blogindex.html#videosandtrailers"> | Tokyo Game Show</a>
+                                <a href="blogindex.html#videosandtrailers"> | PS5 </a>
+                                <a href="blogindex.html#videosandtrailers"> | XBOX Series X Reviews </a>
+                                <a href="blogindex.html#videosandtrailers"> | Nintendo Direct </a>
+                            </div>
+                        </div>
+                        
+                        <div class="Main_Content">
+                            <div class="Main_Content_header">
+                                Support
+                            </div>
+                            <div class="Main_Content">
+                                <a href="magazineindex.html"> <h1> | Consoles | </h1> </a>
+                                <a href="blogindex.html"> Playstation </a>
+                                <a href="blogindex.html"> | XBOX </a>
+                                <a href="blogindex.html"> | Nindendo </a>
+                                <a href="blogindex.html"> | PC </a>
+                                
+                                <h1> | About | </h1>
+                                <a href="supportindex.html"> Support </a>
+                                <a href="supportindex.html"> | Help </a>
+                                
+                                <h1> | Connect with us | </h1>
+                                <a href="https://www.facebook.com/"> Facebook </a>
+                                <a href="https://www.instagram.com/"> | Instagram </a>
+                                <a href="https://twitter.com/?lang=en"> | Twitter </a>
+                                <a href="https://www.youtube.com/"> | Youtube </a>
+                            </div>
+                        </div>
+                        
+                        <div class="Main_Content">
+                            <div class="Main_Content_header">
+                                Special Thanks
+                            </div>
+                            <div class="Main_Content">
+                                <h1> | Author(s) | </h1>
+                                <p> Roberto. Bliaja </p>
+                                <p> Micheal Jackson </p>
+                                
+                                <h1> | Editor(s) | </h1>
+                                <p>Rick Sanchez (Rick ID:1984-2) </p>
+                                <p>Morty Sanchez (Morty ID:658-85)</p>
+                                
+                                <h1> | Project Manager(s) | </h1>
+                                <p> Alan Wake </p>
+                                <p> Bob </p>
+                                
+                                <h1> | Chief Designer(s) | </h1>
+                                <p> Squidward </p>
+                                <p> Leroy </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--RIGHT RIBBON-->
+                <div class="right_ribbon">
+                    <div class="right_top_context_Ribbon">
+                        <div class="right_ribbon_headers">
+                            <h1>Features</h1>
+                        </div>
+                            <div class="right_top_context_Ribbon_content">
+                                <div class="feature_section">
+                                    <h1>UNDER THE HOOD</h1>
+                                    Game engines! They’re kind of like car engines, in
+                                    that they power the games you love playing, and
+                                    there are many different shapes and sizes of them
+                                    out there. Let's look at some of them together,
+                                    and discover which games they empower.
+
+                                     <div class="game_engines">
+                                        <div class="gallery">
+                                            <img src="Images/Unreal+Engine_logos_Unreal_Engine_White-1125x1280-0ac2243552326055d20928902aa57370acacd000.png" alt="unreal">
+                                        </div>
+
+                                        <div class="gallery">
+                                            <img src="Images/58482b92cef1014c0b5e4a2d.png"  alt="Mountains">
+                                        </div>
+
+                                        <div class="gallery">
+                                            <img src="Images/3969_cryengine-3-prev.png" alt="Mountains" >
+                                        </div>
+
+                                        <div class="gallery">
+                                            <img src="Images/Igq5LNn.png" alt="Mountains" >
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="feature_section01">
+                                    <h1>COMPUTEX TAIPEI 2020</h1>
+                                    Computex 2020 did not disappoint, delivering
+                                    an early taste of all the hottest hardware,
+                                    gadgets, peripherals, and assorted techie stuff
+                                    that you can expect to see on store shelves in the
+                                    coming months.
+                                    
+                                    <div class="computex">
+                                        <div class="computex_gallery">
+                                            <img src="Images/Computex_taipei_4.jpg" alt="Mountains" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    <div class="right_context_Ribbon">
+                        <div class="Ribbon_content">    
+                            <div class="Main_Content">
+                                <div class="Main_Content_header"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_bottom_context_Ribbon">
+                        <div class="charofthemonth">
+                            <h1>Characters of the Month</h1>
+                            <div class="charofthemonthname">
+                                <img src="Images/74-749299_logo-ratchet-clank-ratchet-e-clank-logo.png" alt="ratchet">
+                            </div>
+                        </div>
+                        <div class="ratchetandclank">
+                            <img src="Images/d9zgq4i-00e51002-3e56-44bf-b7ac-21ecf1c51aca.png" alt="ratchet">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="right_ribbon01">
+                    <div class="right_top_context_Ribbon">
+                        <div class="right_ribbon_headers">
+                            <h1>Extras</h1>
+                        </div>
+                    </div>
+                    
+                    <div class="right_bottom_context_Ribbon_content">
+                        <div class="feature_section02">
+                            <h1>Consoles are taking over the PC master race</h1>
+                            Remeber when gaming PC's were the top of the line gaming systems of today, Well, today Consoles are rising as the top affordable gaming machines that everyone is after. Is the PC Master Race a thing of the past or does it still beat the NEXT gen console, destroying leaving them in the dust?
+
+                             <div class="game_engines">
+                                <div class="gallery">
+                                    <img src="Images/823-8232402_pc-platform-logo.png" alt="plat">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="right_bottom_context_Ribbon_content">
+                        <div class="feature_section03">
+                            <h1>E3 is digital this time</h1>
+                                OKAY, SO THE MIGHTY E3 has 
+                                come and gone and now both 
+                                Sony and Microsoft have shown their 
+                                cards. What on earth or who on earth would leave their news for E3, defenitely not Sony...
+
+                             <div class="game_engines">
+                                <div class="gallery">
+                                    <img src="Images/E3_Logo.png" alt="e3">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="masterchief">
+                            <img src="Images/unnamed.png" alt="master">
+                        </div>
+                    </div>
+                    
+                    <div class="right_context_Ribbon">
+                        <div class="Ribbon_content">    
+                            <div class="Main_Content">
+                                <div class="Main_Content_header"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_bottom_context_Ribbon">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+        <!--PARALLAX BACKGROUND-->
+        <div class="parallax01"></div>
+        
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+        
+        <!--GAME LIST-->
+        <!--Catagorised in alphabetical order using links and paragraphs-->
+        <section>
+            <div id="games" class="game_List">
+                <div class="gameheading">
+                    <h1>Games for this Year</h1>
+                </div>
+                <div class="block">
+                    <h1>Games of 2021</h1>
+                </div>
+                
+                <!--A-->
+                <div class="block"> <h1>A</h1> 
+                    <a href="https://www.ageofempires.com/games/aoeiide/"><p> Age of Empires II: Definitive Edition - Lords of the West</p></a>
+                    <a href="https://www.koeitecmoamerica.com/ryza2/"><p> Atelier Ryza 2: Lost Legends & the Secret Fairy</p></a>
+                    <a href="https://www.nintendo.com/games/detail/azur-lane-crosswave-switch/"><p>	Azur Lane: Crosswave</p></a>
+                    <a href="https://www.nintendo.com/games/detail/anodyne-2-return-to-dust-switch/"><p> Anodyne 2: Return to Dust</p></a>
+                    <a href="https://en.wikipedia.org/wiki/Ar_Nosurge"><p> Ar Nosurge DX</p></a>
+                </div>
+                
+                <!--B-->
+                <div class="block"> <h1>B</h1> 
+                    <a href="https://store.playstation.com/en-za/product/EP2011-CUSA24669_00-2916274499704456"><p>Bladed Fury</p></a>
+                    <a href="https://www.nintendo.com/games/detail/bonkies-switch/"><p>Bonkies</p></a>
+                    <a href="https://nintendo.fandom.com/wiki/Buddy_Mission_BOND"><p>Buddy Mission: Bond</p></a>
+                    <a href="https://en.wikipedia.org/wiki/Bokuhime_Project"><p>Bokuhime Project</p></a>
+                    <a href="https://www.nintendo.com/games/detail/bravely-default-ii-switch/"><p>Bravely Default 2</p></a>
+                </div>
+                
+                <!--C-->
+                <div class="block"> <h1>C</h1> 
+                    <a href="https://yachtclubgames.com/cyber-shadow/"><p>Cyber Shadow</p></a>
+                    <a href="https://505games.com/games/control-ultimate-edition/"><p>Control: Ultimate Edition</p></a>
+                    <a href="https://en.wikipedia.org/wiki/Cultist_Simulator"><p>Cultist Simulator</p></a>
+                    <a href="https://www.nintendo.com/games/detail/capcom-arcade-stadium-switch/"><p>Capcom Arcade Stadium</p></a>
+                    <a href="https://store.playstation.com/en-za/concept/228981"><p>Can't Drive This</p></a>
+                </div>
+                
+                <!--D-->
+                <div class="block"> <h1>D</h1> 
+                    <a href="https://dragonquest.square-enix-games.com/tact/en-gb/"><p>Dragon Quest Tact</p></a>
+                    <a href="https://www.nintendo.com/games/detail/disgaea-6-defiance-of-destiny-switch/"><p>Disgaea 6: Defiance of Destiny</p></a>
+                    <a href="https://www.madmimic.com/dac"><p>Dandy Ace</p></a>
+                    <a href="https://www.feardemic-games.com/darq"><p>DARQ: Complete Edition</p></a>
+                    <a href="https://discoelysium.com/"><p>Disco Elysium: The Final Cut</p></a>
+                    <a href="https://store.steampowered.com/app/814530/Death_Crown/"><p>Death Crown</p></a>
+                </div>
+                
+                <!--E-->
+                <div class="block"> <h1>E</h1> 
+                    <a href="https://store.steampowered.com/app/1229380/Everhood/"><p>EverHood</p></a>
+                </div>
+                
+                <!--F-->
+                <div class="block"> <h1>F</h1> 
+                    <a href="https://www.game.co.uk/en/games/five-nights-at-freddys/core-collection/"><p>Five Nights at Freddy's: Core Collection</p></a> 
+                    <a href="https://en.wikipedia.org/wiki/Fearless_And_United_%E2%80%93_Guards"><p>Fearless and United Guards</p></a>
+                    <a href="https://www.nintendo.com/games/detail/fallen-legion-revenants-switch/"><p>Fallen Legion: Revenants</p></a>
+                    <a href="https://store.steampowered.com/app/333250/Forward_to_the_Sky/"><p>Forward to the Sky</p></a>
+                </div>
+                
+                <!--G-->
+                <div class="block"> <h1>G</h1> 
+                    <a href="https://www.nintendo.com/games/detail/ghosts-n-goblins-resurrection-switch/"><p>Ghosts 'n Goblins Resurrection</p></a>
+                    <a href="https://en.wikipedia.org/wiki/Gloria_Union"><p>Gloria Union: Twin Fates in Blue Ocean FHD Edition</p></a>
+                    <a href="https://www.guiltygear.com/ggst/en/"><p>Guilty Gear Strive</p></a>
+                    <a href="https://bethesda.net/en/game/ghostwire-tokyo"><p>Ghostwire: Tokyo</p></a>
+                </div>
+                
+                <!--H-->
+                <div class="block"> <h1>H</h1> 
+                    <a href="https://hitman.com/global/"><p>Hitman 3</p></a>
+                    <a href="https://store.steampowered.com/app/1473550/Habroxia_2/"><p>Habroxia 2</p></a>
+                    <a href="https://store.steampowered.com/app/983970/Haven/"><p>Haven</p></a>
+                    <a href="https://www.playhellpoint.com/"><p>Hellpoint</p></a>
+                    <a href="https://store.steampowered.com/app/1262920/Horned_Knight/"><p>Horned Knight</p></a>
+                </div>
+                
+                <!--I-->
+                <div class="block"> <h1>I</h1>
+                    <a href="https://www.nextstudios.com/iris/index_en.html"><p>Iris: Fall</p></a>
+                    <a href="https://www.ea.com/games/it-takes-two"><p>It Takes Two</p></a>
+                    <a href="https://www.theislandgame.com/"><p>Island</p></a>
+                </div>
+                
+                <!--J-->
+                <div class="block"> <h1>J</h1> 
+                    <p># No Games Available</p>
+                </div>
+                
+                <!--K-->
+                <div class="block"> <h1>K</h1> 
+                    <a href="https://www.kingofseas.net/"><p>King of Seas</p></a>
+                </div>
+                
+                <!--L-->
+                <div class="block"> <h1>L</h1> 
+                    <a href="https://en.bandainamcoent.eu/little-nightmares/little-nightmares-ii"><p>Little Nightmares II</p></a>
+                </div>
+                
+                <!--M-->
+                <div class="block"> <h1>M</h1> 
+                    <a href="https://store.steampowered.com/app/842810/Mrchen_Forest_Mylne_and_the_Forest_Gift_Legacy_ver/"><p>Marchen Forest: Myine and the Forest Gift</p></a>
+                    <a href="https://store.playstation.com/en-za/concept/10001413"><p>Maquette</p></a>
+                    <a href="https://supercrossthegame.com/"><p>Monster Energy Supercross: The Official Videogame 4</p></a>
+                    <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDfITjFLS08zYPRizy3NS0kszQMAV-YHiA&q=mundaun&oq=Mundaun&aqs=chrome.1.0i355j46j0l2j0i20i263j0j46j0i10l2j0.3055j0j4&sourceid=chrome&ie=UTF-8"><p>Mundaun</p></a>
+                    <a href="https://rpgamer.com/game/maglam-lord/"><p>Maglam Lord</p></a>
+                </div>
+                
+                <!--N-->
+                <div class="block"> <h1>N</h1> 
+                    <a href="https://naritaboy-game.com/"><p>Narita Boy</p></a>
+                    <a href="https://nier.square-enix-games.com/en-us/"><p>Nier Replicant</p></a>
+                    <a href="https://teamninja-studio.com/ngmc/us/"><p>Ninja Gaiden: Master Collection</p></a>
+                    <a href="https://en.wikipedia.org/wiki/Nayuta_no_Kiseki"><p>Nayuta no Kiseki Kai</p></a>
+                    <a href="https://en.wikipedia.org/wiki/No_More_Heroes_III"><p>No More Heroes III</p></a>
+                </div>
+                
+                <!--O-->
+                <div class="block"> <h1>O</h1> 
+                    <a href="https://www.nintendo.com/games/detail/olija-switch/"><p>Olija</p></a>
+                </div>
+                
+                <!--P-->
+                <div class="block"> <h1>P</h1> 
+                    <a href="https://atlus.com/p5s/"><p>Persona 5 Strikers</p></a>
+                </div>
+                
+                <!--Q-->
+                <div class="block"> <h1>Q</h1> 
+                    <p># No Games Available</p>
+                </div>
+                
+                <!--R-->
+                <div class="block"> <h1>R</h1> 
+                    <a href="https://ridevideogame.com/"><p>Ride 4</p></a>
+                    <a href="https://store.steampowered.com/app/1277510/ReZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/"><p>Re:Zero − Starting Life in Another World: The Prophecy of the Throne</p></a>
+                    <a href="https://www.team17.com/games/rogue-heroes-ruins-of-tasos/"><p>Rogue Heroes: Ruins of Tasos</p></a>
+                    <a href="https://rhythmdr.com/"><p>Rhythm Doctor</p></a>
+                    <a href="https://www.mlb.com/rbi-game"><p>R.B.I. Baseball 21</p></a>
+                </div>
+                
+                <!--S-->
+                <div class="block"> <h1>S</h1> 
+                    <a href="https://www.ubisoft.com/en-gb/game/scott-pilgrim-vs-the-world"><p>Scott Pilgrim vs. the world: The Game - Complete Edition</p></a>
+                    <a href="https://sf.my.games/en"><p>Skyforge</p></a>
+                    <a href="https://chorusworldwide.com/speed-limit-2/"><p>Speed Limit</p></a>
+                    <a href="https://www.strongholdwarlords.com/"><p>Stronghold: Warlords</p></a>
+                    <a href="https://www.snk-corp.co.jp/us/games/samuraishodown/"><p>Samurai Shodown</p></a>
+                    <a href="https://www.nintendo.co.za/Games/Nintendo-Switch/Saviors-of-Sapphire-Wings-Stranger-of-Sword-City-Revisited-1933149.html"><p>Saviors of Sapphire Wings & Stranger of Sword City Revisited</p></a>
+                </div>
+                
+                <!--T-->
+                <div class="block"> <h1>T</h1> 
+                    <a href="https://themediumgame.com/"><p>The Medium</p></a>
+                    <a href="https://store.playstation.com/en-us/product/UP0177-CUSA15325_00-YAKUZAREMASTERED"><p>The Yakuza Remastered Collection</p></a>
+                    <a href="https://store.steampowered.com/app/466630/The_Pedestrian/"><p>The Pedestrian</p></a>
+                    <a href="https://store.playstation.com/en-za/product/EP1063-CUSA07272_00-THESILVERCASEPS4"><p>The Silver Case</p></a>
+                    <a href="https://www.twopointstudios.com/two-point-hospital-jumbo-edition-coming-to-consoles/"><p>Two Point Hospital: Jumbo Edition</p></a>
+                </div>
+                
+                <!--U-->
+                <div class="block"> <h1>U</h1> 
+                    <p># No Games Available</p>
+                </div>
+                
+                <!--V-->
+                <div class="block"> <h1>V</h1> 
+                    <a href="https://nisamerica.com/void-terrarium/plus.html"><p>Void Terrarium Plus</p></a>
+                </div>
+                
+                <!--W-->
+                <div class="block"> <h1>W</h1> 
+                    <a href="https://store.steampowered.com/app/1342620/Werewolf_The_Apocalypse__Heart_of_the_Forest/"><p>Werewolf: The Apocalypse - Heart of the Forest</p></a>
+                    <a href="https://store.steampowered.com/app/1282700/Woodsalt/"><p>Woodsalt</p></a>
+                    <a href="https://en.wikipedia.org/wiki/Werewolf:_The_Apocalypse_%E2%80%93_Earthblood"><p>Werewolf: The Apocalypse – Earthblood</p></a>
+                    <a href="https://en.wikipedia.org/wiki/We_Were_Here_(series)"><p>We Were Here series</p></a>
+                    <a href="https://www.deathmarchclub.com/en/"><p>World's End Club</p></a>
+                </div>
+                
+                <!--X-->
+                <div class="block"> <h1>X</h1> 
+                    <p># No Games Available</p>
+                </div>
+                
+                <!--Y-->
+                <div class="block"> <h1>Y</h1> 
+                    <a href="https://store.steampowered.com/app/1444410/Yuoni/"><p>Yuoni</p></a>
+                </div>
+                
+                <!--Z-->
+                <div class="block"> <h1>Z</h1> 
+                    <a href="https://store.steampowered.com/app/1000080/Zengeon/"><p>Zengeon</p></a>
+                </div>
+            </div>
+        </section>
+        
+<!--/////////////////////////////////////////////////////////////////////////////////-->
+    
+        <!--FOOTER-->
+        <footer>
+            <div class="footer_block">
+                <div class="footer_headerimg" >
+                    <img src="Images/1076afe1fce56bb9c21c363076289d61.png" alt="">
+                </div>
+
+                <!--FOOTER LINKS-->
+                <div class="footer_content01">
+                    <div class="footer_content">
+                        <a href="supportindex.html">Support</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.privacypolicies.com/blog/cookies/">Privacy and cookies
+                        </a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.legalnature.com/guides/why-your-website-needs-a-strong-terms-of-use-agreement-and-what-to-include">Website terms of use
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_content02">
+                    <div class="footer_content">
+                        <a href="https://www.facebook.com/">Facebook</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://twitter.com/?lang=en">Twitter</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.youtube.com/">Youtube</a>
+                    </div>
+
+                    <div class="footer_content">
+                        <a href="https://www.instagram.com/">Instagram</a>
+                    </div>
+                </div>
+
+                <!--FOOTER END CREDITS-->
+                <div class="footer_content03">
+                    <div class="footer_content">
+                        Website ©2021 Game MAG Earth Limited. All content, games titles, trade names and/or trade dress, trademarks, artwork and associated imagery are trademarks and/or copyright material of their respective owners. All rights reserved.
+                        <a href="https://en.wikipedia.org/wiki/Copyright">More info</a>
+                    </div>
+                </div>
+
+                <!--FOOTER LOGOS-->
+                <div class="footer_footerimg">
+                    <img src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMKcsQ9nmElCMFQ2Rdk+T6OP49LXHl22HtaCLdORi9sMBnW.png" alt="logo">
+                </div>
+
+                <div class="footer_lower_block">
+                    <div class="footer_headerimg01" >
+                        <img src="Images/1j+ojVVCOMkX9Wyrexe4hGfe36vVt2o+7wiR1TMdNXJSsVc5i1d826cptutnc0kN5lgDhBMJcsY4nmElCMFQ2Rdk+T6OP49KWXd42HtaCLdORi9sMBnW.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="JavaScript/javacontentindex.js"></script>
+        
+    </body>
+</html>

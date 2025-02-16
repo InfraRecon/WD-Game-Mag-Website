@@ -1,0 +1,1196 @@
+
+.blog_spot
+{
+        /* The image used */
+    background-image: url("Style Images/80-806806_popular-video-games-collage.jpg");
+
+    /* Set a specific height */
+    height: 30vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    margin-left: -2vw;
+    margin-right: -2vw;
+    
+    z-index: 0;
+}
+
+.blog_spot img
+{
+    width: 100%;
+}
+
+.gamemag_title
+{
+    position: relative;
+    top: 0vw;
+    left: 2vw;
+    font-size: 3vw;
+    color: white;
+    font-family: Calibri;
+}
+
+.gamemag_title h1
+{
+    font-weight: lighter;
+}
+
+.blog_title
+{
+    position: relative;
+    top: -9.2vw;
+    left: 23vw;
+    font-size: 3vw;
+    color: purple;
+    font-family: Calibri;
+}
+
+.blog_title h1
+{
+    font-weight: bolder;
+}
+
+.platform
+{
+    position: relative;
+    top: -13vw;
+    left: 0vw;
+    width: 5.5vw;
+    height: 5vw;
+    padding: 1vw;
+    float: left;
+    color: grey;
+    font-size: 1.5vw;
+    font-family: Agency FB;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Slideshow container01 */
+.slideshow-container01
+{
+    position: relative;
+    top: -10vw;
+    width: 50vw;
+    padding: 10vw;
+
+    margin: auto;
+    transition: transform .60s; /* Animation */
+    border-radius: 2%;
+    left: -21vw;
+    z-index: 1;
+}
+
+.slideshow-container01 img
+{
+    border: 0.3vw Solid yellow;
+    border-radius: 2%;
+    padding: 1vw;
+    width: 100%;
+}
+
+.slideshow-container01 img:hover
+{
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .slideshow-container01
+    {
+        width: 80%;
+        left: -8vw;
+        top: -8vw;
+    }
+}
+
+.imageSpot_title
+{
+    position: absolute;
+    left: 9vw;
+    top: 3vw;
+    color: white;
+    padding: 1vw;
+    font-family: Calibri;
+    font-weight: lighter;
+    font-size: 3vw;
+    text-align: left;
+    width: 60vw;
+}
+
+/* Next & previous buttons */
+.prev01, .next01 
+{
+    position: absolute;
+    top: 26vw;
+    cursor: pointer;
+    color: rgb(255,255,255,1);
+    font-weight: bold;
+    font-size: 2vw;
+    transition: 0.6s ease;
+    border-radius: 100%;
+    user-select: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.2vw;
+    padding-top: 0.2vw;
+    background-color: rgb(255,255,255,0.2);
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .prev01, .next01 
+    {
+        font-size: 10vw;
+        background-color: transparent;
+    }
+}
+
+/* Position the "next button" to the right */
+.next01
+{
+    top: 44vw;
+    right: 30vw;
+    float:right;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .next01
+    {
+        top: 25vw;
+        right: 9vw;
+        float:right;
+        border-radius: 100%;
+    }
+}
+
+.prev01
+{
+    top: 44vw;
+    left: 30vw;
+    float:left;
+    border-radius: 100%;
+}
+
+
+@media only screen and (max-width: 1000px) 
+{
+    .prev01
+    {
+        top: 25vw;
+        left: 11vw;
+        float:left;
+        border-radius: 100%;
+    }
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev01:hover, .next01:hover 
+{
+    color: red;
+}
+
+.textButton01
+{
+    position: relative;
+    top: 28vw;
+    left: 4vw;
+    padding: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    font-size: 1.5vw;
+    font-family: Tw Cen MT;
+    background-color: darkgreen;
+    border-color: transparent;
+    color: white;
+    z-index: 2;
+}
+
+.textButton01:hover
+{
+    color: black;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .textButton01
+    {
+        position: absolute;
+        font-size: 2.5vw;
+        top: 90vw;
+        left: 37vw;
+    }
+}
+
+/* The dots/bullets/indicators */
+.dot_collection01
+{
+    position: absolute;
+    top: 18.6vw;
+    left: 57vw;
+    width: 35%;
+    z-index: 3;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .dot_collection01
+    {
+        display: none;
+    }
+}
+
+.dot01
+{
+    position: relative;
+    float: left;
+    width: 40%;
+    border-radius: 0%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border: 0.2vw Solid transparent;
+    border-radius: 5%;
+}
+
+.dot01:hover
+{
+    cursor: pointer;
+}
+
+.dot01 img
+{
+    position: relative;
+    width: 90%;
+}
+
+.active01, .dot01:hover 
+{
+    border: 0.2vw Solid purple;
+    border-radius: 5%;
+}
+
+/* Fading animation */
+.fade01
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes fade 
+{
+    from {opacity: .1} 
+    to {opacity: 4}
+}
+
+@keyframes fade 
+{
+    from {opacity: .1} 
+    to {opacity: 4}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) 
+{
+  .prev01, .next01 
+    {
+        font-size: 1vw;;
+    }
+}
+
+.desc
+{
+    color: white;
+    font-family: Agency FB;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image_block
+{
+    position: relative;
+    top: -15vw;
+    float: left;
+    width: 25%;
+    color: white;
+    font-family: Calibri;
+    padding: 2vw;
+}
+
+.image_block h1
+{
+    font-weight: lighter;
+    font-size: 2vw;
+}
+
+.image_block_image
+{
+    border: 0.3vw solid yellow;
+    padding: 0.5vw;
+    border-radius: 2%;
+    width: 25vw;
+    height: 14vw;
+}
+
+.image_block img
+{
+    position: relative;
+    float: left;
+    border-radius: 2%;
+    width: 100%;
+}
+
+.image_block p
+{
+    font-size: 1.5vw;
+    font-family: Agency FB;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+.trending_stories_Title
+{
+    position: absolute;
+    top: 10vw;
+    left: 1vw;
+}
+
+.trending_stories_Title h1
+{
+    position: relative;
+    color: white;
+    font-family: Agency FB;
+    font-weight: bolder;
+    font-size: 5vw;
+}
+
+.trending_stories_block
+{
+    position: relative;
+    top: -15vw;
+    float: left;
+    width: 41%;
+    color: white;
+    font-family: Calibri;
+    padding: 4vw;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .trending_stories
+    {
+        position: relative;
+        top: 10vw;
+    }
+    
+    .trending_stories_block
+    {
+        position: relative;
+        top: -10vw;
+        float: left;
+        width: 41%;
+        color: white;
+        font-family: Calibri;
+        padding: 1.5vw;
+    }   
+    
+    .trending_stories_block p
+    {
+        font-size: 2vw;
+    }
+}
+
+.trending_stories_block h1
+{
+    font-size: 2vw;
+}
+
+.trending_stories_Image
+{
+    padding: 1vw;
+    border: 0.3vw Solid white;
+}
+
+.trending_stories_block img
+{
+    width: 100%;
+}
+
+
+
+
+.Posts h1
+{
+    color: white;
+    font-family: Agency FB;
+    font-weight: bolder;
+    font-size: 5vw;
+}
+
+.posts_title
+{    
+    position: relative;
+    top: 75vw;
+    left: -84vw;
+    color: white;
+    font-family: Agency FB;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+
+.post_Image
+{
+    
+}
+
+.post_Image img
+{ 
+    padding: 1vw;
+}
+
+.post_info
+{
+    position: relative;
+    top: -124vw;
+    left: 45vw;
+    width: 40vw;
+    height: 29vw;
+    padding: 1vw;
+    float: right;
+    background: linear-gradient(transparent,grey,transparent,transparent,transparent);
+    color: white;
+    border-top-right-radius: 5%;
+}
+
+.post_info h1
+{
+    position: relative;
+    top: -4vw;
+    font-size: 4vw;
+    font-family: Agency FB;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.post_info p
+{
+    position: relative;
+    top: -7vw;
+    font-family: Calibri;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .posts_title
+    {    
+        position: relative;
+        top: 115vw;
+        left: -81vw;
+        color: white;
+        font-family: Agency FB;
+        font-weight: bolder;
+        font-size: 3vw;
+    }
+    
+    .post_Image
+    {
+        position: relative;
+        top: -105vw;
+        left: -1vw;
+        width: 85%;
+    }
+    
+    .post_info
+    {
+        position: relative;
+        top: -266vw;
+        left: -13vw;
+        width: 84%;
+        height: 4vw;
+        padding: 1vw;
+        margin-bottom: 42vw;
+        background: rgb(0,0,0,0.5);
+        float: right;
+        color: white;
+        border-top-right-radius: 5%;
+    }
+}
+
+
+
+
+
+
+/* Slideshow container02 */
+.slideshow-container02
+{
+    position: relative;
+    top: -30vw;
+    width: 50vw;
+    padding: 1vw;
+
+    margin: auto;
+    transition: transform .60s; /* Animation */
+    left: -22vw;
+    z-index: 1;
+}
+
+.slideshow-container02 img
+{
+    border: 0.3vw solid purple;
+
+    width: 100%;
+}
+
+.slideshow-container02 img:hover
+{
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    border: 0.3vw solid white;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .slideshow-container02
+    {
+        width: 100%;
+        left: 0vw;
+        top: 120vw;
+    }
+}
+
+/* Next & previous buttons */
+.prev02, .next02
+{
+    position: absolute;
+    top: 26vw;
+    cursor: pointer;
+    color: rgb(255,255,255,1);
+    font-weight: bold;
+    font-size: 2vw;
+    transition: 0.6s ease;
+    border-radius: 100%;
+    user-select: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.2vw;
+    padding-top: 0.2vw;
+    background-color: rgb(255,255,255,0.2);
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .prev02, .next02 
+    {
+        font-size: 4vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-bottom: 0.5vw;
+        padding-top: 0.5vw;
+        top: 158vw;
+    }
+}
+
+/* Position the "next button" to the right */
+.next02
+{
+    top: 44vw;
+    right: 30vw;
+    float:right;
+    border-radius: 100%;
+}
+
+.prev02
+{
+    top: 44vw;
+    left: 30vw;
+    float:left;
+    border-radius: 100%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev02:hover, .next02:hover 
+{
+    color: red;
+}
+
+.textButton02
+{
+    position: relative;
+    top: 28vw;
+    left: 4vw;
+    padding: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    font-size: 1.5vw;
+    font-family: Tw Cen MT;
+    background-color: darkgreen;
+    border-color: transparent;
+    color: white;
+    z-index: 2;
+}
+
+.textButton02:hover
+{
+    color: black;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .textButton02
+    {
+        position: absolute;
+        font-size: 2.5vw;
+        top: 90vw;
+        left: 37vw;
+    }
+}
+
+/* The dots/bullets/indicators */
+.dot_collection02
+{
+    position: absolute;
+    top: 215vw;
+    left: 3vw;
+    width: 100%;
+    z-index: 3;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .dot_collection02
+    {
+        top: 322.5vw;
+        left: 0vw;
+    }
+}
+
+.dot02
+{
+    position: relative;
+    float: left;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 0%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border: 0.2vw Solid transparent;
+    font-size: 4vw;
+    font-family: calibri;
+    color: white;
+}
+
+.dot02:hover
+{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .dot02 h1
+    {
+        top: -4.9vw;
+        font-size: 5vw;
+    }
+}
+
+.active02, .dot02:hover 
+{
+    border: 0.2vw Solid purple;
+    border-radius: 100%;
+}
+
+/* Fading animation */
+.fade
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes fade 
+{
+    from {opacity: .1} 
+    to {opacity: 4}
+}
+
+@keyframes fade 
+{
+    from {opacity: .1} 
+    to {opacity: 4}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev02, .next02 {font-size: 11px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Videos
+{
+    position: absolute;
+    top: -40vw;
+    left: 1vw;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .Videos
+    {
+        position: absolute;
+        top: 25vw;
+        left: 1vw;
+    }
+}
+
+.Trailers_Videos_title
+{
+    color: white;
+    font-family: Agency FB;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+
+.Trailers_Videos
+{
+    position: relative;
+    top: -2vw;
+    left: -2vw;
+    padding: 1vw;
+    padding-bottom: 15vw;
+    width: 20vw;
+    height: 11vw;
+    float: left;
+}
+
+.Trailers_Videos h1
+{
+    font-family: Agency FB;
+    color: white;
+    font-weight: bolder;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.Trailers_Videos p
+{
+    font-family: Calibri;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.Trailers_Videos iframe
+{
+    padding: 0.1vw;
+    width: 100%;
+    height: 100%;
+    border: 0.3vw solid purple;
+}
+
+@media only screen and (max-width: 1200px) 
+{
+    .Trailers_Videos
+    {
+        width: 44vw;
+        height: 25vw;
+    }
+}
+
+
+
+
+
+.dot_block
+{
+    position: absolute;
+    top: 29vw;
+    right: 0.25vw;
+    width: 10vw;
+    height: 0%;
+    z-index: -1;
+}
+
+.side_banner
+{
+    position: relative;
+    margin: 0.25vw;
+    border-radius: 0%;
+    float: right;
+    background-image: url("Style%20Images/80-806806_popular-video-games-collage.jpg");
+    
+    /* Set a specific height */
+    width: 10vw;
+    height: 10vw;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.connectwu
+{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background: black;
+    top: 0vw;
+    left: -0.4vw;
+    padding: 0.2vw;
+    font-family: Calibri;
+    font-size: 1vw;
+    color: white;
+    z-index: 1;
+}
+
+.connectwu h1
+{
+    position: relative;
+    top: -1vw;
+    color: white;
+    font-size: 1.4vw;
+    text-align: center;
+    font-family: Calibri;
+}
+
+
+.connectImage img
+{
+    position: relative;
+    top: -2.1vw;
+    left: 0.5vw;
+    width: 3.5vw;
+    padding: 0.5vw;
+    float: left;
+}
+
+.connectImage .PC_image
+{
+    filter: invert(1);
+}
+
+.gamemagimage img
+{
+    width: 100%;
+    filter: invert(1);
+}
+
+.connectwu a
+{
+    color: white;
+    text-decoration: none;
+    font-family: Calibri;
+}
+
+
+
+
+body
+{
+    background: black;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+/*Footer*/
+.footer_block
+{
+    position: relative;
+    top: 110vw;
+    left: -0.8vw;
+    width: 101.8%;
+    height: 50vw;
+    background-color: white;
+    z-index:10;
+}
+
+.footer_lower_block
+{
+    position: relative;
+    top: 50vw;
+    width: auto;
+    height: 5vw;
+    background-color: black;
+}
+
+.footer_headerimg img
+{
+    position: absolute;
+    float: left;
+    top: 5vw;
+    left: 10vw;
+    width: 10vw;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.footer_content01
+{
+    position: absolute;
+    top: 5vw;
+    left: 25vw;
+    width: 35vw;
+    float: left;
+}
+
+.footer_content02
+{
+    position: absolute;
+    top: 5vw;
+    left: 55vw;
+    width: 35vw;
+    float: left;
+}
+
+.footer_content03
+{
+    position: absolute;
+    top: 43vw;
+    left: 5vw;
+    width: 90%;
+    float: left;
+}
+
+.footer_content03 a
+{
+    text-decoration: underline;
+}
+
+.footer_content
+{
+    padding: 1vw;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.footer_headerimg01 img
+{
+    position: absolute;
+    top: 0.5vw;
+    left: 40vw;
+    width: 15vw;
+
+    filter: invert();
+}
+
+.footer_footerimg
+{
+    position: absolute;
+    float: right;
+    top: 35vw;
+    left: 5vw;
+    width: 35vw;
+
+    filter: invert();
+}
+
+.footer_header
+{
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+}
+@media only screen and (min-width: 1000px) 
+{
+    .footer_block
+    {
+        position: relative;
+        top: 70vw;
+        left: -0.8vw;
+        width: 101.8%;
+        height: 50vw;
+        background-color: white;
+        z-index:10;
+    }
+}
+
+@media screen and (max-width: 1000px) 
+{
+    .footer_block
+    {
+        width: 105%;
+        top: 200vw;
+        height: 130vw;
+        left: -2vw;
+        background-color: white;
+    }
+    
+    .footer_lower_block
+    {
+        width: auto;
+        top: 130vw;
+        height: 7vw;
+        background-color: black;
+    }
+
+
+    .footer_headerimg img
+    {
+        position: absolute;
+        float: left;
+        top: 0vw;
+        left: 5vw;
+        width: 20vw;
+    }
+
+    a
+    {
+        color: black;
+        text-decoration: none;
+    }
+
+    .footer_content01
+    {
+        position: absolute;
+        top: 20vw;
+        left: 5vw;
+        width: 35vw;
+        float: left;
+    }
+
+    .footer_content02
+    {
+        position: absolute;
+        top: 40vw;
+        left: 5vw;
+        width: 35vw;
+        float: left;
+    }
+
+    .footer_content03
+    {
+        position: absolute;
+        top: 116vw;
+        left: 5vw;
+        width: 90%;
+        float: left;
+    }
+
+    .footer_content03 a
+    {
+        text-decoration: underline;
+    }
+
+    .footer_content
+    {
+        padding: 1vw;
+        font-family: Calibri;
+        font-size: 2.5vw;
+        color: black;
+    }
+    
+    .footer_headerimg01 img
+    {
+        position: absolute;
+        float: right;
+        top:0.5vw;
+        left: 36vw;
+        width: 20vw;
+
+        filter: hue-rotate(60deg) invert();
+    }
+
+    .footer_footerimg
+    {
+        position: absolute;
+        float: right;
+        top: 100vw;
+        left: 5vw;
+        width: 35vw;
+
+        filter: hue-rotate(60deg) invert();
+    }
+
+    .footer_header
+    {
+        position: absolute;
+        top: 3vw;
+        left: 3vw;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 4vw;
+    }
+}
+
+
+
+
+
+
+section
+{
+    transform:  scale(0.8);
+}
+
+@media screen and (max-width: 1000px) 
+{
+    section
+    {
+        transform:  scale(1);
+    }
+
+}

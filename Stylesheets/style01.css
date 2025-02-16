@@ -1,0 +1,3281 @@
+/*magazineindex.html CSS*/
+
+/*Body*/
+body
+{
+    background:  white;
+    overflow-x: hidden;
+}
+
+/*
+img 
+{
+    transition: transform .2s;  Animation 
+}
+
+img:hover 
+{
+    transform: scale(1.2);  (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) 
+}
+*/
+
+
+.GameMAGMainImage
+{
+    position: absolute;
+    top: 15vw;
+    left: 4vw;
+    width: 20vw;
+    z-index: 1;
+}
+
+.GAME-MainLogo
+{
+    position: absolute;
+    text-decoration: none;
+    font-size: 8vw;
+    padding: 0vw;
+    top: 10vw;
+    left: 4vw;
+    font-family: Calibri;
+    color: white;
+    text-shadow: 0.11vw 0.1vw #FF0000;
+    z-index: 1;
+}
+
+.MAG-MainLogo
+{
+    position: absolute;
+    text-decoration:none;
+    font-size: 10vw;
+    padding: 0vw;
+    top:13vw;
+    left: 4vw;
+    font-family: Calibri;
+    color: white;
+    text-shadow: 0.11vw 0.1vw #FF0000;
+    z-index: 1;
+}
+
+
+
+.MainImageTitle
+{
+    position: absolute;
+    top: 5vw;
+    left: 2.5vw;
+    font-size: 5vw;
+    font-family: Calibri;
+    color: white;
+    z-index: 1;
+    
+/*
+    text-shadow: 0vw 0.2vw purple, 
+                 0.2vw 0vw black,
+                 0vw -0.2vw white,
+                 -0.2vw 0vw black;
+*/
+    
+}
+
+
+.parallax
+{
+    /* The image used */
+    position: relative;
+    background-image: url("Style Images/NTIlsET.gif");
+
+    /* Set a specific height */
+    height: 80vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    margin-left: -2vw;
+    margin-right: -2vw;
+    
+    filter: blur(0.4vw);
+    z-index: 0;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .parallax
+    {
+        height: 280vw;
+    }
+}
+
+
+.parallax01
+{
+    /* The image used */
+    position: relative;
+    background-image: url("Style Images/EarlyAntiqueIbizanhound-max-1mb.gif");
+
+    /* Set a specific height */
+    height: 80vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    margin-left: -2vw;
+    margin-right: -2vw;
+    
+    filter: blur(0.4vw);
+    
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .parallax01
+    {
+        height: 180vw;
+    }
+}
+
+.parallax02
+{
+    /* The image used */
+    position: relative;
+    background-image: url("Style Images/731d2c4051be840f3d57553725e46c94.gif");
+
+    /* Set a specific height */
+    height: 80vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    margin-left: -2vw;
+    margin-right: -2vw;
+    
+    filter: blur(0.4vw);
+    
+    z-index: 2;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .parallax02
+    {
+        height: 180vw;
+    }
+}
+
+.parallax03
+{
+    /* The image used */
+    position: relative;
+    background-image: url("Style Images/giphy-downsized-large.gif");
+
+    /* Set a specific height */
+    height: 80vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    margin-left: -2vw;
+    margin-right: -2vw;
+    
+    filter: blur(0.4vw);
+    
+    z-index: 3;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .parallax03
+    {
+        height: 180vw;
+    }
+}
+
+
+
+
+
+
+.interparallax
+{
+    /* The image used */
+    position: relative;
+    background-color: white;
+
+    /* Set a specific height */
+    height: 20vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    margin-left: -2vw;
+    margin-right: -2vw;
+    
+    z-index: 2;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .interparallax
+    {
+        height: 60vw;
+    }
+}
+
+.interparallax01
+{
+    /* The image used */
+    position: relative;
+    background-color: white;
+
+    /* Set a specific height */
+    height: 20vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    margin-left: -2vw;
+    margin-right: -2vw;
+    
+    z-index: 3;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .interparallax01
+    {
+        height: 60vw;
+    }
+}
+
+.interparallax02
+{
+    /* The image used */
+    position: relative;
+    background-color: white;
+
+    /* Set a specific height */
+    height: 20vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    margin-left: -2vw;
+    margin-right: -2vw;
+    
+    z-index: 4;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .interparallax02
+    {
+        height: 60vw;
+    }
+}
+
+.interparallax03
+{
+    /* The image used */
+    position: relative;
+    background-color: white;
+
+    /* Set a specific height */
+    height: 20vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    margin-left: -2vw;
+    margin-right: -2vw;
+    
+    z-index: 4;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .interparallax03
+    {
+        height: 30vw;
+    }
+}
+
+
+
+
+.gallery:hover .BloodBorneoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/scxalchjb0n51.jpg");
+    
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.BloodBorne
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.BloodBorne:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.gallery:hover .RatchetandClankoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/ratchet-and-clank-rift-apart-ps5-uhdpaper.com-4K-5.2046.jpg");
+    
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.RatchetandClank
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.RatchetandClank:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.gallery:hover .Unchartedoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/22b7fba1a4fdc53a0307df966146dc2d.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Uncharted
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.Uncharted:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.gallery:hover .DaysGoneoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/days-gone-de.jpg");
+    
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.DaysGone
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.DaysGone:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.gallery:hover .FinalFantasyVIIoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/ddwnv2r-7fb6a619-2c37-4691-b26b-9bfe9bb4031b.jpg");
+    
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.FinalFantasyVII
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.FinalFantasyVII:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery:hover .HorizonZeroDawnoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/1791091.jpg");
+    
+    left: -250vw;
+    top: -250vw;
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.HorizonZeroDawn
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.HorizonZeroDawn:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.gallery:hover .Shadowofthecolossusoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/de6aa8db16c1ca11d7265eefd8258892.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Shadowofthecolossus
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.Shadowofthecolossus:hover
+{
+    position: relative;
+    z-index: 2;
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery:hover .Thelastofusp2overlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/1267287.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Thelastofusp2
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.Thelastofusp2:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.gallery:hover .MarvelSpidermanoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/O3EnIZ.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.MarvelSpiderman
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.MarvelSpiderman:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.gallery:hover .GodOfWaroverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/788553.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.GodOfWar
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.GodOfWar:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.gallery:hover .DeathStrandingoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/wallpapersden.com_death-stranding-2019-4k_3840x2160.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.DeathStranding
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.DeathStranding:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.gallery:hover .InfamousSecondSonoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/wp1880402.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.InfamousSecondSon
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.InfamousSecondSon:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.gallery:hover .KNACKoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/thumb-1920-659599.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.KNACK
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.KNACK:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery:hover .DetroitBecomeHumanoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/Diesel_productv2_detroit-become-human_home_DETROIT_BECOME_HUMAN_PC_SCREENSHOT_7-1920x1080-fad5546bf18b8ea5b408a3415605dfa29d4ec7d3.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.DetroitBecomeHuman
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.DetroitBecomeHuman:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.gallery:hover .DemonsSoulsoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/demons-souls-remake-ps5-wallpapers-09.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.DemonsSouls
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.DemonsSouls:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery:hover .Returnaloverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/returnal_2021_4k_hd_returnal.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Returnal
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.Returnal:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery:hover .MilesMoralesoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/Miles-Morales-Spiderman-HD-Wallpaper.webp");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.MilesMorales
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.MilesMorales:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.gallery:hover .SackBoyoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/Sackboy-key-art.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.SackBoy
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.SackBoy:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.gallery:hover .GhostofToverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/1519396.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.GhostofT
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.GhostofT:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.gallery:hover .GodFalloverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/3Mfr3fMNijTm5rNxoDGBeQ.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.GodFall
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.GodFall:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery:hover .GT7overlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/gran-turismo-7-screenshot-05-disclaimer-en-01oct20.jfif");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.GT7
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.GT7:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery:hover .Kenaoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/Kena-Bridge-of-Spirits-1.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Kena
+{
+    position: relative;
+    z-index: 0; 
+}
+
+.Kena:hover
+{
+    position: relative;
+    z-index: 2; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.PS4_Title
+{
+    position: absolute;
+    top: 5vw;
+    z-index: 2;
+}
+
+.PS4_Title img
+{
+    background: rgb(255,255,255,0.8);
+    width: 20%;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .PS4_Title
+    {
+        top: 10vw;
+        left: 25vw;
+        width: 100%;
+    }
+    
+    .PS4_Title img
+    {
+        background: rgb(255,255,255,0.8);
+        width: 50%;
+    }
+}
+
+
+.XBOX_Title
+{
+    position: absolute;
+    top: 100vw;
+    z-index: 2;
+}
+
+.XBOX_Title img
+{
+    width: 20%;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .XBOX_Title
+    {
+        top: 345vw;
+        left: 5vw;
+        width: 100%;
+    }
+    
+    .XBOX_Title img
+    {
+        width: 90%;
+    }
+}
+
+
+.gallery01:hover .Fableoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/177838-fantasy_art-artwork-Fable.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 2;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Fable
+{
+    position: relative;
+    z-index: 1; 
+}
+
+.Fable:hover
+{
+    position: relative;
+    z-index: 3; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery01:hover .Sunsetoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/cfd850d1-4687-4373-a738-d294313d8390_apps.5419.13736301732248840.1e2d854a-e5e9-4c32-b8a1-2630937d19b9.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 2;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Sunset
+{
+    position: relative;
+    z-index: 1; 
+}
+
+.Sunset:hover
+{
+    position: relative;
+    z-index: 3; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery01:hover .Orioverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/thumb-1920-1028178.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 2;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Ori
+{
+    position: relative;
+    z-index: 1; 
+}
+
+.Ori:hover
+{
+    position: relative;
+    z-index: 3; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery01:hover .Crackoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/wp3970528.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 2;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Crack
+{
+    position: relative;
+    z-index: 1; 
+}
+
+.Crack:hover
+{
+    position: relative;
+    z-index: 3; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.gallery01:hover .Seaoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/1f355aca-753c-4213-8a42-563128129070.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 2;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Sea
+{
+    position: relative;
+    z-index: 1; 
+}
+
+.Sea:hover
+{
+    position: relative;
+    z-index: 3; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.gallery01:hover .Halooverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/910169.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 2;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Halo
+{
+    position: relative;
+    z-index: 1; 
+}
+
+.Halo:hover
+{
+    position: relative;
+    z-index: 3; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery01:hover .forzaoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/3fcdc65cef65f0670e14883492abaa19.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 2;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.forza
+{
+    position: relative;
+    z-index: 1; 
+}
+
+.forza:hover
+{
+    position: relative;
+    z-index: 3; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery01:hover .Gearsoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/Gears-5_Kait-Hero.webp");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 2;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Gears
+{
+    position: relative;
+    z-index: 1; 
+}
+
+.Gears:hover
+{
+    position: relative;
+    z-index: 3; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery01:hover .QBreakoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/05ddc9513f63b165a2249a75aa54950a.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 2;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.QBreak
+{
+    position: relative;
+    z-index: 1; 
+}
+
+.QBreak:hover
+{
+    position: relative;
+    z-index: 3; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery01:hover .SofD2overlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/c04f8f892e6467814229670a09ffca76.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 2;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.SofD2
+{
+    position: relative;
+    z-index: 1; 
+}
+
+.SofD2:hover
+{
+    position: relative;
+    z-index: 3; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery01:hover .zooToverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/1a43191b0d891c9ae3f13f24b4b9d491.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 2;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.zooT
+{
+    position: relative;
+    z-index: 1; 
+}
+
+.zooT:hover
+{
+    position: relative;
+    z-index: 3; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery01:hover .ashenoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/wp3974417.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 2;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.ashen
+{
+    position: relative;
+    z-index: 1; 
+}
+
+.ashen:hover
+{
+    position: relative;
+    z-index: 3; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+.NS_Title
+{
+    position: absolute;
+    top: 197vw;
+    z-index: 2;
+}
+
+.NS_Title img
+{
+    width: 60%;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .NS_Title
+    {
+        top: 585vw;
+        left: 16vw;
+        width: 100%;
+    }
+    
+    .NS_Title img
+    {
+        width: 60%;
+    }
+}
+
+.gallery02:hover .Mariooverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/1594369.png");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 3;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Mario
+{
+    position: relative;
+    z-index: 2; 
+}
+
+.Mario:hover
+{
+    position: relative;
+    z-index: 4; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery02:hover .Zeldaoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/wp1913609.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 3;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Zelda
+{
+    position: relative;
+    z-index: 2; 
+}
+
+.Zelda:hover
+{
+    position: relative;
+    z-index: 4; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery02:hover .animalCoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/animal-crossing-14.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 3;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.animalC
+{
+    position: relative;
+    z-index: 2; 
+}
+
+.animalC:hover
+{
+    position: relative;
+    z-index: 4; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery02:hover .MKartoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/mn4saq.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 3;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.MKart
+{
+    position: relative;
+    z-index: 2; 
+}
+
+.MKart:hover
+{
+    position: relative;
+    z-index: 4; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery02:hover .Splat2overlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/1780032.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 3;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Splat2
+{
+    position: relative;
+    z-index: 2; 
+}
+
+.Splat2:hover
+{
+    position: relative;
+    z-index: 4; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery02:hover .Smashoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/a9d74c2f788b321c538f34c84543f0da.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 3;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Smash
+{
+    position: relative;
+    z-index: 2; 
+}
+
+.Smash:hover
+{
+    position: relative;
+    z-index: 4; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+.PC_Title
+{
+    position: absolute;
+    top: 292vw;
+    z-index: 3;
+}
+
+.PC_Title img
+{
+    width: 60%;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .PC_Title
+    {
+        top: 818vw;
+        width: 100%;
+        left: 20vw;
+    }
+    
+    
+    .PC_Title img
+    {
+        width: 60%;
+    }
+}
+
+.gallery03:hover .alyxoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/half-life-alyx-behind-the-scenes-part-1-how-valve-found-its-new-alyx.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: 4;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.alyx
+{
+    position: relative;
+    z-index: 3; 
+}
+
+.alyx:hover
+{
+    position: relative;
+    z-index: 5; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery03:hover .TWoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/skv_queek.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 4;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.TW
+{
+    position: relative;
+    z-index: 3; 
+}
+
+.TW:hover
+{
+    position: relative;
+    z-index: 5; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery03:hover .Dota2overlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/viper-mars-witch-doctor.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 4;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.Dota2
+{
+    position: relative;
+    z-index: 3; 
+}
+
+.Dota2:hover
+{
+    position: relative;
+    z-index: 5; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery03:hover .LOLoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/ca1b25a489665652096a363603598c5a.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 4;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.LOL
+{
+    position: relative;
+    z-index: 3; 
+}
+
+.LOL:hover
+{
+    position: relative;
+    z-index: 5; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery03:hover .GW2overlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/OoMaouG.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 4;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.GW2
+{
+    position: relative;
+    z-index: 3; 
+}
+
+.GW2:hover
+{
+    position: relative;
+    z-index: 5; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery03:hover .AOEoverlay:not(:hover)
+{   
+    position: absolute;
+    background-image: url("Style Images/1110988.jpg");
+    left: -250vw;
+    top: -250vw;
+    
+    /* Set a specific height */
+    width: 500vw;
+    height: 500vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 4;
+    transition: ease .9s; /* Animation */
+    
+    animation: fade 2s, zoomer 20s infinite;
+}
+
+.AOE
+{
+    position: relative;
+    z-index: 3; 
+}
+
+.AOE:hover
+{
+    position: relative;
+    z-index: 5; 
+    
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+/*Image Gallery*/
+div.gallery 
+{
+    position: relative;
+    top: -65vw;
+    left: 4vw;
+    text-align: center;
+    float: left;
+    width: 13vw;
+    height: 13vw;
+    margin: 1vw;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    div.gallery
+    {
+        top: -250vw;
+        left: 3vw;
+        margin-right: 4vw;
+        margin-bottom: 4vw;
+        padding: 1vw;
+        width: 24vw;
+        height: 24vw;
+        padding: 1vw;
+    }
+}
+
+div.gallery img 
+{
+    width:100%;
+    border-radius: 10%;
+    background: rgb(100,100,255,0.25);
+}
+
+div.gallery img:hover
+{
+
+    border: 0.25vw solid transparent;
+    background: rgb(255,255,255,0.75);
+}
+
+div.desc
+{
+    background: transparent;
+    font-size: 1.1vw;
+
+    color: white;
+    text-align: center;
+    font-family: Calibri;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    div.desc 
+    {
+        font-size: 0vw;
+    }
+}
+
+/*Image Gallery*/
+div.gallery01 
+{
+    position: relative;
+    top: -65vw;
+    left: 6vw;
+    text-align: center;
+    float: left;
+    width: 19vw;
+    height: 19vw;
+    margin: 1vw;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    div.gallery01
+    {
+        top: -205vw;
+        left: 3vw;
+        margin-right: 4vw;
+        margin-bottom: 8vw;
+        padding: 1vw;
+        width: 26%;
+        padding: 1vw;
+        width: 24vw;
+        height: 24vw;
+    }
+}
+
+div.gallery01 img 
+{
+    width:100%;
+    border-radius: 10%;
+    background: rgb(0,255,0,0.25);
+}
+
+div.gallery01 img:hover
+{
+
+    border: 0.25vw solid transparent;
+    background: rgb(255,255,255,0.75);
+}
+
+div.desc
+{
+    background: transparent;
+    font-size: 1.1vw;
+
+    color: white;
+    text-align: center;
+    font-family: Calibri;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    div.desc 
+    {
+        font-size: 0vw;
+    }
+}
+
+/*Image Gallery*/
+div.gallery02 
+{
+    position: relative;
+    top: -65vw;
+    left: 4vw;
+    text-align: center;
+    float: left;
+    width: 27vw;
+    height: 27vw;
+    margin: 1vw;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    div.gallery02
+    {
+        top: -160vw;
+        left: 3vw;
+        margin-right: 4vw;
+        margin-bottom: 8vw;
+        padding: 1vw;
+        padding: 1vw;
+        width: 40vw;
+        height: 40vw;
+        margin: 1vw;
+    }
+}
+
+div.gallery02 img 
+{
+    width:100%;
+    border-radius: 10%;
+    background: rgb(255,0,0,0.25);
+}
+
+div.gallery02 img:hover
+{
+
+    border: 0.25vw solid transparent;
+    background: rgb(255,255,255,0.75);
+}
+
+div.desc
+{
+    background: transparent;
+    font-size: 1.1vw;
+
+    color: white;
+    text-align: center;
+    font-family: Calibri;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    div.desc 
+    {
+        font-size: 0vw;
+    }
+}
+
+/*Image Gallery*/
+div.gallery03 
+{
+    position: relative;
+    top: -65vw;
+    left: 4vw;
+    text-align: center;
+    float: left;
+    width: 27vw;
+    height: 27vw;
+    margin: 1vw;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    div.gallery03
+    {
+        top: -150vw;
+        left: 3vw;
+        margin-right: 4vw;
+        margin-bottom: 8vw;
+        padding: 1vw;
+        width: 39vw;
+        height: 39vw;
+        padding: 1vw;
+    }
+}
+
+div.gallery03 img 
+{
+    width:100%;
+    border-radius: 10%;
+    background: rgb(255,0,255,0.25);
+}
+
+div.gallery03 img:hover
+{
+
+    border: 0.25vw solid transparent;
+    background: rgb(255,255,255,0.75);
+}
+
+div.desc
+{
+    background: transparent;
+    font-size: 1.1vw;
+
+    color: white;
+    text-align: center;
+    font-family: Calibri;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    div.desc 
+    {
+        font-size: 0vw;
+    }
+}
+
+
+/* Set a style for all buttons */
+button
+{
+    background: transparent;
+    border-color: transparent;
+}
+
+/* Center the image and position the close button */
+.imgcontainer 
+{
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar 
+{
+      width: 40%;
+      border-radius: 50%;
+}
+
+.container 
+{
+    padding: 10vw;
+}
+
+article
+{
+    position: relative;
+    color: white;
+    top: 40vw;
+    left:0vw;
+    border: 0.5vw solid white;
+}
+
+/* The Modal (background) */
+.modal 
+{
+    position: relative;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: -0;
+    top: -0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,1); /* Black w/ opacity */
+    padding-top: 60px;
+    background: url(Style%20Images/photo-1534312527009-56c7016453e6.jpg);
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: 9;
+}
+
+/* Modal Content/Box */
+.modal-content 
+{
+    background-color: rgb(30,30,30,0.5);
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    height: 52vw;
+    width: 100%; /* Could be more or less, depending on screen size */
+    border-radius: 1%;
+}
+
+/* The Close Button (x) */
+.close 
+{
+    position: absolute;
+    left: 0vw;
+    top: 65vw;
+    color: white;
+    font-size: 7vw;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgb(30,30,30,0.5);
+    border-radius: 10%;
+    width: 9vw;
+    height: 9vw;
+    z-index: 10;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .close 
+    {
+        position: fixed;
+    }
+}
+
+.close:hover,
+.close:focus 
+{
+    color: red;
+    cursor: pointer;
+    background: rgb(30,30,30,0.25);
+}
+
+/* Add Zoom Animation */
+.animate 
+{
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom 
+{
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom 
+{
+    from 
+    {
+        transform: scale(0)
+    } 
+    to 
+    {
+        transform: scale(1)
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) 
+{
+    span.psw 
+    {
+        display: block;
+        float: none;
+    }
+}
+
+
+
+
+
+/* Slideshow container01 */
+.slideshow-container01
+{
+    top: 60vw;
+    margin: auto;
+    transition: transform .60s; /* Animation */
+    text-align: center;
+    width: 105%; 
+    left: -1vw;
+    z-index: 1;
+}
+
+.slideshow-container01 img:hover
+{
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .slideshow-container01
+    {
+        width: 100%;
+        left: 0vw;
+        top: 120vw;
+    }
+}
+
+.textButton01
+{
+    position: relative;
+    top: 28vw;
+    left: 4vw;
+    padding: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    font-size: 1.5vw;
+    font-family: Tw Cen MT;
+    background-color: darkgreen;
+    border-color: transparent;
+    color: white;
+    z-index: 2;
+}
+
+.textButton01:hover
+{
+    color: black;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .textButton01
+    {
+        position: absolute;
+        font-size: 2.5vw;
+        top: 90vw;
+        left: 37vw;
+    }
+}
+
+/* Number text (1/3 etc) */
+.numbertext01
+{
+    color: #f2f2f2;
+    font-size: 1.5vw;
+    padding: 2vw 1vw;
+    position: absolute;
+    color: white;
+    font-family: Arial Rounded MT;
+    top: 4vw;
+    left: 0vw;
+    background: rgb(0,0,0,0.5);
+    border-bottom-right-radius: 50%;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .numbertext01
+    {
+            top: 6vw;
+            left: 0vw;
+    }
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .numbertext01
+    {
+        top: 10vw;
+        left: 0vw;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) 
+{
+    
+    .VideosReview
+    {
+        position: fixed;
+        width: 70vw;
+        height: 40vw;
+        border: 2vw Solid white;
+        padding: 2vw;
+        top: 11vw;
+        left: 5vw;
+        z-index: 1;
+    }
+
+    .modal iframe
+    {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1000px) 
+{
+    .VideosReview
+    {
+        position: absolute;
+        width: 70vw;
+        height: 40vw;
+        border: 2vw Solid white;
+        padding: 2vw;
+        top: 0vw;
+        left: 5vw;
+        z-index: 1;
+    }
+
+    .modal iframe
+    {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+.SonyConsoles
+{
+    position: relative;
+    top: -58vw;
+    left: 4vw;
+    width: 100%;
+    float: left;
+    z-index: 2;
+}
+
+.XboxConsoles
+{
+    position: relative;
+    top: -61vw;
+    left: 11vw;
+    width: 100%;
+    float: left;
+    z-index: 3;
+}
+
+.NSConsoles
+{
+    position: relative;
+    top: -56vw;
+    left: 11vw;
+    width: 100%;
+    float: left;
+    z-index: 4;
+}
+
+.PCConsoles
+{
+    position: relative;
+    top: -56vw;
+    left: 21vw;
+    width: 100%;
+    float: left;
+    z-index: 4;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .SonyConsoles
+    {
+        position: relative;
+        top: -245vw;
+        left: 4vw;
+        width: 100%;
+        float: left;
+        z-index: 2;
+    }
+
+    .XboxConsoles
+    {
+        position: relative;
+        top: -197vw;
+        left: 3vw;
+        width: 100%;
+        float: left;
+        z-index: 3;
+    }
+
+    .NSConsoles
+    {
+        position: relative;
+        top: -144vw;
+        left: 3vw;
+        width: 100%;
+        float: left;
+        z-index: 4;
+    }
+
+    .PCConsoles
+    {
+        position: relative;
+        top: -150vw;
+        left: 2vw;
+        width: 100%;
+        float: left;
+        z-index: 4;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*Image Gallery*/
+div.congallery
+{
+    float: left;
+    width: 15vw;
+    height: 15vw;
+    padding-right: 3vw;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    div.congallery
+    {
+        top: -205vw;
+        left: 3vw;
+        margin-right: 4vw;
+        margin-bottom: 8vw;
+        padding: 1vw;
+        width: 26%;
+        padding: 1vw;
+    }
+}
+
+div.congallery img 
+{
+    width:100%;
+    border-radius: 10%;
+}
+
+div.congallery img:hover
+{
+
+    border: 0.25vw solid transparent;
+    background: rgb(0,0,0,0.25);
+}
+
+div.desc
+{
+    background: transparent;
+    font-size: 1.1vw;
+
+    color: white;
+    text-align: center;
+    font-family: Calibri;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    div.desc 
+    {
+        font-size: 0vw;
+    }
+}
+
+
+
+
+.gameName h1
+{
+    font-size: 4vw;
+    font-family: Calibri;
+}
+
+.gamePlat
+{
+        font-size: 2vw;
+        font-family: Calibri;
+        padding-bottom: 2vw;
+}
+
+.gameReviewer
+{
+    font-size: 1.5vw;
+    font-family: Calibri;
+    padding-bottom: 2vw;
+}
+
+.gameReview
+{
+    font-size: 1.5vw;
+    font-family: calibri;
+    padding-bottom: 2vw;
+    background: rgb(0,0,0,0.25);
+    padding: 1vw;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .gameName h1
+    {
+        font-size: 6vw;
+    }
+    
+    .gameReviewer
+    {
+        font-size: 2.5vw;
+    }
+    
+    .gameReview
+    {
+        font-size: 2.5vw;
+    }
+}
+
+
+
+
+
+/*Footer*/
+.footer_block
+{
+    position: relative;
+    top: 10vw;
+    left: -0.8vw;
+    width: 101.8%;
+    height: 50vw;
+    background-color: white;
+    z-index:10;
+}
+
+.footer_lower_block
+{
+    position: relative;
+    top: 50vw;
+    width: auto;
+    height: 5vw;
+    background-color: black;
+}
+
+.footer_headerimg img
+{
+    position: absolute;
+    float: left;
+    top: 5vw;
+    left: 10vw;
+    width: 10vw;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.footer_content01
+{
+    position: absolute;
+    top: 5vw;
+    left: 25vw;
+    width: 35vw;
+    float: left;
+}
+
+.footer_content02
+{
+    position: absolute;
+    top: 5vw;
+    left: 55vw;
+    width: 35vw;
+    float: left;
+}
+
+.footer_content03
+{
+    position: absolute;
+    top: 43vw;
+    left: 5vw;
+    width: 90%;
+    float: left;
+}
+
+.footer_content03 a
+{
+    text-decoration: underline;
+}
+
+.footer_content
+{
+    padding: 1vw;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.footer_headerimg01 img
+{
+    position: absolute;
+    top: 0.5vw;
+    left: 40vw;
+    width: 15vw;
+
+    filter: invert();
+}
+
+.footer_footerimg
+{
+    position: absolute;
+    float: right;
+    top: 35vw;
+    left: 5vw;
+    width: 35vw;
+
+    filter: invert();
+}
+
+.footer_header
+{
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+@media screen and (max-width: 1000px) 
+{
+    .footer_block
+    {
+        width: 105%;
+        top: 10vw;
+        height: 130vw;
+        left: -2vw;
+        background-color: white;
+    }
+    
+    .footer_lower_block
+    {
+        width: auto;
+        top: 130vw;
+        height: 7vw;
+        background-color: black;
+    }
+
+
+    .footer_headerimg img
+    {
+        position: absolute;
+        float: left;
+        top: 0vw;
+        left: 5vw;
+        width: 20vw;
+    }
+
+    a
+    {
+        color: black;
+        text-decoration: none;
+    }
+
+    .footer_content01
+    {
+        position: absolute;
+        top: 20vw;
+        left: 5vw;
+        width: 35vw;
+        float: left;
+    }
+
+    .footer_content02
+    {
+        position: absolute;
+        top: 40vw;
+        left: 5vw;
+        width: 35vw;
+        float: left;
+    }
+
+    .footer_content03
+    {
+        position: absolute;
+        top: 116vw;
+        left: 5vw;
+        width: 90%;
+        float: left;
+    }
+
+    .footer_content03 a
+    {
+        text-decoration: underline;
+    }
+
+    .footer_content
+    {
+        padding: 1vw;
+        font-family: Calibri;
+        font-size: 2.5vw;
+        color: black;
+    }
+    
+    .footer_headerimg01 img
+    {
+        position: absolute;
+        float: right;
+        top:0.5vw;
+        left: 36vw;
+        width: 20vw;
+
+        filter: hue-rotate(60deg) invert();
+    }
+
+    .footer_footerimg
+    {
+        position: absolute;
+        float: right;
+        top: 100vw;
+        left: 5vw;
+        width: 35vw;
+
+        filter: hue-rotate(60deg) invert();
+    }
+
+    .footer_header
+    {
+        position: absolute;
+        top: 3vw;
+        left: 3vw;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 4vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes example
+{
+    0% {left:0vw; top:0vw;}
+    50% {left:0vw; top:-2vw;}
+    100% {left:0vw; top:0vw;}
+}
+
+@-webkit-keyframes fade 
+{
+    from {opacity: .1} 
+    to {opacity: 4}
+}
+
+@keyframes fade 
+{
+    from {opacity: .1} 
+    to {opacity: 4}
+}
+
+@keyframes zoomer
+{
+    0%   {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100%   {transform: scale(1);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

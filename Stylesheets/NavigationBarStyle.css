@@ -1,0 +1,978 @@
+/*Header*/
+.black_header
+{
+    background-color: white;
+    margin: -1.6vw;
+}
+
+.SideMenuImage
+{
+    width: 4vw;
+    left: 0vw;
+    top: 0vw;
+    z-index: 3;
+}
+
+.GameMAGImage
+{
+    position: fixed;
+    left: -3vw;
+    top: -3vw;
+    width:9vw;
+    filter: hue-rotate(60deg) invert();
+    transition: 0.5s ease;
+    z-index: 10;
+}
+
+.GameMAGImage:hover
+{
+    transform:  scale(1.5);
+}
+
+
+@media only screen and (max-width: 1000px) 
+{
+    .GameMAGImage
+    {
+        left: -2vw;
+        top: -2vw;
+        width:5vw;
+    }
+}
+
+
+/*NAVIGATION BAR*/
+/* Add a black background color to the top navigation */
+.topnav 
+{
+    background:  rgb(30,30,30);
+    overflow: inherit;
+    position: fixed;
+    padding-left: 24vw;
+    width: 100%;
+    height: 4.5vw;
+    left: 0vw;
+    top: 0vw;
+    z-index:10;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a 
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.4vw 2vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: calibri;
+}
+
+/* Add an active class to highlight the current page */
+.active 
+{
+    color: red;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon 
+{
+    display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown 
+{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown01
+{
+    float: left;
+    overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn 
+{
+    position: a;
+    top: 0vw;
+    left 0vw;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.4vw 2vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: calibri;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+}
+
+.dropdown01 .dropbtn01
+{
+    position: absolute;
+    top: 0vw;
+    left 0vw;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: calibri;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+}
+
+.dropdown01 .dropbtn01 img
+{
+    width: 2.5vw;
+    filter: invert();
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content01
+{
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a 
+{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content01 a 
+{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn 
+{
+    color: orange;
+}
+
+.topnav a:hover, .dropdown01:hover .dropbtn01 img
+{
+    color: orange;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover 
+{
+    
+}
+
+.dropdown-content01 a:hover 
+{
+    background-color: dimgrey;
+    color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+    position: fixed;
+    top: 4.3vw;
+    left: 0vw;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.dropdown01:hover .dropdown-content01
+{
+    display: block;
+    position: fixed;
+    top: 4.5vw;
+    left: 0vw;
+    width:100%;
+    height: auto;
+    z-index: 1;
+}
+
+.login_btn
+{
+    position: absolute;
+    top: 0.5vw;
+    right: 25vw;
+}
+
+.login_btn button
+{
+    padding: 0.8vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: calibri;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    border: 0.1vw solid white;
+    border-radius: 5%;
+}
+
+.login_btn button:hover
+{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    /* Add a black background color to the top navigation */
+    .topnav 
+    {
+        height: 10vw;
+        padding-left: 19vw;
+        background:  rgb(30,30,30);
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a 
+    {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 3vw 2vw;
+        text-decoration: none;
+        font-size: 3vw;
+/*
+        text-shadow: 0.2vw 0vw grey,
+                     0vw 0.2vw grey,
+                     -0.2vw 0vw grey,
+                     0vw -0.2vw grey;
+*/
+    }
+    
+    /* Dropdown container - needed to position the dropdown content */
+    .dropdown 
+    {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown01
+    {
+        float: left;
+        overflow: hidden;
+    }
+
+    /* Style the dropdown button to fit inside the topnav */
+    .dropdown .dropbtn 
+    {
+        position: relative;
+        top: 0vw;
+        left 0vw;
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 3vw 2vw;
+        text-decoration: none;
+        font-size: 3vw;
+        font-weight: bold;
+        font-family: calibri;
+        background: transparent;
+        border: none;
+        text-decoration: none;
+/*
+        text-shadow: 0.2vw 0vw grey,
+                     0vw 0.2vw grey,
+                     -0.2vw 0vw grey,
+                     0vw -0.2vw grey;
+*/
+    }
+
+    .dropdown01 .dropbtn01
+    {
+        position: absolute;
+        top: 11.5vw;
+        right: 22vw;
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 1vw;
+        text-decoration: none;
+        font-size: 3vw;
+        font-weight: bold;
+        font-family: calibri;
+        background: black;
+        border-radius: 25%;
+        border: none;
+        text-decoration: none;
+    }
+
+    .dropdown01 .dropbtn01 img
+    {
+        width: 7vw;
+        filter: invert();
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content 
+    {
+        display: none;
+        position: absolute;
+        background-color: transparent;
+        min-width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 0;
+    }
+
+    .dropdown-content01
+    {
+        display: none;
+        position: absolute;
+        background-color: green;
+        min-width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 0;
+    }
+
+    /* Style the links inside the dropdown */
+    .dropdown-content a 
+    {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content01 a 
+    {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav a:hover, .dropdown:hover .dropbtn 
+    {
+        color: orange;
+    }
+
+    .topnav a:hover, .dropdown01:hover .dropbtn01 img
+    {
+        color: orange;
+    }
+
+    /* Add a grey background to dropdown links on hover */
+    .dropdown-content a:hover 
+    {
+        background-color: transparent;
+        color: black;
+    }
+
+    .dropdown-content01 a:hover 
+    {
+        background-color: dimgrey;
+        color: black;
+    }
+
+    /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+    .dropdown:hover .dropdown-content 
+    {
+        display: block;
+        position: fixed;
+        top: 10vw;
+        left: 0vw;
+        width:100%;
+        height: auto;
+        z-index: -1;
+    }
+
+    .dropdown01:hover .dropdown-content01
+    {
+        display: block;
+        position: fixed;
+        top: 4.5vw;
+        left: 0vw;
+        width:100%;
+        height: auto;
+        z-index: 1;
+    }
+    
+    .login_btn
+    {
+        position: absolute;
+        top: 2vw;
+        right: 20vw;
+    }
+
+    .login_btn button
+    {
+        padding: 0.8vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-family: calibri;
+        font-weight: thin;
+        font-size: 2.5vw;
+        color: white;
+        background: rgb(0,0,0,0.5);
+        border: 0.1vw solid white;
+        border-radius: 5%;
+    }
+}
+
+
+.search_box 
+{
+    position: absolute; 
+    left: 0vw;
+    top: 0vw;
+    width:100%;
+    height: 12vw;
+    background: white;
+}
+.search_bar 
+{
+    position: absolute;
+    top:4vw;
+    left: 22vw;
+}
+
+.search_bar input[type=text] 
+{
+    padding: 1vw;
+    border-color: transparent;
+    border-bottom: 0.1vw solid black;
+    width: 50vw;
+    height: 2vw;
+    font-size: 1.5vw;
+    color: black;
+    background: rgb(255,255,255,0);
+    text-align: center;
+}
+
+.search_btn
+{
+    
+    position: absolute;
+    top: 4vw;
+    right: 12vw;
+}
+
+.search_btn button
+{
+    font-family: calibri;
+    font-size: 1.5vw;
+    color: white;
+    padding: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background: purple;
+    border: 0.2vw solid transparent;
+    border-radius: 5%;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .search_box 
+    {
+        position: absolute; 
+        left: 0vw;
+        top: 5vw;
+        width:100%;
+        height: 12vw;
+        background: white;
+        z-index: 1;
+    }
+    .search_bar 
+    {
+        position: absolute;
+        top:2vw;
+        left: 22vw;
+    }
+
+    .search_bar input[type=text] 
+    {
+        padding: 3vw;
+        border-color: transparent;
+        border-bottom: 0.1vw solid black;
+        width: 50vw;
+        height: 2vw;
+        font-size: 3vw;
+        color: black;
+        background: rgb(255,255,255,0);
+        text-align: center;
+    }
+
+    .search_btn
+    {
+
+        position: absolute;
+        top: 4vw;
+        right: 10vw;
+    }
+
+    .search_btn button
+    {
+        font-family: calibri;
+        font-size: 3vw;
+        color: white;
+        padding: 1vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        background: purple;
+        border: 0.2vw solid transparent;
+        border-radius: 5%;
+    }
+}
+
+
+
+/*Side Menu Navigation*/
+.sidenav 
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5vw;
+    font-family: calibri;
+    border-right: 1px solid black;
+}
+
+.sidenav a 
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover 
+{
+    color: red;
+}
+
+.sidenav h1
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-weight: thin;
+}
+
+.sidenav h1:hover 
+{
+    color: orangered;
+}
+
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.closebtn 
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidegallery
+{
+    float: left;
+    width: 36vw;
+}
+
+.sidegallery p
+{
+    position: relative;
+    top: -20px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    display: block;
+    transition: 0.3s;
+}
+
+.sideContent
+{
+    position: relative;
+    top: -2vw;
+    left: 5vw;
+    transform: scale(0.8);
+}
+
+
+div.connectImagegallery
+{
+    position: relative;
+    top: -40px;
+    left: 30px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    padding:1px;
+    margin: 2px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+div.connectImagegallery img
+{
+    position: relative;
+    top: -8px;
+    left:-32px;
+    width: 30px;   
+    border-radius: 50%;
+}
+
+div.connectImagegallery:hover
+{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .sideContent
+    {
+        top: 5vw;
+        left: -2vw;
+        transform: scale(0.9);
+    }
+    
+    .sidenav a 
+    {
+        font-size: 15px;
+    }
+    
+    .sidenav h1
+    {
+        font-size: 20px;
+    }
+    
+    .sidegallery p
+    {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-height: 450px) 
+{
+    .sidenav 
+    {
+        padding-top: 15px;
+    }
+    .sidenav a 
+    {
+        font-size: 18px;
+    }
+}
+
+.game_banner
+{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 1vw;
+    padding: 0.5vw;
+    border: 0.2vw solid purple;
+    border-radius: 10%;   
+    background: rgb(240,240,240);
+    z-index: -1;
+}
+
+.game_banner img
+{
+    position: relative;
+    width: 100%;
+    border-radius: 10%;   
+}
+
+
+
+
+
+.GameMaglogo
+{
+    position: absolute;
+    top: 0.2vw;
+    left: 8vw;
+    padding: 0.1vw;
+    width: 13vw;
+    filter: hue-rotate(60deg) invert();
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .GameMaglogo
+    {
+        top: 3vw;
+        left: 1vw;
+        padding: 0.1vw;
+        width: 20vw;
+        filter: hue-rotate(60deg) invert();
+    }
+}
+
+.GameMaglogoside
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0.1vw;
+    width: 170px;
+    filter: hue-rotate(560deg);
+}
+
+
+/*Platform Table*/
+table, th, td
+{
+    border: none;
+    background: rgb(255,255,255,0.8);
+    margin-right: 30vw;
+    width: 30vw;
+    height: auto;
+}
+
+table img
+{
+    width: 10vw;
+    transition: 0.5s ease;
+}
+
+table img:hover
+{
+    background: transparent;
+    transform: scale(1.1);
+}
+
+/*Login Form*/
+/* Full-width input fields */
+input[type=text], input[type=password]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.container .loginBtn
+{
+    background-color: purple;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0%;
+    border: none;
+}
+
+/* Extra styles for the cancel button */
+.container .cancelBtn 
+{
+    width: auto;
+    padding: 10px 18px;
+    background-color: darkred;
+    border: none;
+}
+
+.loginBtn:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.cancelBtn:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer 
+{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar
+{
+    width: 40%;
+    border-radius: 50%;
+    background: white;
+    border: 0.5vw solid black;
+}
+
+.container 
+{
+    padding: 16px;
+}
+
+span.psw 
+{
+    position: relative;
+    top: -1vw;
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal 
+{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 40px;
+}
+
+/* Modal Content/Box */
+.modal-content 
+{
+    background: radial-gradient(black,rgb(50,50,50,0.6));
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 0.2vw solid grey;
+    width: 80%; /* Could be more or less, depending on screen size */
+    font-family: calibri;
+    font-size: 1.5vw;
+    color: white;
+    
+    text-shadow: 0.1vw 0vw black,
+                0vw 0.1vw black,
+                -0.1vw 0vw black,
+                0vw -0.1vw black;
+}
+
+/* The Close Button (x) */
+.close 
+{
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus 
+{
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate 
+{
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom 
+{
+    from 
+    {
+        -webkit-transform: scale(0)
+    } 
+    to 
+    {
+        -webkit-transform: scale(1)
+    }
+}
+  
+@keyframes animatezoom 
+{
+    from 
+    {
+        transform: scale(0)
+    } 
+    to 
+    {
+        transform: scale(1)
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) 
+{
+    span.psw 
+    {
+        display: block;
+        float: none;
+    }
+    .cancelbtn 
+    {
+        width: 100%;
+    }
+}
+
+.language
+{
+    position: absolute;
+    z-index: 13;
+}

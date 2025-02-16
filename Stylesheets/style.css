@@ -1,0 +1,2887 @@
+/*index.html CSS*/
+
+/*Body*/
+body
+{
+    background:  black;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow-x: hidden;
+}
+
+/*
+img 
+{
+    transition: transform .2s;  Animation 
+}
+
+img:hover 
+{
+    transform: scale(1.2);  (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) 
+}
+*/
+
+
+.GameMAGMainImage
+{
+    position: absolute;
+    top: 15vw;
+    left: 4vw;
+    width: 20vw;
+    z-index: 1;
+}
+
+.GAME-MainLogo
+{
+    position: absolute;
+    text-decoration: none;
+    font-size: 8vw;
+    padding: 0vw;
+    top: 10vw;
+    left: 4vw;
+    font-family: Calibri;
+    color: white;
+    text-shadow: 0.11vw 0.1vw #FF0000;
+    z-index: 1;
+}
+
+.MAG-MainLogo
+{
+    position: absolute;
+    text-decoration:none;
+    font-size: 10vw;
+    padding: 0vw;
+    top:13vw;
+    left: 4vw;
+    font-family: Calibri;
+    color: white;
+    text-shadow: 0.11vw 0.1vw #FF0000;
+    z-index: 1;
+}
+
+
+
+.MainImageTitle
+{
+    position: absolute;
+    top: 5vw;
+    left: 2.5vw;
+    font-size: 5vw;
+    font-family: Calibri;
+    color: white;
+    z-index: 1;
+    
+/*
+    text-shadow: 0vw 0.2vw purple, 
+                 0.2vw 0vw black,
+                 0vw -0.2vw white,
+                 -0.2vw 0vw black;
+*/
+    
+}
+
+
+.parallax1
+{
+    /* The image used */
+    background-image: url("Style Images/ps4-system-software-wallpapers-section-background-desktop-02-ps4-eu-05mar18.jpg");
+
+    /* Set a specific height */
+    min-height: 150vw; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-top: -5vw;
+/*    top: 123vw;*/
+}
+
+.parallax2
+{
+    /* The image used */
+    background-image: url("Style Images/qbkXk6P.png");
+
+    /* Set a specific height */
+    min-height: 110vw; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+/*    top: 193vw;*/
+}
+
+.parallax3
+{
+    /* The image used */
+    background-image: url("Style Images/wp2241790.png");
+
+    /* Set a specific height */
+    min-height: 200vw; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+/*    top: 193vw;*/
+}
+
+.parallax4
+{
+    /* The image used */
+    background-image: url("Style Images/187161.jpg");
+
+    /* Set a specific height */
+    min-height: 250vw; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+/*    top: 193vw;*/
+}
+
+@media only screen and (max-width: 1000px) 
+{   
+    .parallax1
+    {
+        margin-top: -15vw;
+        background-attachment: fixed;
+        background-position: center;
+        min-height: 240vw;
+    }
+    
+    .parallax2
+    {
+        margin-top: 0vw;
+        background-attachment: fixed;
+        background-position: center;
+        min-height: 150vw;
+    }
+    
+    .parallax3
+    {
+        margin-top: 0vw;
+        background-attachment: fixed;
+        background-position: center;
+        min-height: 150vw;
+    }
+    
+    .parallax4
+    {
+        margin-top: 0vw;
+        background-attachment: fixed;
+        background-position: center;
+        min-height: 330vw;
+    }
+}
+
+/*Main Page IMAGE*/
+/* Slideshow container */
+.slideshow-container img
+{
+    top: 0vw;
+    position: absolute;
+    margin: auto;
+    transition: transform .60s; /* Animation */
+    text-align: center;
+    width: 100%; 
+    left: 0vw;
+    background-image: linear-gradient(red, yellow);
+    z-index: 1;
+    
+    animation-name: zoomer;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.slideshow-container img:hover
+{
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .slideshow-container img
+    {
+        width: 200%;
+        left: -50%;
+        top: 0vw;
+    }
+}
+
+.Block_Gradient
+{
+    top: -0vw;
+    left: 0vw;
+    position: absolute;
+    height: 70vw;
+    width: 100%;
+    
+    background-image: linear-gradient(black,transparent,transparent,transparent,transparent,black,black,black,transparent);
+    
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .Block_Gradient
+    {
+        width: 100%;
+        height: 125vw;
+        left: 0;
+        top: 6vw;
+        background-image: linear-gradient(transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,black,black,black,black,black,transparent);
+    }
+}
+
+.Block_Gradient01
+{
+    top: -85vw;
+    left: 50%;
+    position: relative;
+    height: 85vw;
+    width: 100%;
+    background-image: linear-gradient(black,black,black,black);
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .Block_Gradient01
+    {
+        width: 52%;
+        left: 50%;
+    }
+}
+
+.Block_Gradient03
+{
+    top: -85vw;
+    left: -0vw;
+    position: relative;
+    height: 86.5vw;
+    width: 100%;
+    background-image: linear-gradient(white,white,white,white,white,white,white,white,white,blue,darkblue,transparent);
+    z-index: 3;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .Block_Gradient03
+    {
+        top: -85vw;
+        width: 104%;
+        left: -2vw;
+    }
+}
+
+.Block_Gradient04
+{
+    top: -95vw;
+    left: 0vw;
+    position: relative;
+    height: 86.5vw;
+    width: 100%;
+    background-image: linear-gradient(transparent,black,black,black,black,black,black,black,black,green,darkgreen,transparent);
+    z-index: 3;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .Block_Gradient04
+    {
+        top: -105vw;
+        width: 104%;
+        left: -2vw;
+    }
+}
+
+.Block_Gradient05
+{
+    top: -95vw;
+    left: 0vw;
+    position: relative;
+    height: 86.5vw;
+    width: 100%;
+    background-image: linear-gradient(transparent,white,white,white,white,white,white,white,white,pink,purple,transparent);
+    z-index: 3;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .Block_Gradient05
+    {
+        top: -105vw;
+        width: 104%;
+        left: -2vw;
+    }
+}
+
+/*PS5 Preview Content*/
+.PS5_Preview_Content
+{
+    position: absolute;
+    top: 175vw;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .PS5_Preview_Content
+    {
+        top: 380vw;
+    }
+}
+
+.ps5_logo
+{
+    position: relative;
+    top: -169vw;
+    left: 2vw;
+    z-index: 3;
+}
+
+.ps5_logo img
+{
+    width:15vw;
+}
+
+.ps5_console
+{
+    position: relative;
+    top: -168vw;
+    left: 2vw;
+    z-index: 3;
+}
+
+.ps5_console img
+{
+    width:45vw;
+}
+
+.ps5_consoledigi
+{
+    position: relative;
+    top: -241vw;
+    left: 50vw;
+    z-index: 3;
+}
+
+.ps5_consoledigi img
+{
+    width:45vw;
+}
+
+.ps5_headers
+{
+    position: relative;
+    font-family: Calibri;  
+    text-align: center;
+    left: -25vw;
+    font-size: 2vw;
+    z-index: 5;
+}
+
+.PS5ConsoleButton01
+{
+    position: relative;
+    width: 16vw;
+    top: -200vw;
+    left: 27vw;
+    color: grey;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1vw;
+    padding: 0.5vw;
+    z-index: 3;
+}
+
+.PS5ConsoleButton02
+{
+    position: relative;
+    width: 16vw;
+    top: -271.7vw;
+    left: 52vw;
+    color: grey;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 1vw;
+    z-index: 3;
+}
+
+.ps5button
+{
+    width: 17vw;
+    color: grey;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 0.3vw solid grey;
+    transition: transform .2s; /* Animation */
+}
+
+.ps5digibutton
+{
+    width: 17vw;
+    color: grey;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 0.3vw solid grey;
+    transition: transform .2s; /* Animation */
+}
+
+.PS5Games
+{
+    position: relative;
+    width: 16vw;
+    top: -248.5vw;
+    left: 3vw;
+    color: white;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1vw;
+    padding: 0.5vw;
+    z-index: 3; 
+}
+
+.PS5GamesButton
+{
+    width: 18vw;
+    color: white;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 0.3vw solid white;
+    transition: transform .2s; /* Animation */
+}
+
+.ps5button:hover
+{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.ps5digibutton:hover
+{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.PS5GamesButton:hover
+{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.PS5_Image_Gallery img
+{
+    position: relative;
+    top: -258vw;
+    margin: 0.5vw;
+    left: 25vw;
+    text-align: center;
+    border: 0.1vw solid black;
+    float: left;
+    width: 17%;
+    z-index: 3;
+    transition: transform .2s; /* Animation */
+}
+
+.PS5_Image_Gallery img:hover
+{
+    text-align: center;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.GOW_Logo_Prev
+{
+    position: absolute;
+    top: -20vw;
+    left: 1vw;
+}
+
+.GOW_Logo_Prev img
+{
+   width: 50vw;
+}
+
+.GOW_Prev
+{
+    position: absolute;
+    top: 10vw;  
+    left: 1vw;
+}
+
+.GOW_Prev iframe
+{
+    padding: 1vw;
+    border-radius: 2%;
+    width: 50vw;
+    height: 28vw;
+    border: 0.3vw solid white;
+}
+
+.GOW_Content_Prev01
+{
+    position: absolute;
+    top: 0vw;
+    left: 56%;
+    background: rgb(0,0,0,0.5);
+    width: 40%;
+    height: 48vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.3vw solid white;
+}
+
+.GOW_Content_Prev02
+{
+    position: absolute;
+    top: 41vw;
+    left: 1vw;
+    background: rgb(0,0,0,0.5);
+    width: 25%;
+    height: 18vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.3vw solid white;
+}
+
+.GOW_Content_Prev03
+{
+    position: absolute;
+    top: 41vw;
+    left: 28.5vw;
+    background: rgb(0,0,0,0.5);
+    width: 23%;
+    height: 18vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.3vw solid white;
+}
+
+.GOW_Content_Prev04
+{
+    position: absolute;
+    top: 51vw;
+    left: 55vw;
+    background: rgb(0,0,0,0.5);
+    width: 40%;
+    height: 15vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.3vw solid white;
+}
+
+.GOW_Content_Prev01 h1, 
+.GOW_Content_Prev03 h1, 
+.GOW_Content_Prev04 h1
+{
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1vw;
+    color: white;
+    text-shadow: 0.1vw 0vw blue,
+        0.1vw 0vw blue,
+        0vw -0.1vw blue,
+        -0.1vw 0vw blue;
+}
+
+div.OOPLogo
+{
+    position: relative;
+    top: 84vw;
+    margin-right: 4vw;
+    left: 1vw;
+    text-align: center;
+    float: left;
+    width: 10%;
+    z-index: 3;
+}
+
+div.OOPLogo img
+{
+    
+    width: 100%;
+    filter: invert()
+    
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .GOW_Logo_Prev
+    {
+        position: absolute;
+        top: -27vw;
+        left: 14%;
+    }
+
+    .GOW_Logo_Prev img
+    {
+        display: none;
+    }
+
+    .GOW_Prev
+    {
+        position: relative;
+        top: -250vw;  
+        text-align: center;
+    }
+    
+    .GOW_Prev iframe
+    {
+        padding: 1vw;
+        border-radius: 2%;
+        width: 90vw;
+        height: 50vw;
+        border: 0.4vw solid white;
+    }
+
+    .GOW_Content_Prev01
+    {
+        display: none;
+    }
+
+    .GOW_Content_Prev02
+    {
+        display: none;
+    }
+
+    .GOW_Content_Prev03
+    {
+        display: none;
+    }
+
+    .GOW_Content_Prev04
+    {
+        display: none;
+    }
+    
+    div.OOPLogo
+    {
+        position: relative;
+        top: 193vw;
+        padding: 1vw;
+        margin-right: 4vw;
+        left: 13vw;
+        text-align: center;
+        float: left;
+        width: 13%;
+        z-index: 3;
+    }
+
+    div.OOPLogo img
+    {
+
+        width: 100%;
+        filter: invert()
+
+    }
+}
+
+
+
+
+/*XBOX Preview Content*/
+.XBOX_Preview_Content
+{
+    position: absolute;
+    top: 336vw;
+    left: 0vw;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .XBOX_Preview_Content
+    {
+        top: 550vw;
+    }
+}
+
+.XBOX_logo
+{
+    position: relative;
+    top: -164vw;
+    left: 2vw;
+    z-index: 3;
+}
+
+.XBOX_logo img
+{
+    width:15vw;
+}
+
+.XBOX_console
+{
+    position: relative;
+    top: -168vw;
+    left: 2vw;
+    z-index: 3;
+}
+
+.XBOX_console img
+{
+    width: 45vw;
+    border-radius: 10%;
+    border: 0.1vw solid white;
+}
+
+.XBOX_consoledigi
+{
+    position: relative;
+    top: -230vw;
+    left: 50vw;
+    z-index: 3;
+}
+
+.XBOX_consoledigi img
+{
+    width: 45vw;
+    border-radius: 10%;
+    border: 0.1vw solid white;
+}
+
+.XBOX_headers
+{
+    position: relative;
+    font-family: Calibri;  
+    text-align: center;
+    left: -25vw;
+    font-size: 2vw;
+    z-index: 5;
+}
+
+.XBOXConsoleButton01
+{
+    position: relative;
+    width: 16vw;
+    top: -214vw;
+    left: 3vw;
+    color: grey;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1vw;
+    padding: 0.5vw;
+    z-index: 3;
+}
+
+.XBOXConsoleButton02
+{
+    position: relative;
+    width: 16vw;
+    top: -275vw;
+    left: 52vw;
+    color: grey;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 1vw;
+    z-index: 3;
+}
+
+.XBOXbutton
+{
+    width: 17vw;
+    color: grey;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 0.3vw solid grey;
+    transition: transform .2s; /* Animation */
+}
+
+.XBOXdigibutton
+{
+    width: 17vw;
+    color: grey;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 0.3vw solid grey;
+    transition: transform .2s; /* Animation */
+}
+
+.XBOXGames
+{
+    position: relative;
+    width: 16vw;
+    top: -238vw;
+    left: 3vw;
+    color: white;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1vw;
+    padding: 0.5vw;
+    z-index: 3; 
+}
+
+.XBOXGamesButton
+{
+    width: 19vw;
+    color: white;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 0.3vw solid white;
+    transition: transform .2s; /* Animation */
+}
+
+.XBOXbutton:hover
+{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.XBOXdigibutton:hover
+{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.XBOXGamesButton:hover
+{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.XBOX_Image_Gallery img
+{
+    position: relative;
+    top: -246vw;
+    margin: 0.5vw;
+    left: 25vw;
+    text-align: center;
+    border: 0.1vw solid white;
+    float: left;
+    width: 17%;
+
+    z-index: 3;
+    transition: transform .2s; /* Animation */
+}
+
+.XBOX_Image_Gallery img:hover
+{
+    text-align: center;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+.Forza_Logo_Prev
+{
+    position: absolute;
+    top: -11vw;
+    left: 16vw;
+}
+
+.Forza_Logo_Prev img
+{
+   width: 20vw;
+}
+
+.Forza_Prev
+{
+    position: absolute;
+    top:10vw;  
+    left: 1vw;
+}
+
+.Forza_Prev iframe
+{
+    padding: 1vw;
+    border-radius: 2%;
+    width: 50vw;
+    height: 28vw;
+    border: 0.2vw solid white;
+}
+
+.Forza_Content_Prev01
+{
+    position: absolute;
+    top: -10vw;
+    left: 56%;
+    background: rgb(0,0,0,0.5);
+    width: 40%;
+    height: 48vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.2vw solid white;
+}
+
+.Forza_Content_Prev02
+{
+    position: absolute;
+    top: 42vw;
+    left: 1vw;
+    background: rgb(0,0,0,0.5);
+    width: 31%;
+    height: 17vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.2vw solid white;
+}
+
+.Forza_Content_Prev03
+{
+    position: absolute;
+    top: 42vw;
+    left: 35vw;
+    background: rgb(0,0,0,0.5);
+    width: 23%;
+    height: 17vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.2vw solid white;
+}
+
+.Forza_Content_Prev04
+{
+    position: absolute;
+    top: 42vw;
+    left: 60.8vw;
+    background: rgb(0,0,0,0.5);
+    width: 32.5%;
+    height: 17vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.2vw solid white;
+}
+
+.Forza_Content_Prev01 h1, 
+.Forza_Content_Prev03 h1, 
+.Forza_Content_Prev04 h1
+{
+    text-align: center;
+    font-family: Castellar;
+    font-weight: bold;
+    font-size: 0.8vw;
+    color: white;
+    text-shadow: 0.1vw 0vw black,
+        0.1vw 0vw red,
+        0vw -0.1vw black,
+        -0.1vw 0vw red;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .Forza_Logo_Prev
+    {
+        position: absolute;
+        top: -11vw;
+        left: 40%;
+    }
+
+    .Forza_Logo_Prev img
+    {
+        display: none;
+    }
+
+    .Forza_Prev
+    {
+        position: relative;
+        top: -240vw;  
+        text-align: center;
+    }
+    
+    .Forza_Prev iframe
+    {
+        padding: 1vw;
+        border-radius: 2%;
+        width: 90vw;
+        height: 50vw;
+        border: 0.4vw solid white;
+    }
+
+    .Forza_Content_Prev01
+    {
+        display: none;
+    }
+
+    .Forza_Content_Prev02
+    {
+        display: none;
+    }
+
+    .Forza_Content_Prev03
+    {
+        display: none;
+    }
+
+    .Forza_Content_Prev04
+    {
+        display: none;
+    }
+    
+    div.OOPLogo01
+    {
+        position: relative;
+        top: 154vw;
+        padding: 1vw;
+        margin-right: 4vw;
+        left: 0vw;
+        text-align: center;
+        float: left;
+        width: 8%;
+        z-index: 3;
+    }
+
+    div.OOPLogo01 img
+    {
+
+        width: 100%;
+        filter: invert()
+
+    }
+}
+
+
+
+
+/*NS Preview Content*/
+.NS_Preview_Content
+{
+    position: absolute;
+    top: 488vw;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .NS_Preview_Content
+    {
+        top: 707vw;
+    }
+}
+
+.NS_logo
+{
+    position: relative;
+    top: -169vw;
+    left: 2vw;
+    z-index: 3;
+}
+
+.NS_logo img
+{
+    width:15vw;
+}
+
+.NS_console
+{
+    position: relative;
+    top: -148vw;
+    left: 10vw;
+    z-index: 3;
+}
+
+.NS_console img
+{
+    width: 35vw;
+    border-radius: 10%;
+    border: 0.1vw solid transparent;
+}
+
+.NS_consoledigi
+{
+    position: relative;
+    top: -175vw;
+    left: 50vw;
+    z-index: 3;
+}
+
+.NS_consoledigi img
+{
+    width: 35vw;
+    border-radius: 10%;
+    border: 0.1vw solid transparent;
+}
+
+.NS_headers
+{
+    position: relative;
+    font-family: Calibri;  
+    text-align: center;
+    left: -25vw;
+    font-size: 2vw;
+    z-index: 5;
+}
+
+.NSConsoleButton01
+{
+    position: relative;
+    width: 17vw;
+    top: -180vw;
+    left: 18vw;
+    color: grey;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1vw;
+    padding: 0.5vw;
+    z-index: 3;
+}
+
+.NSConsoleButton02
+{
+    position: relative;
+    width: 18vw;
+    top: -208vw;
+    left: 58vw;
+    color: grey;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 1vw;
+    z-index: 3;
+}
+
+.NSbutton
+{
+    width: 17vw;
+    color: grey;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 0.3vw solid grey;
+    transition: transform .2s; /* Animation */
+}
+
+.NSdigibutton
+{
+    width: 18vw;
+    color: grey;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 0.3vw solid grey;
+    transition: transform .2s; /* Animation */
+}
+
+.NSGames
+{
+    position: relative;
+    width: 23vw;
+    top: -173vw;
+    left: 1vw;
+    color: white;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1vw;
+    padding: 0.5vw;
+    z-index: 3; 
+}
+
+.NSGamesButton
+{
+    width: 22vw;
+    color: white;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 0.3vw solid white;
+    transition: transform .2s; /* Animation */
+}
+
+.NSbutton:hover
+{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.NSdigibutton:hover
+{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.NSGamesButton:hover
+{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.NS_Image_Gallery img
+{
+    position: relative;
+    top: -181.5vw;
+    margin: 0.5vw;
+    left: 25vw;
+    text-align: center;
+    border: 0.1vw solid white;
+    float: left;
+    width: 17%;
+
+    z-index: 3;
+    transition: transform .2s; /* Animation */
+}
+
+.NS_Image_Gallery img:hover
+{
+    text-align: center;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.Mario_Logo_Prev
+{
+    position: absolute;
+    top: -11vw;
+    left: 16vw;
+}
+
+.Mario_Logo_Prev img
+{
+   width: 20vw;
+}
+
+.Mario_Prev
+{
+    position: absolute;
+    top:10vw;  
+    left: 1vw;
+}
+
+.Mario_Prev iframe
+{
+    
+    padding: 1vw;
+    border-radius: 2%;
+    width: 50vw;
+    height: 28vw;
+    border: 0.2vw solid white;
+}
+
+.Mario_Content_Prev01
+{
+    position: absolute;
+    top: -10vw;
+    left: 56%;
+    background: rgb(0,0,0,0.5);
+    width: 40%;
+    height: 48vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.2vw solid white;
+}
+
+.Mario_Content_Prev02
+{
+    position: absolute;
+    top: 42vw;
+    left: 1vw;
+    background: rgb(0,0,0,0.5);
+    width: 31%;
+    height: 17vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.2vw solid white;
+}
+
+.Mario_Content_Prev03
+{
+    position: absolute;
+    top: 42vw;
+    left: 35vw;
+    background: rgb(0,0,0,0.5);
+    width: 23%;
+    height: 17vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.2vw solid white;
+}
+
+.Mario_Content_Prev04
+{
+    position: absolute;
+    top: 42vw;
+    left: 60.8vw;
+    background: rgb(0,0,0,0.5);
+    width: 34%;
+    height: 17vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.2vw solid white;
+}
+
+.Mario_Content_Prev01 h1, 
+.Mario_Content_Prev03 h1, 
+.Mario_Content_Prev04 h1
+{
+    text-align: center;
+    font-family: Castellar;
+    font-weight: bold;
+    font-size: 0.8vw;
+    color: white;
+    text-shadow: 0.1vw 0vw black,
+        0.1vw 0vw red,
+        0vw -0.1vw black,
+        -0.1vw 0vw red;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .Mario_Logo_Prev
+    {
+        position: absolute;
+        top: -11vw;
+        left: 40%;
+    }
+
+    .Mario_Logo_Prev img
+    {
+        display: none;
+    }
+
+    .Mario_Prev
+    {
+        position: relative;
+        top: -177vw;  
+        text-align: center;
+    }
+    
+    .Mario_Prev iframe
+    {
+        padding: 1vw;
+        border-radius: 2%;
+        width: 90vw;
+        height: 50vw;
+        border: 0.4vw solid white;
+    }
+
+    .Mario_Content_Prev01
+    {
+        display: none;
+    }
+
+    .Mario_Content_Prev02
+    {
+        display: none;
+    }
+
+    .Mario_Content_Prev03
+    {
+        display: none;
+    }
+
+    .Mario_Content_Prev04
+    {
+        display: none;
+    }
+    
+    div.OOPLogo01
+    {
+        position: relative;
+        top: 154vw;
+        padding: 1vw;
+        margin-right: 4vw;
+        left: 0vw;
+        text-align: center;
+        float: left;
+        width: 8%;
+        z-index: 3;
+    }
+
+    div.OOPLogo01 img
+    {
+
+        width: 100%;
+        filter: invert()
+
+    }
+}
+
+
+
+
+
+
+
+
+
+/*NS Preview Content*/
+.PC_Preview_Content
+{
+    position: absolute;
+    top: 644vw;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .PC_Preview_Content
+    {
+        top: 860vw;
+    }
+}
+
+.PC_logo
+{
+    position: relative;
+    top: -169vw;
+    left: 2vw;
+    z-index: 3;
+}
+
+.PC_logo img
+{
+    width:15vw;
+}
+
+.PC_console
+{
+    position: relative;
+    top: -164vw;
+    left: 10vw;
+    z-index: 3;
+}
+
+.PC_console img
+{
+    width: 35vw;
+    border-radius: 10%;
+    border: 0.1vw solid transparent;
+}
+
+.PC_consoledigi
+{
+    position: relative;
+    top: -209.5vw;
+    left: 55vw;
+    z-index: 3;
+}
+
+.PC_consoledigi img
+{
+    width: 35vw;
+    border-radius: 10%;
+    border: 0.1vw solid transparent;
+}
+
+.PC_headers
+{
+    position: relative;
+    font-family: Calibri;  
+    text-align: center;
+    left: -25vw;
+    font-size: 2vw;
+    z-index: 5;
+}
+
+.PCConsoleButton01
+{
+    position: relative;
+    width: 17vw;
+    top: -205.5vw;
+    left: 19vw;
+    color: grey;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1vw;
+    padding: 0.5vw;
+    z-index: 3;
+}
+
+.PCConsoleButton02
+{
+    position: relative;
+    width: 18vw;
+    top: -250.5vw;
+    left: 65vw;
+    color: grey;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 1vw;
+    z-index: 3;
+}
+
+.PCbutton
+{
+    width: 17vw;
+    color: grey;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 0.3vw solid grey;
+    transition: transform .2s; /* Animation */
+}
+
+.PCdigibutton
+{
+    width: 18vw;
+    color: grey;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 0.3vw solid grey;
+    transition: transform .2s; /* Animation */
+}
+
+.PCGames
+{
+    position: relative;
+    width: 23vw;
+    top: -216vw;
+    left: 1vw;
+    color: white;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1vw;
+    padding: 0.5vw;
+    z-index: 3; 
+}
+
+.PCGamesButton
+{
+    width: 22vw;
+    color: white;
+    text-align: center;
+    background: transparent;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 0.3vw solid white;
+    transition: transform .2s; /* Animation */
+}
+
+.PCbutton:hover
+{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.PCdigibutton:hover
+{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.PCGamesButton:hover
+{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.PC_Image_Gallery img
+{
+    position: relative;
+    top: -225vw;
+    margin: 0.5vw;
+    left: 25vw;
+    text-align: center;
+    border: 0.1vw solid white;
+    float: left;
+    width: 17%;
+
+    z-index: 3;
+    transition: transform .2s; /* Animation */
+}
+
+.PC_Image_Gallery img:hover
+{
+    text-align: center;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.AA_Logo_Prev
+{
+    position: absolute;
+    top: -7vw;
+    left: 16vw;
+}
+
+.AA_Logo_Prev img
+{
+   width: 20vw;
+}
+
+.AA_Prev
+{
+    position: absolute;
+    top:15vw;
+    left: 1vw;
+}
+
+.AA_Prev iframe
+{
+    padding: 1vw;
+    border-radius: 2%;
+    width: 50vw;
+    height: 28vw;
+    border: 0.2vw solid white;
+}
+
+.AA_Content_Prev01
+{
+    position: absolute;
+    top: -5vw;
+    left: 56%;
+    background: rgb(0,0,0,0.5);
+    width: 40%;
+    height: 48vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.2vw solid white;
+}
+
+.AA_Content_Prev02
+{
+    position: absolute;
+    top: 47vw;
+    left: 1vw;
+    background: rgb(0,0,0,0.5);
+    width: 31%;
+    height: 17vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.2vw solid white;
+}
+
+.AA_Content_Prev03
+{
+    position: absolute;
+    top: 47vw;
+    left: 35vw;
+    background: rgb(0,0,0,0.5);
+    width: 23%;
+    height: 17vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.2vw solid white;
+}
+
+.AA_Content_Prev04
+{
+    position: absolute;
+    top: 47vw;
+    left: 60.8vw;
+    background: rgb(0,0,0,0.5);
+    width: 34%;
+    height: 17vw;
+    border: none;
+    font-family: Calibri;
+    color: white;
+    padding: 1vw;
+    font-size: 1.13vw;
+    border-radius: 2%;
+    border: 0.2vw solid white;
+}
+
+.AA_Content_Prev01 h1, 
+.AA_Content_Prev03 h1, 
+.AA_Content_Prev04 h1
+{
+    text-align: center;
+    font-family: Castellar;
+    font-weight: bold;
+    font-size: 0.8vw;
+    color: white;
+    text-shadow: 0.1vw 0vw black,
+        0.1vw 0vw red,
+        0vw -0.1vw black,
+        -0.1vw 0vw red;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .AA_Logo_Prev
+    {
+        position: absolute;
+        top: -11vw;
+        left: 40%;
+    }
+
+    .AA_Logo_Prev img
+    {
+        display: none;
+    }
+
+    .AA_Prev
+    {
+        position: relative;
+        top: -220vw;  
+        text-align: center;
+    }
+    
+    .AA_Prev iframe
+    {
+        padding: 1vw;
+        border-radius: 2%;
+        width: 90vw;
+        height: 50vw;
+        border: 0.4vw solid white;
+    }
+
+    .AA_Content_Prev01
+    {
+        display: none;
+    }
+
+    .AA_Content_Prev02
+    {
+        display: none;
+    }
+
+    .AA_Content_Prev03
+    {
+        display: none;
+    }
+
+    .AA_Content_Prev04
+    {
+        display: none;
+    }
+    
+    div.OOPLogo01
+    {
+        position: relative;
+        top: 154vw;
+        padding: 1vw;
+        margin-right: 4vw;
+        left: 0vw;
+        text-align: center;
+        float: left;
+        width: 8%;
+        z-index: 3;
+    }
+
+    div.OOPLogo01 img
+    {
+
+        width: 100%;
+        filter: invert()
+
+    }
+}
+
+
+
+
+
+
+
+
+
+.Block_Gradient02
+{
+    top: -85vw;
+    left: -1%;
+    position: relative;
+    height: 85vw;
+    width: 51%;
+    background-image: linear-gradient(black,black,black,black);
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .Block_Gradient02
+    {
+        width: 55%;
+        left: -2%;
+    }
+}
+
+
+/* Next & previous buttons */
+.prev, .next 
+{
+    cursor: pointer;
+    position: relative;
+    top: 30vw;
+
+    color: rgb(255,255,255,1);
+    font-weight: bold;
+    font-size: 4vw;
+    transition: 0.6s ease;
+    border-radius: 100%;
+    user-select: none;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 0.5vw;
+    padding-top: 0.5vw;
+    background-color: rgb(0,0,0,0.2);
+    z-index: 3;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .prev, .next 
+    {
+        top: 40vw;
+    }
+}
+
+/* Position the "next button" to the right */
+.next 
+{
+    right: 0;
+    float:right;
+    border-radius: 100%;
+}
+
+.prev 
+{
+    left: 0;
+    float:left;
+    border-radius: 100%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover 
+{
+    color: red;
+}
+
+/* Caption text */
+
+.text img
+{
+    background:none;
+    width: 30%;
+    left: 5vw;
+    top: 20vw;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .text img
+    {
+        top: 40vw;
+        left: 9vw;
+        width: 80%;
+    }
+}
+
+.text01 
+{
+    position: absolute;
+    font-size: 2vw;
+    padding: 2vw 1vw;
+    top: 50vw;
+    left: 35vw;
+    float: left;
+    margin-left: -2vw;
+    margin-right: -2vw;
+    text-align: center;
+    color: white;
+    font-family: Tw Cen MT;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .text01 
+    {
+        float: none;
+        font-size: 3vw;
+        position: relative;
+        top: 67vw;
+        left: 0vw;
+    }
+}
+
+.textButton
+{
+    position: relative;
+    top: 35vw;
+    left: 6vw;
+    padding: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 1.5vw;
+    font-family: Calibri;
+    font-weight: bold;
+    background: purple;
+    border: 0.3vw solid purple;
+    color: white;
+    z-index: 2;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    transition: .9s ease;
+}
+
+.textButton:hover
+{
+    transform:  scale(1.05);
+    background: transparent;
+    border: 0.3vw solid white;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .textButton
+    {
+        position: absolute;
+        font-size: 2.5vw;
+        top: 90vw;
+        left: 37vw;
+    }
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .numbertext
+    {
+            top: 10vw;
+            left: 0vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .text
+    {
+        padding: 3.6vw 1vw;
+    }
+}
+
+/* The dots/bullets/indicators */
+.dot_collection
+{
+    position: absolute;
+    top: 42vw;
+    left: 0vw;
+    width: 100%;
+    z-index: 3;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .dot_collection
+    {
+        top: 100vw;
+        left: 0vw;
+    }
+}
+
+.dot 
+{
+    height: 5vw;
+    width: 8.5vw;
+    cursor: pointer;
+    border-radius: 0%;
+    display: inline-block;
+    transition: black 0.6s ease;
+    border: 0.25vw solid transparent;
+}
+
+.dot img
+{
+    position: relative;
+    width: 8vw;
+    top: 0.25vw;
+}
+
+.activedots, .dot:hover 
+{
+    background-color: transparent;
+    border: 0.25vw solid orangered;
+    border-radius: 5%;
+}
+
+/* Fading animation */
+.fade 
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes fade 
+{
+    from {opacity: .1} 
+    to {opacity: 4}
+}
+
+@keyframes fade 
+{
+    from {opacity: .1} 
+    to {opacity: 4}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*EXPLORE GAMES TITLE*/
+.Explore_Games
+{
+    position: relative;
+    text-align: center;   
+    font-family: sans-serif;
+    color: white;
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .Explore_Games
+    {
+        font-size: 5vw;
+    }
+}
+
+/* Slideshow container01 */
+.slideshow-container01
+{
+    top: 60vw;
+    position: absolute;
+    margin: auto;
+    transition: transform .60s; /* Animation */
+    text-align: center;
+    width: 105%; 
+    left: -1vw;
+    z-index: 1;
+}
+
+.slideshow-container01 img:hover
+{
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .slideshow-container01
+    {
+        width: 100%;
+        left: 0vw;
+        top: 120vw;
+    }
+}
+
+/* Next & previous buttons */
+.prev01, .next01 
+{
+    position: absolute;
+    top: 10vw;
+    cursor: pointer;
+    color: rgb(255,255,255,1);
+    font-weight: bold;
+    font-size: 5vw;
+    transition: 0.6s ease;
+    border-radius: 100%;
+    user-select: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.2vw;
+    padding-top: 0.2vw;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .prev01, .next01 
+    {
+        font-size: 4vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-bottom: 0.5vw;
+        padding-top: 0.5vw;
+        top: 158vw;
+    }
+}
+
+/* Position the "next button" to the right */
+.next01
+{
+    right: 5vw;
+    top: 22vw;
+    float:right;
+    border-radius: 100%;
+}
+
+.prev01
+{
+    top: 22vw;
+    left: 1.5vw;
+    float:left;
+    border-radius: 100%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev01:hover, .next01:hover 
+{
+    color: red;
+}
+
+.textButton01
+{
+    position: relative;
+    top: 28vw;
+    left: 4vw;
+    padding: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    font-size: 1.5vw;
+    font-family: Tw Cen MT;
+    background-color: darkgreen;
+    border-color: transparent;
+    color: white;
+    z-index: 2;
+}
+
+.textButton01:hover
+{
+    color: black;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .textButton01
+    {
+        position: absolute;
+        font-size: 2.5vw;
+        top: 90vw;
+        left: 37vw;
+    }
+}
+
+/* Number text (1/3 etc) */
+.numbertext01
+{
+    color: #f2f2f2;
+    font-size: 1.5vw;
+    padding: 2vw 1vw;
+    position: absolute;
+    color: white;
+    font-family: Arial Rounded MT;
+    top: 4vw;
+    left: 0vw;
+    background: rgb(0,0,0,0.5);
+    border-bottom-right-radius: 50%;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .numbertext01
+    {
+            top: 6vw;
+            left: 0vw;
+    }
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .numbertext01
+    {
+        top: 10vw;
+        left: 0vw;
+    }
+}
+
+/* The dots/bullets/indicators */
+.dot_collection01
+{
+    position: absolute;
+    top: 85vw;
+    left: 34.5vw;
+    z-index: 3;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .dot_collection01
+    {
+        top: 280vw;
+        left: 31.5vw;
+    }
+}
+
+.dot01
+{
+    cursor: pointer;
+    height: 1vw;
+    width: 5vw;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 0%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active01, .dot01:hover 
+{
+    background-color: purple;
+}
+
+/* Fading animation */
+.fade01
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes fade 
+{
+    from {opacity: .1} 
+    to {opacity: 4}
+}
+
+@keyframes fade 
+{
+    from {opacity: .1} 
+    to {opacity: 4}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 1000px) 
+{
+    .prev01, .next01 
+    {
+        font-size: 10vw;
+    }
+    
+    .next01 
+    {
+        top: 155vw;
+        right: 1vw;
+    }
+    
+    .prev01 
+    {
+        top: 155vw;
+        left: 1vw;
+    }
+}
+
+
+/*Image Gallery*/
+div.gallery 
+{
+    position: relative;
+    margin: 0.1vw;
+    left: 1.5vw;
+    text-align: center;
+    float: left;
+    border: 0.25vw solid transparent;
+    width: 14%;
+    padding: 0.5vw;
+    border-radius: 5%;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    div.gallery
+    {
+        left: 2.5vw;
+        margin: 0.5vw;
+        padding: 1vw;
+        width: 43%;
+        padding: 1vw;
+    }
+}
+
+div.gallery:hover 
+{
+    border: 0.25vw solid white;
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+div.gallery img 
+{
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+div.desc
+{
+    background: transparent;
+    font-size: 1.1vw;
+
+    color: white;
+    text-align: center;
+    font-family: Calibri;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    div.desc 
+    {
+        font-size: 0vw;
+    }
+}
+
+
+@keyframes zoomer
+{
+    0%   {transform: scale(1.2);}
+    50% {transform: scale(1);}
+    100%   {transform: scale(1.2);}
+}
+
+@keyframes example
+{
+    0%   {left:1.5vw; top:0vw;}
+    50% {left:1.5vw; top:-2vw;}
+    100%   {left:1.5vw; top:0vw;}
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    @keyframes example
+    {
+        0%   {left: 2.5vw; top:0vw;}
+        50% {left: 2.5vw; top:-2vw;}
+        100%   {left: 2.5vw; top:0vw;}
+    }
+}
+
+
+
+
+
+
+/*Ratings*/
+.review_header
+{
+    position: relative;
+    top: -140vw;
+    font-size: 4vw;
+    z-index: 1;
+    color: white;
+    font-family: Agency FB;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 0vw 0.1vw black,
+                 0.1vw 0vw black,
+                 0vw -0.1vw black,
+                 -0.1vw 0vw black;
+}
+
+.rating_box
+{
+    position: absolute;
+    top: 735vw;
+    left: 5vw;
+    z-index: 1;
+    width: 90%;
+    padding: 1vw;
+    background: white;
+    font-family: calibri;
+}
+
+.rating_box01
+{
+    position: absolute;
+    top: 765vw;
+    left: 5vw;
+    z-index: 1;
+    width: 90%;
+    padding: 1vw;
+    background: white;
+    font-family: calibri;
+}
+
+.rating_box02
+{
+    position: absolute;
+    top: 795vw;
+    left: 5vw;
+    z-index: 1;
+    width: 90%;
+    padding: 1vw;
+    background: white;
+    font-family: calibri;
+}
+
+
+.heading 
+{
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.fa 
+{
+    font-size: 25px;
+}
+
+.checked 
+{
+    color: orange;
+}
+
+/* Three column layout */
+.side 
+{
+    float: left;
+    width: 15%;
+    margin-top:10px;
+}
+
+.middle 
+{
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right 
+{
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container 
+{
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-10 {width: 90%; height: 1vw; background-color: lightgreen;}
+.bar-9 {width: 80%; height: 1vw; background-color: green;}
+.bar-8 {width: 70%; height: 1vw; background-color: darkgreen;}
+.bar-7 {width: 60%; height: 1vw; background-color: yellow;}
+.bar-6 {width: 50%; height: 1vw; background-color: orange;}
+.bar-5 {width: 40%; height: 1vw; background-color: brown;}
+.bar-4 {width: 30%; height: 1vw; background-color: red;}
+.bar-3 {width: 20%; height: 1vw; background-color: pink;}
+.bar-2 {width: 10%; height: 1vw; background-color: deeppink;}
+.bar-1 {width: 5%; height: 1vw; background-color: rebeccapurple;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) 
+{
+    .side, .middle 
+    {
+        width: 100%;
+    }
+    .right 
+    {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) 
+{
+    .review_header
+    {
+        position: relative;
+        top: -180vw;
+        font-size: 4vw;
+        z-index: 1;
+        color: white;
+        font-family: Agency FB;
+        text-align: center;
+        text-decoration: overline;
+    }
+
+    .rating_box
+    {
+        position: absolute;
+        top: 940vw;
+        left: 5vw;
+        z-index: 1;
+        width: 90%;
+        padding: 1vw;
+        background: white;
+        font-family: calibri;
+        font-size: 2vw;
+    }
+
+    .rating_box01
+    {
+        position: absolute;
+        top: 990vw;
+        left: 5vw;
+        z-index: 1;
+        width: 90%;
+        padding: 1vw;
+        background: white;
+        font-family: calibri;
+        font-size: 2vw;
+    }
+
+    .rating_box02
+    {
+        position: absolute;
+        top: 1045vw;
+        left: 5vw;
+        z-index: 1;
+        width: 90%;
+        padding: 1vw;
+        background: white;
+        font-family: calibri;
+        font-size: 2vw;
+    }
+}
+
+
+
+
+
+/*Footer*/
+.footer_block
+{
+    position: relative;
+    top: 840vw;
+    left: -0.8vw;
+    width: 101.8%;
+    height: 50vw;
+    background-color: white;
+    z-index:10;
+}
+
+.footer_lower_block
+{
+    position: relative;
+    top: 50vw;
+    width: auto;
+    height: 5vw;
+    background-color: black;
+}
+
+.footer_headerimg img
+{
+    position: absolute;
+    float: left;
+    top: 5vw;
+    left: 10vw;
+    width: 10vw;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.footer_content01
+{
+    position: absolute;
+    top: 5vw;
+    left: 25vw;
+    width: 35vw;
+    float: left;
+}
+
+.footer_content02
+{
+    position: absolute;
+    top: 5vw;
+    left: 55vw;
+    width: 35vw;
+    float: left;
+}
+
+.footer_content03
+{
+    position: absolute;
+    top: 43vw;
+    left: 5vw;
+    width: 90%;
+    float: left;
+}
+
+.footer_content03 a
+{
+    text-decoration: underline;
+}
+
+.footer_content
+{
+    padding: 1vw;
+    font-family: Calibri;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.footer_headerimg01 img
+{
+    position: absolute;
+    top: 0.5vw;
+    left: 40vw;
+    width: 15vw;
+
+    filter: invert();
+}
+
+.footer_footerimg
+{
+    position: absolute;
+    float: right;
+    top: 35vw;
+    left: 5vw;
+    width: 35vw;
+
+    filter: invert();
+}
+
+.footer_header
+{
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+@media screen and (max-width: 1000px) 
+{
+    .footer_block
+    {
+        width: 105%;
+        top: 1100vw;
+        height: 130vw;
+        left: -2vw;
+        background-color: white;
+    }
+    
+    .footer_lower_block
+    {
+        width: auto;
+        top: 130vw;
+        height: 7vw;
+        background-color: black;
+    }
+
+
+    .footer_headerimg img
+    {
+        position: absolute;
+        float: left;
+        top: 0vw;
+        left: 5vw;
+        width: 20vw;
+    }
+
+    a
+    {
+        color: black;
+        text-decoration: none;
+    }
+
+    .footer_content01
+    {
+        position: absolute;
+        top: 20vw;
+        left: 5vw;
+        width: 35vw;
+        float: left;
+    }
+
+    .footer_content02
+    {
+        position: absolute;
+        top: 40vw;
+        left: 5vw;
+        width: 35vw;
+        float: left;
+    }
+
+    .footer_content03
+    {
+        position: absolute;
+        top: 116vw;
+        left: 5vw;
+        width: 90%;
+        float: left;
+    }
+
+    .footer_content03 a
+    {
+        text-decoration: underline;
+    }
+
+    .footer_content
+    {
+        padding: 1vw;
+        font-family: Calibri;
+        font-size: 2.5vw;
+        color: black;
+    }
+    
+    .footer_headerimg01 img
+    {
+        position: absolute;
+        float: right;
+        top:0.5vw;
+        left: 36vw;
+        width: 20vw;
+
+        filter: hue-rotate(60deg) invert();
+    }
+
+    .footer_footerimg
+    {
+        position: absolute;
+        float: right;
+        top: 100vw;
+        left: 5vw;
+        width: 35vw;
+
+        filter: hue-rotate(60deg) invert();
+    }
+
+    .footer_header
+    {
+        position: absolute;
+        top: 3vw;
+        left: 3vw;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 4vw;
+    }
+}
+
+
+
+
+
+.padding_bars
+{
+    position: absolute;
+    top: 0vw;
+    left: -0.1vw;
+    transform:  scale(1);
+}
+
+@media screen and (max-width: 1000px) 
+{
+    .padding_bars
+    {
+        top: 0vw;
+        left: -0.1vw;
+        transform:  scale(1);
+    }      
+}
